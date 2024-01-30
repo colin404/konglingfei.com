@@ -7,12 +7,14 @@ heroImage: /logo.png
 tagline: 一个助你进阶为 Go + 云原生高级工程师的实战圈
 actions:
   - text: 实战营介绍
-    link: /v2/jt-808/guide/
+    link: /cloudnative/intro
     type: primary
+  - text: 实战项目介绍
+    link: /onex/intro/intro
   - text: 作者介绍
-    link: /v2/jt-808/guide/quick-start/quick-start
+    link: /intro
   - text: 购买加入 
-    link: /v2/jt-808/config/
+    link: /cloudnative/intro
 features:
 - title: 大厂云原生开发专家
   icon: zuozhe

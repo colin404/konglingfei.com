@@ -146,7 +146,7 @@ export const zhNavbar = navbar([
     text: "关于作者",
     icon: "zuozhe",
     children: [
-      { text: "作者介绍", icon: "jieshao", link: "/posts" },
+      { text: "作者介绍", icon: "jieshao", link: "/intro" },
       { text: "关注作者", icon: "guanzhu", link: "/posts" },
     ]
   },
