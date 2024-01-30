@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-5a7e0595\",\"path\":\"/author.html\",\"title\":\"本站作者：孔令飞的个人简介\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-02-01T00:00:00.000Z\",\"description\":\"本站作者：孔令飞的个人简介 您好，感谢您的关注，希望我的编程圈对你有所帮助。 个人简介 数学专业毕业的普通农村孩子，喜欢学习、热爱分享； 字节跳动云原生资深研发，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 研发工程师； 中国移动通信联合会专家级讲师，腾讯学院特约讲师。《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者； 拥有 11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验。在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。\"},\"headers\":[{\"level\":2,\"title\":\"个人简介\",\"slug\":\"个人简介\",\"link\":\"#个人简介\",\"children\":[]},{\"level\":2,\"title\":\"我的项目开发经验\",\"slug\":\"我的项目开发经验\",\"link\":\"#我的项目开发经验\",\"children\":[]},{\"level\":2,\"title\":\"我的职场经验\",\"slug\":\"我的职场经验\",\"link\":\"#我的职场经验\",\"children\":[]},{\"level\":2,\"title\":\"我的课程写作经验\",\"slug\":\"我的课程写作经验\",\"link\":\"#我的课程写作经验\",\"children\":[]},{\"level\":2,\"title\":\"我为什么可以帮助你成长？\",\"slug\":\"我为什么可以帮助你成长\",\"link\":\"#我为什么可以帮助你成长\",\"children\":[]},{\"level\":2,\"title\":\"那里可以找到我？\",\"slug\":\"那里可以找到我\",\"link\":\"#那里可以找到我\",\"children\":[]}],\"readingTime\":{\"minutes\":6.28,\"words\":1885},\"filePathRelative\":\"author.md\",\"localizedDate\":\"2024年2月1日\",\"excerpt\":\"<h1>本站作者：孔令飞的个人简介</h1>\\n<p>您好，感谢您的关注，希望我的编程圈对你有所帮助。</p>\\n<h2>个人简介</h2>\\n<ul>\\n<li>数学专业毕业的普通农村孩子，喜欢学习、热爱分享；</li>\\n<li>字节跳动云原生资深研发，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 研发工程师；</li>\\n<li>中国移动通信联合会专家级讲师，腾讯学院特约讲师。《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者；</li>\\n<li>拥有 11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验。在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。</li>\\n</ul>\",\"autoDesc\":true}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

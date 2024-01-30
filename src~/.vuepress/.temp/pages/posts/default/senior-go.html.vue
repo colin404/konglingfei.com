@@ -1,0 +1,42 @@
+<template><div><h1 id="go-语言高级工程师能力标准" tabindex="-1"><a class="header-anchor" href="#go-语言高级工程师能力标准"><span>Go 语言高级工程师能力标准</span></a></h1>
+<p><a href="http://konglingfei.com/cloudnative/intro.html" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a>的一个核心课程目标是零基础带你进阶为 Go 语言高级工程师。那么 Go 语言高级工程师如何定义呢？需要具备哪些能力？本文就来详细介绍下。</p>
+<!--more-->
+<p>因为每个公司对 Go 语言高级工程师的定义不一样。为了给出一个相对靠谱的定义，这里我调研了一线互联网大厂腾讯对高级工程师的要求。</p>
+<p>在调研了腾讯 &gt; 60个高级工程师（T9、T10、T11）岗位的任职要求，并结合我大量的面试经验和行业经验之后，我总结出了高级工程师的能力标准。能力标准分为以下 3 部分：</p>
+<figure><img src="/assets/images/Go高级工程师能力标准-水印.png" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<ul>
+<li><strong>基础能力标准（必须掌握）：</strong> 基础能力几乎是 Go/Java 等后端服务开发岗位都普遍需要的技能要求。</li>
+<li><strong>进阶能力标准（最好掌握）：</strong> 进阶能力可以理解为一个加分项，这些加分项甚至可以左右一次面试结果，建议 Go 后端开发者掌握，以最大化提高面试通过率。</li>
+<li><strong>业务能力标准（最好掌握）：</strong> 跟岗位相关的业务能力标准。这些能力要求跟当前岗位相匹配，比如：一个负责存储的研发岗位，需要具有 Hadoop、HDFS、Mongodb、Dynamodb 相关的开发经验。</li>
+</ul>
+<h2 id="基础能力标准" tabindex="-1"><a class="header-anchor" href="#基础能力标准"><span>基础能力标准</span></a></h2>
+<ul>
+<li>计算机相关专业本科及以上学历</li>
+</ul>
+<font color="orange">
+<ul>
+<li>3 ~ 5 年以上 Unix、Linux 下 C\C++\Golang 开发和性能调优经验；</li>
+<li>熟悉 Unix、Linux 操作系统原理及常用工具、熟练使用 Shell 工具；</li>
+<li>熟悉 TCP/IP 等网络协议、进程间通讯编程；</li>
+<li>熟悉 Unix/Linux 下常用项目架构设计方法；</li>
+<li>熟悉 HTTP/GRPC 协议，并能够使用其开发后端服务；</li>
+<li>熟悉 MySQL、Redis、MongoDB、Kafka 等常用存储系统，熟悉 MySQL 等数据库的使用以及 SQL 调优；</li>
+<li>熟悉常用的数据结构与算法；</li>
+</ul>
+</font>
+<ul>
+<li>具备良好的团队合作精神，善于协调沟通，具备较强的问题定位和推动解决能力；</li>
+<li>具备良好的分析解决问题能力，能独立承担开发任务，有系统进度把控能力。</li>
+</ul>
+<h2 id="进阶能力标准" tabindex="-1"><a class="header-anchor" href="#进阶能力标准"><span>进阶能力标准</span></a></h2>
+<ul>
+<li>熟悉分布式系统理论； 有大规模分布式系统设计架构经验（包含了负载均衡）；</li>
+<li>熟悉 Docker、Kubernetes、微服务并有实践者更佳；</li>
+<li>熟悉 DevOps 工作流、CI/CD 相关技术和研发经验优先；</li>
+<li>开源社区的活跃贡献者优先。</li>
+</ul>
+<h2 id="业务相关能力标准" tabindex="-1"><a class="header-anchor" href="#业务相关能力标准"><span>业务相关能力标准</span></a></h2>
+<p>业务相关的能力对面试结果的影响也是两极分化，如果（基础能力+进阶能力）够强，面试官可能会减少这部分的评分，因为跟业务相关的能力可以后期培养。另外，如果这个岗位需要一个具有相关工作经验的大牛来帮助团队解决技术难点或者帮助提升整个团队的业务能力，那这部分经验就非常重要，而且候选人，也往往具备很强的经验、能力和背景。也就是说，对于业务能力的要求，要么是很资深，要么是弱要求。显然，资深这部分不适合学员，也就是说可以从培训教程中，剔除业务能力这部分。</p>
+</div></template>
+
+
