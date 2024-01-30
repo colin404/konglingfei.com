@@ -14,28 +14,30 @@ actions:
   - text: 作者介绍
     link: /intro
     
-  - text: 👉 购买加入
+  - text: 👉 立即加入
     link: /cloudnative/intro
 features:
 - title: 大厂云原生开发专家
   icon: zuozhe
-  details: <li>拥有 Red Hat、联想、腾讯、字节超 10 年 Go + 云原生开发经验</li><li>拥有 2 本畅销书，4 套网课的课程写作经验</li><li>拥有多个国内外知名产品的设计和开发经验，例如：RHEL、Xen、腾讯云容器服务、腾讯云云函数等</li>
+  details: <li>Red Hat、联想、腾讯、字节跳动超 10 年 Go + 云原生开发经验</li><li>拥有 2 本畅销书，4 套网课的技术课程写作经验</li><li>拥有多个国内外知名产品的设计和开发经验，例如：RHEL、Xen、腾讯云容器服务、腾讯云云函数、字节跳动容器云平台等</li>
 - title: 3 套高质量云原生体系课
   icon: kecheng
-  details: <li>实战营独有超高质量的云原生体系课(>250节课)</li><li>内含大量的实战案例和源码</li><li>内含职业发展辅导 + 面试辅导</li><li>Kubernetes 核心源码剖析</li><li>不定期的视频直播分享</li><li>免费的 B 站视频课程</li>
+  details: <li>独有高质量的云原生体系课(> 250 节课)</li><li>大量的实战案例和源码</li><li>职业发展辅导 + 面试辅导</li><li>Kubernetes 核心源码剖析</li><li>不定期的视频直播分享</li><li>免费的 B 站视频课程</li>
 - title: 超高质量实战项目
   icon: xiangmu
-  details: <li>12 万行规范、高质量、功能全、易扩展的企业级实战项目</li><li>简洁架构</li><li>命令式+声明式编程范式等</li><li>一个微型的Kubernetes架构</li>
+  details: <li>12 万行规范、高质量、功能全、易扩展的企业级实战项目源码</li><li>命令式+声明式编程范式等</li><li>微型的 Kubernetes 架构</li>
 - title: 活跃的云原生技术社群
   icon: quanzi
   details: 活跃的技术社群，老师会定期分享技术文章，及时解答学习过程中的疑问
 footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 沪ICP备2022029946号-2</a >'
 ---
 
-## 推荐阅读 
+## 👉 推荐阅读 
 
-- [孔令飞的云原生实战营介绍👉](/xuexiluxian/) : XXX
-- [云原生实战平台介绍👉](/xuexiluxian/) : XXX
-- [云原生学习路线👉](/xuexiluxian/) : XXX
+- [孔令飞的云原生实战营介绍](/cloudnative/intro)：详细介绍孔令飞的云原生实战营里有什么、如何在实战营获得成长等；
+    - [Go 项目开发高阶实战课](/cloudnative/catalog/go)：课程详细目录；
+    - [Kubernetes 开发实战课](/cloudnative/catalog/kubernetes)：课程详细目录。
+- [云原生实战平台介绍](/cloudnative/intro)：详细介绍 OneX 实战项目的功能特点、功能列表、组件和架构；
+- [云原生学习路线](/xuexiluxian/)：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪。
 
 ## 公众号
