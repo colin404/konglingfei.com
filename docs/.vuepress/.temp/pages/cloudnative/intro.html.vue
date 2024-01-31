@@ -13,7 +13,7 @@
 <ul>
 <li><strong>软件开发基础技术栈：</strong> 包含 Linux、Shell 编程、Makefile 编程、Git 等软件开发需要用到的基础技术栈；</li>
 <li><strong>Go 开发技术栈（主）：</strong> Web 编程、各类应用实现（SDK、ETL 数据抽取、认证授权中心、命令行工具、Web 服务、分布式作业、代码检查、代码生成等）、中间件使用、HTTP/HTTPS/GRPC/WebSocket 协议、常用功能设计和开发等；</li>
-<li><strong>云原生技术栈：</strong> 微服务、Kubernetes 编程、Docker 实战、Kubernetes 实战、云原生部署实战、声明式编程、不可变基础设施；</li>
+<li><strong>云原生技术栈（主）：</strong> 微服务、Kubernetes 编程、Docker 实战、Kubernetes 实战、云原生部署实战、声明式编程、不可变基础设施；</li>
 <li><strong>微服务技术栈：</strong> 分布式日志、监控告警、服务编排、调用链、负载均衡、服务治理、配置中心等。</li>
 </ul>
 <p>另外，本实战营课程为了适应不同人群，不同学习诉求采用了模块化、渐进式的可成教学方法。你可以根据需要选择需要学习的模块和课程顺序：</p>

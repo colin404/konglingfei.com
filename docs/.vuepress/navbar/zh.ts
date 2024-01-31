@@ -41,7 +41,7 @@ export const zhNavbar = navbar([
       { 
         text: "项目动态", 
         children:[
-          { text: "项目动态", icon: "dongtai",link: "changelog" },
+          { text: "项目动态", icon: "gonggao",link: "changelog" },
         ],
       },
       { 
@@ -54,7 +54,7 @@ export const zhNavbar = navbar([
       },
       { text: "安装指南", 
         icon: "bushulinghuo",
-        prefix: "install/",
+        prefix: "installation/",
         children: [
           { text: "容器部署", icon: "docker",link: "docker" },
           { text: "手动部署", icon: "shoudong",link: "sbs" },
@@ -62,14 +62,15 @@ export const zhNavbar = navbar([
         ],
       },
       {
-        text: "其他", 
-        prefix: "other/",
+        text: "开发指南", 
+        prefix: "devel/",
         children: [
-          { text: "常见问题", icon: "wenti", link: "faq" },
-          { text: "开发指南", icon: "zhinan", link: "develop" },
+          { text: "开发指南", icon: "zhinan", link: "devel" },
+          { text: "排障指南", icon: "paizhang", link: "troubleshooting" },
           { text: "API 接口", icon: "api", link: "http://konglingfei.com:65534/docs" },
+          { text: "常见问题", icon: "wenti", link: "faq" },
         ]
-      }
+      },
     ]
   },
   { text: "购买加入", icon: "jiaru", prefix: "/posts/",link: "1"},

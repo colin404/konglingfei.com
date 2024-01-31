@@ -19,10 +19,10 @@ actions:
 features:
 - title: 大厂云原生开发专家
   icon: zuozhe
-  details: <li>Red Hat、联想、腾讯、字节跳动超 10 年 Go + 云原生开发经验</li><li>拥有 2 本畅销书，4 套网课的技术课程写作经验</li><li>拥有多个国内外知名产品的设计和开发经验，例如：RHEL、Xen、腾讯云容器服务、腾讯云云函数、字节跳动容器云平台等</li>
+  details: <li>Red Hat、联想、腾讯、字节跳动超 10 年 Go + 云原生开发经验</li><li>拥有 2 本书，4 套网课的技术课程写作经验</li><li>中国移动通信联合会专家级讲师</li><li>拥有多个国内外知名产品设计和开发经验，例如：RHEL、Xen、腾讯云容器服务、腾讯云云函数、字节跳动容器平台等</li><li>一个为了写课敢于放弃头发的人</li>
 - title: 3 套高质量云原生体系课
   icon: kecheng
-  details: <li>独有高质量的云原生体系课(> 250 节课)</li><li>大量的实战案例和源码</li><li>职业发展辅导 + 面试辅导</li><li>Kubernetes 核心源码剖析</li><li>不定期的视频直播分享</li><li>免费的 B 站视频课程</li>
+  details: <li>独有的高质量的云原生体系课</li><li>==250节课，130万字的充足课程量==</li><li>Kubernetes 核心源码剖析</li><li>大量的实战案例和源码</li><li>职业发展辅导 + 面试辅导</li><li>不定期的视频直播分享</li><li>免费的 B 站视频课程</li>
 - title: 超高质量实战项目
   icon: xiangmu
   details: <li>12 万行规范、高质量、功能全、易扩展的企业级实战项目源码</li><li>命令式+声明式编程范式等</li><li>微型的 Kubernetes 架构</li>
