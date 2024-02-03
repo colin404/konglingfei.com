@@ -8,8 +8,9 @@ $theme-color: #ff8800;
 // 导航栏垂直填充
 //$navbar-vertical-padding: 0.7rem !default;
 //$navbar-vertical-padding: 0.7rem !default;
-$content-width: 1200px;
-$home-page-width: 1200px;
+// 主流的宽度有 960px / 980px / 1190px / 1210px /1440px 等
+$content-width: 980px;
+$home-page-width: 1440px;
 $bg-color-tertiary: #ff8800;
 $external-link-icon-color: #7EDAFB;
 //$font-family:

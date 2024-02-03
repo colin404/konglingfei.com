@@ -5,14 +5,14 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /intro.html
   "v-184f4da6": defineAsyncComponent(() => import(/* webpackChunkName: "v-184f4da6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/intro.html.vue")),
+  // path: /cloudnative/advanced.html
+  "v-6bc5524a": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bc5524a" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced.html.vue")),
   // path: /cloudnative/intro.html
   "v-6736e0ee": defineAsyncComponent(() => import(/* webpackChunkName: "v-6736e0ee" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/intro.html.vue")),
+  // path: /cloudnative/learn.html
+  "v-8924629e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8924629e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/learn.html.vue")),
   // path: /default/concatGroup.html
   "v-67060c16": defineAsyncComponent(() => import(/* webpackChunkName: "v-67060c16" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/default/concatGroup.html.vue")),
-  // path: /en/
-  "v-2d0a870d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0a870d" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/index.html.vue")),
-  // path: /en/intro.html
-  "v-5aa3d8ba": defineAsyncComponent(() => import(/* webpackChunkName: "v-5aa3d8ba" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/intro.html.vue")),
   // path: /demo/
   "v-1473bf53": defineAsyncComponent(() => import(/* webpackChunkName: "v-1473bf53" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/index.html.vue")),
   // path: /demo/disable.html
@@ -25,6 +25,10 @@ export const pagesComponents = {
   "v-438ffe52": defineAsyncComponent(() => import(/* webpackChunkName: "v-438ffe52" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/markdown.html.vue")),
   // path: /demo/page.html
   "v-6e19edb7": defineAsyncComponent(() => import(/* webpackChunkName: "v-6e19edb7" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/page.html.vue")),
+  // path: /en/
+  "v-2d0a870d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0a870d" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/index.html.vue")),
+  // path: /en/intro.html
+  "v-5aa3d8ba": defineAsyncComponent(() => import(/* webpackChunkName: "v-5aa3d8ba" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/intro.html.vue")),
   // path: /onex/changelog.html
   "v-2e516109": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e516109" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/changelog.html.vue")),
   // path: /posts/cherry.html
@@ -43,6 +47,14 @@ export const pagesComponents = {
   "v-adb4ee42": defineAsyncComponent(() => import(/* webpackChunkName: "v-adb4ee42" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/catalog/go.html.vue")),
   // path: /cloudnative/catalog/kubernetes.html
   "v-8d4f717e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8d4f717e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/catalog/kubernetes.html.vue")),
+  // path: /en/posts/cherry.html
+  "v-fb852992": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb852992" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/cherry.html.vue")),
+  // path: /en/posts/dragonfruit.html
+  "v-4fd051a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-4fd051a1" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/dragonfruit.html.vue")),
+  // path: /en/posts/strawberry.html
+  "v-57615dc1": defineAsyncComponent(() => import(/* webpackChunkName: "v-57615dc1" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/strawberry.html.vue")),
+  // path: /en/posts/tomato.html
+  "v-285adf66": defineAsyncComponent(() => import(/* webpackChunkName: "v-285adf66" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/tomato.html.vue")),
   // path: /en/demo/
   "v-395cd082": defineAsyncComponent(() => import(/* webpackChunkName: "v-395cd082" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/demo/index.html.vue")),
   // path: /en/demo/disable.html
@@ -55,30 +67,22 @@ export const pagesComponents = {
   "v-4a2a37eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-4a2a37eb" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/demo/markdown.html.vue")),
   // path: /en/demo/page.html
   "v-0e4acecb": defineAsyncComponent(() => import(/* webpackChunkName: "v-0e4acecb" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/demo/page.html.vue")),
-  // path: /en/posts/cherry.html
-  "v-fb852992": defineAsyncComponent(() => import(/* webpackChunkName: "v-fb852992" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/cherry.html.vue")),
-  // path: /en/posts/dragonfruit.html
-  "v-4fd051a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-4fd051a1" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/dragonfruit.html.vue")),
-  // path: /en/posts/strawberry.html
-  "v-57615dc1": defineAsyncComponent(() => import(/* webpackChunkName: "v-57615dc1" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/strawberry.html.vue")),
-  // path: /en/posts/tomato.html
-  "v-285adf66": defineAsyncComponent(() => import(/* webpackChunkName: "v-285adf66" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/tomato.html.vue")),
   // path: /onex/devel/devel.html
   "v-c015e0d8": defineAsyncComponent(() => import(/* webpackChunkName: "v-c015e0d8" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/devel.html.vue")),
   // path: /onex/devel/faq.html
   "v-333f540c": defineAsyncComponent(() => import(/* webpackChunkName: "v-333f540c" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/faq.html.vue")),
   // path: /onex/devel/troubleshooting.html
   "v-1df4deb6": defineAsyncComponent(() => import(/* webpackChunkName: "v-1df4deb6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/troubleshooting.html.vue")),
+  // path: /onex/intro/feature.html
+  "v-125b04ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-125b04ac" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/feature.html.vue")),
+  // path: /onex/intro/intro.html
+  "v-fd2bbc98": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd2bbc98" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/intro.html.vue")),
   // path: /onex/installation/docker.html
   "v-462beab0": defineAsyncComponent(() => import(/* webpackChunkName: "v-462beab0" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/docker.html.vue")),
   // path: /onex/installation/sbs.html
   "v-25f121c6": defineAsyncComponent(() => import(/* webpackChunkName: "v-25f121c6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/sbs.html.vue")),
   // path: /onex/installation/test.html
   "v-4f50c994": defineAsyncComponent(() => import(/* webpackChunkName: "v-4f50c994" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/test.html.vue")),
-  // path: /onex/intro/feature.html
-  "v-125b04ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-125b04ac" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/feature.html.vue")),
-  // path: /onex/intro/intro.html
-  "v-fd2bbc98": defineAsyncComponent(() => import(/* webpackChunkName: "v-fd2bbc98" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/intro.html.vue")),
   // path: /posts/apple/1.html
   "v-67b8c712": defineAsyncComponent(() => import(/* webpackChunkName: "v-67b8c712" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/posts/apple/1.html.vue")),
   // path: /posts/apple/2.html
@@ -127,10 +131,10 @@ export const pagesComponents = {
   "v-c8296fee": defineAsyncComponent(() => import(/* webpackChunkName: "v-c8296fee" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/index.html.vue")),
   // path: /onex/devel/
   "v-50a88977": defineAsyncComponent(() => import(/* webpackChunkName: "v-50a88977" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/index.html.vue")),
-  // path: /onex/installation/
-  "v-6932891e": defineAsyncComponent(() => import(/* webpackChunkName: "v-6932891e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/index.html.vue")),
   // path: /onex/intro/
   "v-59aee087": defineAsyncComponent(() => import(/* webpackChunkName: "v-59aee087" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/index.html.vue")),
+  // path: /onex/installation/
+  "v-6932891e": defineAsyncComponent(() => import(/* webpackChunkName: "v-6932891e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/index.html.vue")),
   // path: /posts/apple/
   "v-08f42f4a": defineAsyncComponent(() => import(/* webpackChunkName: "v-08f42f4a" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/posts/apple/index.html.vue")),
   // path: /posts/banana/

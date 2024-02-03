@@ -17,7 +17,7 @@ export const zhNavbar = navbar([
       },
       */
       {
-        text: "实战营介绍",
+        text: "云原生实战营介绍",
         children: [
           { text: "云原生实战营介绍", icon: "jieshao", link: "intro" },
         ],
@@ -31,6 +31,13 @@ export const zhNavbar = navbar([
           { text: "职业发展课", icon: "zhiyefazhan", link: "career" },
         ],
       },
+      {
+        text: "实战营成长进阶",
+        children: [
+          { text: "如何进阶云原生高级开发", icon: "jinjie", link: "advanced" },
+          { text: "如何学习实战营课程", icon: "reading", link: "learn" },
+        ],
+      },
     ],
   },
   {
@@ -41,7 +48,7 @@ export const zhNavbar = navbar([
       { 
         text: "项目动态", 
         children:[
-          { text: "项目动态", icon: "gonggao",link: "changelog" },
+          { text: "项目动态", icon: "gonggao",link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md" },
         ],
       },
       { 
@@ -75,6 +82,16 @@ export const zhNavbar = navbar([
   },
   { text: "购买加入", icon: "jiaru", prefix: "/posts/",link: "1"},
   /*
+  { 
+    text: "购买加入", 
+    icon: "jiaru", 
+    prefix: "/posts/",
+    children: [
+      { text: "训练营", icon: "jiaru", prefix: "/posts/",link: "1"},
+      { text: "培训班", icon: "jiaru", prefix: "/posts/",link: "1"},
+      { text: "企业内训", icon: "jiaru", prefix: "/posts/",link: "1"},
+    ],
+  },
   {
     text: "支线课程",
     icon: "fenxiang",
@@ -125,7 +142,8 @@ export const zhNavbar = navbar([
     ],
   },
   //{ text: "面试", icon: "mianshi", link: "/posts" },
-  { text: "其他分享", icon: "fenxiang", link: "/posts" },
+  { text: "公众号文章", icon: "fenxiang", link: "/posts" },
+  { text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*
   {
     text: "加入社群",

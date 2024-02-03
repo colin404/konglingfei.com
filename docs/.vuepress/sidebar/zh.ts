@@ -24,5 +24,16 @@ export const zhSidebar = sidebar({
   ],
   "/cloudnative/": [
     "intro",
+    "advanced",
+    {
+      text: "实战营课程目录",
+      icon: "lightbulb",
+      prefix: "catalog/",
+      children: [
+        "go",
+        "kubernetes",
+        "career",
+      ],
+    },
   ]
 });
