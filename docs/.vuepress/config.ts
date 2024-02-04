@@ -1,5 +1,5 @@
-import { appendDatePlugin } from "vuepress-plugin-append-date";
 import { defineUserConfig } from "vuepress";
+import { appendDatePlugin } from "vuepress-plugin-append-date";
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -37,21 +37,21 @@ export default defineUserConfig({
   ],
 
   locales: {
-    "/en/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
     "/": {
       lang: "zh-CN",
       title: "孔令飞的云原生实战营",
       description: "分享Go和云原生相关的技术栈",
     },
+    "/en/": {
+      lang: "en-US",
+      title: "Blog Demo",
+      description: "A blog demo for vuepress-theme-hope",
+    },
   },
 
   theme,
 
-    // 插件
+  // 插件
   plugins: [
     appendDatePlugin(),
   ],
@@ -63,6 +63,10 @@ export default defineUserConfig({
   ],
 
   markdown: {
+    header: {
+      // 用到哪一级就提取哪一级
+      levels: [2, 3, 4, 5, 6],
+    },
     importCode: {
       handleImportPath: (str) =>
       str.replace(

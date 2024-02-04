@@ -1,5 +1,5 @@
 ---
-author: 孔令飞
+contributors: true
 ---
 
 # 职业发展课课程目录

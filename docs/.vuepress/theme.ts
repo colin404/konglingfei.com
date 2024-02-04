@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { MR_HOPE_AVATAR } from "./logo.js";
 
 export default hopeTheme({
@@ -14,7 +14,7 @@ export default hopeTheme({
   darkmode: "switch",
   hostname: "http://konglingfei.com",
   themeColor: true,
-  //copyright: "Copyright © 2021-present Kings",
+  copyright: "Copyright © 2024 孔令飞",
 
   author: {
     name: "孔令飞",
@@ -30,7 +30,7 @@ export default hopeTheme({
   iconAssets: "//at.alicdn.com/t/c/font_4425847_289uo2fl8zp.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
-  //pure: true, 
+  pure: true, 
   print: false, // 是否在桌面模式下显示打印按钮
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -40,17 +40,19 @@ export default hopeTheme({
   // 项目仓库标签
   repoLabel: "GitHub仓库",
   repoDisplay: true,
-    // 面包屑导航
-  breadcrumb:true,
+  // 面包屑导航
+  breadcrumb: true,
   // 文档源文件的仓库 URL
-  docsRepo:"https://github.com/zijing2333/CSView",
+  docsRepo:"https://github.com/superproj/konglingfei.com",
   // 文档源文件的仓库分支
   docsBranch: "master",
   // lastUpdated
   lastUpdated: true,
   // 编辑此页
-  editLink: false,
-    // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
+  editLink: true,
+  headerDepth: 5,
+  pageview: true,
+  // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
   //pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime", "PageView"],
   pageInfo: ["Author", "Original", "Word", "ReadingTime", "PageView", "Date", "Category", "Tag"],
   footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 沪ICP备2022029946号-  2</a >',
@@ -64,7 +66,7 @@ export default hopeTheme({
     medias: {
       Wechat: "https://example.com",
       GitHub: "https://example.com",
-      CSDN: "https://blog.csdn.net/qing_gee",
+      //CSDN: "https://blog.csdn.net/qing_gee",
       BiliBili: "https://example.com",
       Lark: "https://example.com",
       QQ: "https://example.com",
@@ -74,6 +76,24 @@ export default hopeTheme({
   },
 
   locales: {
+     // Chinese locale config
+    "/": {
+      // navbar
+      navbar: zhNavbar,
+
+      // sidebar
+      sidebar: zhSidebar,
+
+      blog: {
+        description: "喜欢学习、热爱分享",
+        intro: "/intro",
+      },
+
+      // page meta
+      metaLocales: {
+        editLink: "编辑此页",
+      },
+    },
     "/en/": {
       // navbar
       navbar: enNavbar,
@@ -92,27 +112,6 @@ export default hopeTheme({
 
       metaLocales: {
         editLink: "Edit this page on GitHub",
-      },
-    },
-
-    /**
-     * Chinese locale config
-     */
-    "/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      blog: {
-        description: "喜欢学习、热爱分享",
-        intro: "/intro",
-      },
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
       },
     },
   },
@@ -152,8 +151,10 @@ export default hopeTheme({
   },
   */
   plugins: {
+    // 启用站点地图
+    sitemap: true,
     // 启用博客
-    blog: false,
+    blog: true,
 
     // 该插件会监听页面滚动事件。
     // 当页面滚动至某个 标题锚点 后，如果存在对应的 标题链接 ，那么该插件会将路由 Hash 更改为该 标题锚点 。

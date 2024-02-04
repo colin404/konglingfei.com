@@ -35,7 +35,7 @@ export const zhNavbar = navbar([
         text: "实战营成长进阶",
         children: [
           { text: "如何进阶云原生高级开发", icon: "jinjie", link: "advanced" },
-          { text: "如何学习实战营课程", icon: "reading", link: "learn" },
+          { text: "如何学习实战营课程", icon: "shuben", link: "learn" },
         ],
       },
     ],

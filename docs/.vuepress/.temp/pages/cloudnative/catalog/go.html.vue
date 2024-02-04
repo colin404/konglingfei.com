@@ -15,7 +15,7 @@
 </tr>
 <tr>
 <td style="text-align:center">002</td>
-<td style="text-align:left">星球介绍：加入云原生实战营，带你进阶 Go 高级开发工程师，撬开云原生开发大门，享受技术红利</td>
+<td style="text-align:left">实战营介绍：加入云原生实战营，带你进阶 Go 高级开发工程师，撬开云原生开发大门，享受技术红利</td>
 </tr>
 <tr>
 <td style="text-align:center">003</td>
@@ -31,7 +31,7 @@
 </tr>
 <tr>
 <td style="text-align:center">006</td>
-<td style="text-align:left">星友成长：如何学习本实战营课程，以获得真正的职场收益？</td>
+<td style="text-align:left">圈友成长：如何学习本实战营课程，以获得真正的职场收益？</td>
 </tr>
 <tr>
 <td style="text-align:center">007</td>
