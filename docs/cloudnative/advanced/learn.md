@@ -2,8 +2,10 @@
 title: 如何学习本实战营课程，以获得可见的职场收益？
 shortTitle: 如何学习实战营课程
 date: 2022-03-01
+icon: shuben
 sticky: true
 star: true
+order: 2
 isOriginal: true
 category:
   - 实战营

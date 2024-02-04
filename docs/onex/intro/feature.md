@@ -1,6 +1,15 @@
 ---
-date: 2024-03-01
+title: OneX 功能列表
+shortTitle: 功能列表
+date: 2022-03-01
+icon: liebiao
+sticky: true
+star: true
+order: 2
+isOriginal: true
 category:
+  - OneX
+tag:
   - OneX
 ---
 

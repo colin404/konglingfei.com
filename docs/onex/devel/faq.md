@@ -1,9 +1,16 @@
 ---
+title: OneX 常见问题
+shortTitle: 常见问题
 date: 2024-03-01
+sticky: true
+icon: wenti
+star: true
+isOriginal: true
+order: 4
 category:
   - OneX
 tag:
-  - docker
+  - OneX
 ---
 
 # OneX 常见故障及解决办法

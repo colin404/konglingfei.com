@@ -1,0 +1,252 @@
+<template><div><p>本节课，会先从方法论上，给你介绍为什么要进阶为 Go + 云原生高级开发工程师，以及如何进阶。希望通过本节课，让你了解到学习云原生实战营课程的价值，以及未来如何进行技术进阶。</p>
+<p>提示：Go 高级工程师能力标准可参考 <a href="/posts/senior-go">Go 语言高级工程师能力标准</a>。</p>
+<p>本节课主要包含以下 4 个部分：</p>
+<ol>
+<li>为什么要学习 Go 语言？</li>
+<li>为什么要学习云原生开发？</li>
+<li>如何进阶为 Go 语言高级开发工程师？</li>
+<li>如何进阶为云原生高级开发工程师？</li>
+</ol>
+<h2 id="为什么要学习-go-语言" tabindex="-1"><a class="header-anchor" href="#为什么要学习-go-语言"><span>为什么要学习 Go 语言？</span></a></h2>
+<p>我们知道，Go 出自名门 Google 公司，是一门支持并发、垃圾回收的编译型高级编程语言。Go 兼具静态编译语言的高性能以及动态语言的高开发效率。除此之外，Go 还具有很多其他优秀的语言特性，例如：语言简单，学习周期短；支持多返回值；具有丰富的内置类型；跨平台等。这些优秀的语言级特性，会给 Go 语言开发工程师带来以下好处：</p>
+<ul>
+<li><strong>更强的职业优势：</strong> Go 具有很多优秀的语言级特性，现在越来越多公司和团队，增量业务选择 Go 作为主要开发语言，存量业务也在积极的用 Go 语言进行改造。这就导致行业对 Go 语言工程师的需求很旺盛，对于 Go 语言从业者来说，就有非常多的就业机会和就业潜力。另外，Go 相较于 C、C++、Java、Python 这类编程语言还很年轻，从业者并不多。岗位需求多，从业者少，就直接导致 Go 语言工程师，在求职上，具有很强的竞争力；</li>
+<li><strong>具备撬开云原生世界大门的能力：</strong> Go 优秀的语言级特性，也导致很多广受欢迎的技术都是基于 Go 语言来开发的。云原生时代，绝大部分的云原生技术栈都是基于 Go 语言来构建的。例如：Docker、Kubernetes、Istio、Etcd、Prometheus、Knative 等云原生核心技术栈。学习 Go 语言，还能够让我们具备阅读、学习这些优秀开源项目的能力，进而撬开云原生世界的大门，享受云原生技术红利。</li>
+<li><strong>更高的薪资待遇：</strong> Go 语言岗位多，从业者少。云原生时代，很多技术都比较前沿、门槛高，这就导致 Go + 云原生开发者的薪资相较于其他语言更高。</li>
+</ul>
+<p>上面，我给你分析了为什么要学习 Go 语言，接下来，我用一些数据再来证明学习 Go 语言的价值。</p>
+<h2 id="go-带给你更强的职业优势" tabindex="-1"><a class="header-anchor" href="#go-带给你更强的职业优势"><span>Go 带给你更强的职业优势</span></a></h2>
+<p>学好 Go 语言，可以使你具有很强的职业优势。这里通过以下一些官方的调查和数据来佐证这一点：</p>
+<ol>
+<li>2021、2022 年连续两年在腾讯内部，Go 取代 C++ 成为最热门编程语言；</li>
+<li>字节跳动 90%以上的内部业务都是用 Go 语言开发的。Go 语言已经成为字节跳动公司级的编程语言；</li>
+<li>其他大厂例如：Google、Facebook、阿里、京东、小米、滴滴、七牛云、360、B 站等都在大量使用 Go，并对外放出很多 Go 就业岗位。</li>
+</ol>
+<p>这里还有 2 份调查报告可以帮助你了解 Go 语言的现状：</p>
+<ul>
+<li>JetBrains 官方博客 <a href="https://blog.jetbrains.com/zh-hans/go/2021/02/19/the-state-of-go/" target="_blank" rel="noopener noreferrer">Go 语言现状调查报告（2021）<ExternalLinkIcon/></a>。总结如下：
+<ul>
+<li>全世界有 110 万专业开发者选择 Go 作为其主要开发语言，其中中国占比最高；</li>
+<li>Go 语言份额持续增长，已成为专业开发者的前 10 大主要语言之一；</li>
+<li>Go 语言使用场景中，36% 是 Web 服务，31% 是小型程序的开发；</li>
+<li>越来越多的金融行业在接触 Go 语言，甚至有银行使用 Go 构建了整个系统；</li>
+</ul>
+</li>
+<li>Go 官方组织的 <a href="https://go.dev/blog/survey2023-h2-results" target="_blank" rel="noopener noreferrer">Go 官方 2023 年调查报告<ExternalLinkIcon/></a>。</li>
+</ul>
+<p>Go 使你具备撬开云原生世界大门的能力</p>
+<p>先来看看 Go 云原生世界中有什么。完整的技术图谱可见：<a href="https://landscape.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF Cloud Native Landscape<ExternalLinkIcon/></a>。为了便于你了解，我按分类列出了其中最受欢迎的一些成员及其开发语言（云原生技术栈内容很多，这里列出了我觉得重要的类别，更多类别，你可以直接参考 CNCF Cloud Native Landscape）：</p>
+<figure><img src="/images/云原生核心技术栈列表.png" alt="云原生核心技术栈列表" tabindex="0" loading="lazy"><figcaption>云原生核心技术栈列表</figcaption></figure>
+<p>上面列出的这些开源项目，在各自所属类别中，通常是标准或者事实标准。我们再来分析下这些技术栈中开源项目的语言组成：</p>
+<figure><img src="/images/云原生技术栈语言组成-水印.png" alt="云原生技术栈语言组成" tabindex="0" loading="lazy"><figcaption>云原生技术栈语言组成</figcaption></figure>
+<p>Go 语言占比 <strong>63%</strong>，占了云原生技术栈的绝大部分！所以，如果学会 Go 语言，你可以很轻松地在云原生圈子游走。</p>
+<h2 id="go-带给你更高的薪资待遇" tabindex="-1"><a class="header-anchor" href="#go-带给你更高的薪资待遇"><span>Go 带给你更高的薪资待遇</span></a></h2>
+<p>Go 语言相关的就业薪资相比于其他语言，也很有优势（居 Java、C++、PHP、C、C#、。NET、Python、Node.js 等语言之首），下图是从 <a href="https://www.zhipin.com/salaryxc/p100116.html" target="_blank" rel="noopener noreferrer">Boss招聘平台<ExternalLinkIcon/></a>（此链接已被 Boss 关闭）进行统计的结果图示：</p>
+<figure><img src="/images/Boss招聘薪资调研.png" alt="Boss招聘薪资调研" tabindex="0" loading="lazy"><figcaption>Boss招聘薪资调研</figcaption></figure>
+<p>在《StackOverflow 开发人员调查报告 2023》中，在常用的开发语言中，只有 Go 语言的薪资进入了前十：</p>
+<figure><img src="/images/StackOverflow开发人员调查报告_2023.png" alt="StackOverflow开发人员调查报告 2023" tabindex="0" loading="lazy"><figcaption>StackOverflow开发人员调查报告 2023</figcaption></figure>
+<h2 id="为什么要学习云原生开发" tabindex="-1"><a class="header-anchor" href="#为什么要学习云原生开发"><span>为什么要学习云原生开发？</span></a></h2>
+<p>云原生时代，涌现了一大批的理念，技术架构和开源项目（例如：Docker、Kubernetes、Prometheus 等）。通过走进云原生的圈子，我们可以学习到优秀的开发理念、编程技巧和实现方式，以此<strong>反哺我们的 Go 开发能力</strong>。</p>
+<p>另外，云原生时代，大量的新技术架构、开源项目共同实现云原生的理念，这就导致企业会额外多出很多组件，带来了维护成本。为了节省成本，提高效率，企业通常会选择将这些基础能力下沉，通过中台的形式对外提供各种能力。这些特点也产生了一个<strong>新的就业方向：基础架构开发</strong>。基础架构开发因为从业者少、门槛高等原因，也导致了，基础架构开发者的薪资普遍要比业务开发者高。</p>
+<figure><img src="/images/云原生开发薪资.png" alt="云原生开发薪资" tabindex="0" loading="lazy"><figcaption>云原生开发薪资</figcaption></figure>
+<p>相较于业务开发来说，基础架构开发更聚焦于技术，当然技术最终是要服务于业务的。对于一个刚毕业，或者技术能力需要提升的开发者来说，也许一开始选择基础架构的就业方向会更好，因为通过基础架构开发，开发者能够更好地打磨自己的研发能力，为以后转向业务开发做好技术储备。另外基础架构开发，相较于业务开发来说，跟业务解耦，后期可以无缝转型为业务开发。加入云原生圈子，你的就业范围更广、未来可塑性更强。</p>
+<p>当前绝大部分企业内部（例如：BAT、美团、字节跳动、快手等一线大厂），为了降本增效，都在加速推进业务的容器化、云原生化。通过学习云原生技术，你可以加入到云原生改造大军中，进而提高你的职场竞争力。另外，作为容器领域的事实标准，Kubernetes 已经成为后端开发工程师的必修技术栈。</p>
+<p>综合以上，学习云原生相关技术，可以带给你更广泛的就业选择，更高的薪资，和未来更多的选择项。因此，作为一名 Go 开发者，一定要去学习云原生技术。</p>
+<p>上面说了很多废话，目的只有一个：希望你能坚定的去学习 Go 语言和云原生技术，真的很有价值。既然学习 Go 和云原生技术这么有价值，那么如何学习呢？接下来，我就详细给你介绍下。</p>
+<h2 id="如何进阶为-go-云原生高级开发工程师" tabindex="-1"><a class="header-anchor" href="#如何进阶为-go-云原生高级开发工程师"><span>如何进阶为 Go + 云原生高级开发工程师？</span></a></h2>
+<p>因为 Kubernetes 是云原生的基石，整个云原生技术栈都是围绕着 Kubernetes 来构建的。所以学习云原生开发，其实就是学习 Kubernetes 编程。</p>
+<p>具体进阶方法如下图所示：</p>
+<figure><img src="/images/高级工程师进阶方法-水印.png" alt="高级工程师进阶方法" tabindex="0" loading="lazy"><figcaption>高级工程师进阶方法</figcaption></figure>
+<p>进阶方法分为以下 2 大块：</p>
+<ul>
+<li><strong>学习顺序：</strong> 因为云原生中，绝大部分技术栈都是用 Go 语言来构建的，所以，如果想深入学习云原生技术和 Kubernetes 编程，就需要先学会 Go 语言编程。另外，学习 Kubernetes 编程，还需要知道云原生核心技术栈的原理和实现，这部分通常不包含源码的阅读，所以，在学习这部分时，可以跟 Go 语言进行并行学习。当然，如果你时间不足，也可以串行学习，以减轻你的学习压力；</li>
+<li><strong>学习方法：</strong> 在学习 Go 语言和 Kubernetes 编程时，二者的学习方法比较类似。都是先学习基础知识，再学习编程实战，然后再进行编程实战，最后通过持续不断地学习，精进你的编程能力。其中，学习编程实战环节最为重要，它是后 2 个阶段的基石。</li>
+</ul>
+<p>接下来，我就来根据学习顺序，给你介绍下每个阶段具体如何学习。</p>
+<h2 id="进阶为-go-语言高级开发工程师" tabindex="-1"><a class="header-anchor" href="#进阶为-go-语言高级开发工程师"><span>进阶为 Go 语言高级开发工程师</span></a></h2>
+<p>先来看下如何进阶为 Go 语言高级工程师。具体分为以下 4 个学习阶段：</p>
+<ol>
+<li>学习 Go 语言基础语法；</li>
+<li>学习 Go 语言编程；</li>
+<li>进行 Go 语言编程实战；</li>
+<li>精进 Go 语言编程能力。</li>
+</ol>
+<h3 id="阶段一-学习-go-语言基础语法" tabindex="-1"><a class="header-anchor" href="#阶段一-学习-go-语言基础语法"><span>阶段一：学习 Go 语言基础语法</span></a></h3>
+<p>Go 语言语法简单，你可以在很快时间学习完 Go 的基础语法。这里我建议，先精读 2 本 Go 基础语法的书籍：<a href="https://book.douban.com/subject/27044219/" target="_blank" rel="noopener noreferrer">《Go 程序设计语言》<ExternalLinkIcon/></a>和<a href="https://book.douban.com/subject/11577300/" target="_blank" rel="noopener noreferrer">《Go 语言编程》<ExternalLinkIcon/></a>:</p>
+<figure><img src="/images/学习Go语言基础语法.png" alt="学习Go语言基础语法" tabindex="0" loading="lazy"><figcaption>学习Go语言基础语法</figcaption></figure>
+<p>在学习的过程中，你可能会遇到一些知识点不太理解，或者看了就忘的情况，没关系，先坚持学习完。一些没有记住或者不懂的知识点，可以在使用的时候，再回过头来学习，效果会更好。</p>
+<p>在学习完基础语法之后，你就有了充足的 Go 基础语法储备，接下来你可以通过编码实战来加深你对 Go 语法的理解、掌握和记忆，并真正作为一个 Go Coder。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<ul>
+<li>在实战的过程中，如果你还有精力、时间，还可以再看两本关于场景化编程的书籍：Go 并发编程实战（第 2 版）和 Go Web 编程。</li>
+<li>很多人吐槽 Go 语言简单、易学，其实这恰恰也是 Go 语言的核心优势之一。简单能力差是缺点，简单能力强是优点。Go 语言属于简单能力强的那类，语法简单易学，但却能开发出像 Docker、Kubernetes 这样的世界级优秀项目。</li>
+</ul>
+</div>
+<h3 id="阶段二-学习-go-语言编程" tabindex="-1"><a class="header-anchor" href="#阶段二-学习-go-语言编程"><span>阶段二：学习 Go 语言编程</span></a></h3>
+<p>学习完 Go 基础语法之后，接下来的阶段一定是学习编码实战。通常我们可以通过 2 种途径来提升自己的编码实战能力：</p>
+<ol>
+<li>通过阅读优秀开源项目的源码实现，来学习开源项目是如何构建的，例如：Gin、Kubernetes、Etcd、GORM 等；</li>
+<li>通过优秀的实战教程来学习，例如：<a href="https://time.geekbang.org/column/intro/100079601" target="_blank" rel="noopener noreferrer">Go 语言项目开发实战<ExternalLinkIcon/></a>，以及本实战营课程。</li>
+</ol>
+<p>这 2 种方法，其实都是非常棒的提升 Go 编码能力的方法，但我觉得，这 2 种方法适用的阶段不同。</p>
+<p>第 1 种方法，更适合你具有一定的 Go 编程能力，带着明确的目标去学习，例如：想要了解，某个功能具体如何实现的时候去学习。为什么呢？原因有以下 2 点：</p>
+<ul>
+<li><strong>对初学者来说，成本高、收益低：</strong> 优秀的开源项目，代码质量高、具有一定的复杂度，非常值得去学习。但这类项目不是课程，虽说项目有丰富的文档，但这些文档是部署、使用文档，并不是教你如何开发这个项目。如果你是一个 Go 初学者，阅读这类项目，难度很高。并且，你在阅读的过程中，因为没有项目开发者对功能实现思路、方法的解读，会导致你可能只学习到了某个功能具体如何构建，但并没有学习到背后的设计思路和经验，导致你花费了很多精力，但却收益很小。</li>
+<li><strong>对具有一定 Go 编程经验的开发者来说，收益并没有最大化：</strong> 如果你是一个有丰富 Go 编程经验的 Go 语言开发者，学习这类项目，你能够顺利了解到功能、架构的实现方式，但其实功能背后的设计思考、以及相关的技术点通过阅读源码，很难获知。很多时候，背后的构建思路和思考才是最有价值的。所以，对于有一定编程经验的 Go 开发者来说，虽说没有了学习障碍，但收益却没有最大化。</li>
+</ul>
+<p>如果你只是想了解开源项目具体实现方法，可以选择直接阅读源码，简单高效。但如果你是想通过学习，来提高自己的技术能力，最好使用第 2 种方法。</p>
+<p>**第 2 种方法，学习效果最好。**这些课程一般都具有比较高的代码质量，并且你在学习项目代码的同时，配套的课程，也会讲解相关的知识、背后的思考、相关知识点、开发流程、构建技巧等来自作者一线项目开发的实战经验。所以，很适合系统性的提高你的技术能力。</p>
+<p>另外，这种实战课程，又在“课程复杂度”和“课程实现的项目功能” 两方面有差异。</p>
+<ul>
+<li>课程复杂度：低复杂度的课程：学习周期短，能学到很多核心项目开发知识，并能很快进行企业应用开发。但相较高复杂度的课程，从深度、广度上有所欠缺；高复杂度的课程：学习周期长，但能学到非常全面的项目开发知识。</li>
+<li>课程实现的项目功能：比如有框架类的实战课程、有数据处理类的实战课程、有 Web 开发类的实战课程。我们该如何选择呢？这里我建议，<strong>选择 Go 使用最广泛的场景：Web 服务开发</strong>（来自：<a href="https://go.dev/blog/survey2023-h2-results" target="_blank" rel="noopener noreferrer">2023 年 Go 调查报告<ExternalLinkIcon/></a>）。其实，学会了 Web 服务开发，像开发框架类、数据处理类项目都可以无缝迁移开发能力，进行开发。下图是 Go 语言常见的应用场景：</li>
+</ul>
+<figure><img src="/images/Go语言适用场景-水印.png" alt="Go语言适用场景" tabindex="0" loading="lazy"><figcaption>Go语言适用场景</figcaption></figure>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>Go 语言在云计算、微服务、大数据、区块链等领域都有非常广泛的应用；另外，Go 最常见的用途是构建 REST API / PRC 服务，其次是数据处理；另外 Go 也广泛应用在虚拟机处理、文件系统、分布式系统、数据库等后端服务中。</p>
+</div>
+<p>因为，云原生实战营课程的目标是带你进阶为 Go 语言高级开发工程师，所以，本课程具有一定的复杂度和内容量。虽然课程量大，但我会通过提供实时的帮助、答疑，结合详细的课程内容讲解，来降低你的学习难度。所以，如果你是个初学者，也完全可以直接学习本实战营课程。</p>
+<h3 id="阶段三-进行-go-语言编程实战" tabindex="-1"><a class="header-anchor" href="#阶段三-进行-go-语言编程实战"><span>阶段三：进行 Go 语言编程实战</span></a></h3>
+<p>在完成<strong>阶段 2：学习 Go  编程实战</strong> 之后，我们就可以面试 Go 开发相关岗位，或者直接从事 Go 企业应用的开发。所以，这个阶段的你，应该已经位于公司的 Go 研发岗位。</p>
+<p>其实，不管你是否处在公司的 Go 研发岗位上，这个阶段你想提升 Go 编程能力，你需要做的都是：编程开发，作为一线的 Go Coder。</p>
+<p>那么如何编程开发呢？我的推荐是：以工作需求为驱动、以开源项目为切入点、以二次开发为提升手段。</p>
+<ul>
+<li><strong>以工作需求为驱动：</strong> 最好的学习方法是带着问题去学习，所以这里我们可以带着工作的需求去学习（其实这里的学习只是附加品，你真正做的是产品需求的开发）；</li>
+<li><strong>以开源项目为切入点：</strong> 要实现一个产品需求，自己独立实现，还是复用开源项目？当然，你完全可以独立开发，但我更建议借鉴现有的、成熟、优秀的开源项目，然后基于这个开源项目进行二次开发。</li>
+<li><strong>以二次开发为提升手段：</strong> 有了优秀的开源项目，我们就要基于这个开源项目去实现产品的功能，在实现产品功能的时候，你需要非常了解开源项目的实现，并且基于理解改造开源项目，改造的部分就是你独立开发的部分，通过手撸代码，实现功能，可以让你变成一个真正的 Go Coder。</li>
+</ul>
+<p>这里又有 3 个问题：</p>
+<ul>
+<li>需求从哪里来？</li>
+<li>如何查找优秀的开源项目？</li>
+<li>如何进行二次开发？</li>
+</ul>
+<h4 id="问题一-需求从哪里来" tabindex="-1"><a class="header-anchor" href="#问题一-需求从哪里来"><span>问题一：需求从哪里来？</span></a></h4>
+<p>在我看来，需求来源于工作。这些需求可以是产品经理交给你的某一个具体产品需求，也可以是能够帮助团队提高工作效率的工具，还可以是能够提高自己工作效率的工具。</p>
+<p>总之，如果有明确的工作需求最好，如果没有明确的需求，我们就要创造需求。我们可以思考工作中的痛点、难点，并将它们转化成需求。比如，团队发布版本，每次都是人工发布，需要登陆到不同的服务器，部署不同的组件和配置。这样效率低不说，还容易因为人为失误造成现网故障。这时候，你就可以将这些痛点抽象成一个需求：开发一个版本发布系统。</p>
+<p>有了需求，接下来我们就要完成它，也就是进入到实践环节。那么如何实践呢？在我看来精髓在于两个字：<strong>“抄”<strong>和</strong>“改”</strong>。</p>
+<p>上面，我们抽象出了一个需求：开发一个版本发布系统。如果自己从 0 开发出一套版本发布系统，工作量无疑是巨大的。而且，以我们这个阶段的水平，即使花费了很多时间开发出一个版本发布系统，这个系统在功能和代码质量上也无法跟一些优秀的开源版本发布系统相比。</p>
+<p>所以，这时候最好的方法就是在 GitHub 上找到一个优秀的版本发布系统，并基于这个系统进行二次开发。这样，你不仅能学习到一个优秀开源项目的设计和实现，还能够以最快的速度完成版本发布系统的开发。</p>
+<h4 id="问题二-如何查找优秀的开源项目" tabindex="-1"><a class="header-anchor" href="#问题二-如何查找优秀的开源项目"><span>问题二：如何查找优秀的开源项目？</span></a></h4>
+<p>那么，就到了我们刚才说的第二个问题：如何查找优秀的开源项目？放在这里，就是如何在 GitHub 上找到优秀的版本发布系统。</p>
+<p>下面，我把我自己的方法分享给你。我主要通过 5 个步骤来搜索，如下图所示：</p>
+<figure><img src="/images/GitHub查找项目.png" alt="GitHub查找项目" tabindex="0" loading="lazy"><figcaption>GitHub查找项目</figcaption></figure>
+<p>这里我结合图片，具体说明下这 5 个步骤。</p>
+<ol>
+<li><strong>在 GitHub 搜索栏中按语言搜索：</strong> <code v-pre>language:go</code> 版本发布中，<code v-pre>language:go</code>说明我们要搜索语言类型为 Go 语言的项目；<code v-pre>版本发布</code>是我们搜索项目时的关键词。这个关键词对搜索结果影响很大，需要你合理填写。这里有个技巧，如果搜索<code v-pre>版本发布</code>，搜索出的项目很少，那么可以减少关键词再次搜索，比如搜索<code v-pre>发布</code>。</li>
+<li>GitHub 搜索页面的<code v-pre>Sort options</code>选择<code v-pre>Most stars</code>：因为 GitHub 项目很多，我们不可能看完所有搜索出来的项目，所以这里我们要选择性地去查看。你可以通过<code v-pre>Most stars</code>进行排序，一般来说 Star 数越多说明项目越受欢迎，而受欢迎的原因很可能是整个项目在同类项目中比较优秀。根据我之前的搜索经验，一些 Star 数少的项目也可能很优秀，最终还是需要你根据自己的理解去判断。</li>
+<li>看描述：因为项目比较多，我们不可能认真去研究每个项目，所以要快速了解项目，最简单的方式是先看描述。如果描述符合预期，那么可以将这个项目在新的浏览器 Tab 页打开，或者将项目地址保存起来，等初步筛选完所有项目后，再详细查看这个项目的 README 以及代码。</li>
+<li>看项目名字：一些优秀的项目可能没有描述，这时候可以通过项目的名字来判断。</li>
+<li>根据 Code 做筛选：如果我们搜索的项目很冷门，搜索 GitHub 后只有寥寥几个搜索结果，而且搜索出的项目也不是我们期望的。那么这时候，你可以从Code中来筛选。</li>
+</ol>
+<p>通过上面这 5 步，我们初步搜索出了匹配的项目，并知道了如何对这些项目做初步的筛选。接下来，你就需要按页来筛选页面中的开源项目，然后从第 1 页一直筛选到第 100 页。GitHub 一页默认会展示 10 个开源项目，所以，如果按照这种方法，最终你可能需要调研<code v-pre>10 * 100 = 1000</code>个开源项目。当然，也不一定每次都要从第 1 页一直看到第 100 页，如果后面的项目明显都跟预期的需求不匹配，可以不用再继续看了。</p>
+<p>研究完 GitHub 上的开源项目，这时候我还建议你通过 <a href="https://libs.garden/go" target="_blank" rel="noopener noreferrer">libs.garden<ExternalLinkIcon/></a>，再查找一些开源项目。libs.garden 的主要功能是库（在 Go 中叫包）和应用的评分网站，是按不同维度去评分的，例如增长速度（根据新增 Star 数排序）、受欢迎程度（按 Star 数排序）、活跃度等。</p>
+<p>libs.garden 包含了很多编程语言的评分，包括 Go 语言，地址为 <code v-pre>https://libs.garden/go</code>。你可以通过以下 3 步查找需要的开源项目：</p>
+<ol>
+<li>打开 <a href="https://libs.garden/go%EF%BC%9B" target="_blank" rel="noopener noreferrer">https://libs.garden/go；<ExternalLinkIcon/></a></li>
+<li>根据我们需要的功能判断其类别，Go 的所有类别可以参考这个链接 。例如，配置文件解析应该属于 Config 类；</li>
+<li>打开所属类别，根据 Popular 进行排序，如下图所示：</li>
+</ol>
+<figure><img src="/images/libs.garden-水印.png" alt="libs.garden" tabindex="0" loading="lazy"><figcaption>libs.garden</figcaption></figure>
+<p>执行完这三步，我们就从上图的第 1 行开始，根据 Repository 的描述判断当前 Repository 有没有可能是我们要找的包。如果有，就打开 Repository，阅读它的 <a href="http://README.md" target="_blank" rel="noopener noreferrer">README.md<ExternalLinkIcon/></a> 来进一步判断。如果判断出可能是我们要找的包，并且各方面都还可以，就 clone 下来，根据其 <a href="http://README.md" target="_blank" rel="noopener noreferrer">README.md<ExternalLinkIcon/></a> 中的帮助文档，编写代码并测试其功能。</p>
+<p>研究完上一个 Repository 之后，我们继续根据排序，以相同的方法研究第 2 个 Repository，并以此类推，直到找到满意的包，或者 GitHub Star 数小于某个预期值为止。用这样的方法，我们应该可以找到符合要求的优秀开源包，而且该开源包极有可能是“最”优秀的包。</p>
+<p>此外，GitHub 上的 awesome-go 项目也根据分类记录了很多包和工具，你也可以在这个项目中寻找。我的建议是优先从 GitHub 上找，再在 libs.garden 上找，最后再参考 awesome-go 项目。</p>
+<p>到这里，我们已经通过自己的调研，找到了一堆 GitHub 上的开源项目。为什么我们要找这么多开源项目呢？主要目的有两个：</p>
+<ul>
+<li>确保自己基于一个最优的开源项目来进行二次开发，一开始便站上至高点。</li>
+<li>填充自己脑海中的 Go 生态图。</li>
+</ul>
+<p>不过，这些开源项目只是经过了初步筛选，里面有很多是不满足我们需求的，甚至可能跟我们的需求完全不一致。所以，我们还需要进行二次筛选，可以通过精读开源项目的 README 来筛选。如果有必要，并且项目部署简单，你也可以部署这个开源项目，亲自体验一下。</p>
+<p>经过第二次的筛选，我们已经筛选出了一些能够满足要求的优秀开源项目。这时候，我们还需要再经过一轮筛选。这轮筛选，我们要从各方面来对比这些开源项目，并从中选出一个最合适的开源项目，来进行二次开发。这个开源项目，你可以自信地跟你老板说它是一个最优解。</p>
+<p>问题三：如何进行二次开发？</p>
+<p>接下来，你就可以基于这个项目进行二次开发，最终出色地完成设定的需求。那么如何对选定的项目进行二次开发呢？我总结了 5 个步骤：</p>
+<ol>
+<li>手动编译、部署这个开源项目。</li>
+<li>阅读项目的 README 文档，跟着 README 文档使用这个开源项目，至少运行一遍核心功能。</li>
+<li>阅读核心逻辑源码，在不清楚的地方，可以添加一些  fmt.Printf 函数，来协助你理解代码。</li>
+<li>在你理解了项目的核心逻辑或者架构之后，就可以尝试添加/修改一些匹配自己项目需求的功能，添加后编译、部署，并调试。</li>
+<li>二次开发完之后，你还需要思考下后续要不要同步社区的代码，如果需要，如何同步代码。</li>
+</ol>
+<p>在你通过“抄”和“改”完成需求之后，记得还要编写文档，并找个合适的时机在团队中分享你的收获和产出。这点很重要，可以将你的学习输入变成工作产出。</p>
+<p>看到这里，你可能想说：我开发一个项目而已，调研这么多项目，花这么多时间，值得吗？我觉得是值得的，因为这种学习方式会带来下面这几个好处。</p>
+<ul>
+<li>最优解：你可以很有底气地跟老板说，这个方案在这个类别就是业界 No.1。</li>
+<li>高效：基于已有项目进行二次开发，可以提高开发和学习效率。</li>
+<li>产出：在学习的过程中，也有工作产出。个人成长、工作贡献可以一起获得。</li>
+<li>知识积累：为今后的开发生涯积累项目库和代码库。GitHub 就是一个大的代码仓库，里面几乎囊括了你开发过程中需要的所有技术实现。你需要做的其实就是找到其中的最优实现，并升级成自己的实现。这是一个从量变到质变的过程，最终，你的研发模式会变成<code v-pre>Ctrl + C</code> + <code v-pre>Ctrl + V</code>。这首先意味着你的开发工作会越来越轻松；另外，你 <code v-pre>Ctrl + C</code> 的是一个优秀的开源项目或代码，<code v-pre>Ctrl + V</code> 的是经过你改进后的代码，这就意味着，你基于这个开源项目或代码二次开发后的实现一定是 (GitHub最优解) 二元组中最好的一个实现。</li>
+</ul>
+<p>到这里，我就完整讲述了开发者阶段的“三步走”学习法，这三步分别是基础语法学习、研究一个优秀项目和进行项目实战。用这种方法进行学习，你不仅能非常高效地开发出一个优秀的功能，而且也能得到老板的认可，最终使你在年底绩效考核时顺利拿到优秀员工称号。</p>
+<h3 id="阶段四-精进-go-语言编程能力" tabindex="-1"><a class="header-anchor" href="#阶段四-精进-go-语言编程能力"><span>阶段四：精进 Go 语言编程能力</span></a></h3>
+<p>接下来的阶段就是精进阶段，提高 Go 编程能力天花板。这个阶段的学习方法其实很简单，阅读优秀开源项目的源码，在阅读过程中记录这些开源项目的编程技巧、实现方法，通过思考，将这些知识转换为自己的技能，并在今后的开发生涯中，将这些编程技巧、实现方法应用在当前的企业应用开发中。这里，推荐一些优秀的开源项目供你参考学习：<a href="https://github.com/gin-gonic/gin" target="_blank" rel="noopener noreferrer">gin<ExternalLinkIcon/></a>、<a href="https://github.com/grpc/grpc-go" target="_blank" rel="noopener noreferrer">grpc-go<ExternalLinkIcon/></a>、<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">onex<ExternalLinkIcon/></a> 等。通过后期持续不断地学习，不断打磨、精进你的 Go 语言编程能力。</p>
+<p>这个阶段，你还可以尝试从 0 到 1 构建一些优秀的项目：例如：Web 类 Go 应用、Go 包、Go 框架等，在构建过程中， 通过调研、思考不断的优化项目，你的开发能力也会得到极大的提升。</p>
+<h2 id="进阶为云原生高级开发工程师" tabindex="-1"><a class="header-anchor" href="#进阶为云原生高级开发工程师"><span>进阶为云原生高级开发工程师</span></a></h2>
+<p>在开发者阶段，你通过自己的努力成为一名优秀的 Go 开发工程师之后，可能会遇到职业瓶颈。这时候，你突破瓶颈的的一个行之有效的好方法，便是转型为云原生开发工程师。云原生开发工程师，涉及的面更广，技术更深，这可以使你顺其自然的成为一名优秀的技术架构师。当你进阶为技术架构师之后，你的职业天花板会更高。</p>
+<p>想要成为一名高级云原生开发工程师，同样需要经历以下 4 个阶段：</p>
+<ol>
+<li>学习云原生核心基础知识；</li>
+<li>学习云原生编程；</li>
+<li>进行云原生编程实战；</li>
+<li>精进云原生编程能力。</li>
+</ol>
+<p>因为每个阶段的学习方式跟学习 Go 语言一致，里面的具体学习细节，我就不再详细介绍。</p>
+<h3 id="阶段一-学习云原生核心基础知识" tabindex="-1"><a class="header-anchor" href="#阶段一-学习云原生核心基础知识"><span>阶段一：学习云原生核心基础知识</span></a></h3>
+<p>云原生技术栈内容很多，不可能、也不需要把所有的技术栈都深入学习一遍。在这个阶段，我们可以学习一些基础、核心的技术栈。具体，建议你按顺序学习以下技术栈：</p>
+<figure><img src="/images/云原生核心基础知识学习顺序-水印.png" alt="云原生核心基础知识学习顺序" tabindex="0" loading="lazy"><figcaption>云原生核心基础知识学习顺序</figcaption></figure>
+<p>上面这些技术栈，是相对全面的云原生技术栈。你没必要、也没精力都去学完。这里建议你有优先学习微服务、Docker、Kuberentes 这些基石级的云原生技术栈。其他技术栈，你可以后面有时间慢慢补充。每个技术栈，推荐的学习材料如下：</p>
+<ul>
+<li>微服务：<a href="https://book.douban.com/subject/26772677/" target="_blank" rel="noopener noreferrer">《微服务设计》<ExternalLinkIcon/></a></li>
+<li>Docker：<a href="https://book.douban.com/subject/30329430/" target="_blank" rel="noopener noreferrer">《Docker 技术入门与实战》（第 3 版）<ExternalLinkIcon/></a>、<a href="https://book.douban.com/subject/26894736/" target="_blank" rel="noopener noreferrer">《Docker 容器与容器云》（第 2 版）<ExternalLinkIcon/></a></li>
+<li>Kubernetes：<a href="https://book.douban.com/subject/35458432/" target="_blank" rel="noopener noreferrer">《Kubernetes 权威指南：从 Docker 到 Kubernetes 实践全接触》（第 5 版）<ExternalLinkIcon/></a>、<a href="https://book.douban.com/subject/30333237/" target="_blank" rel="noopener noreferrer">《基于 Kubernetes 的容器云平台实战》<ExternalLinkIcon/></a></li>
+<li>Knative: <a href="https://knative.dev/docs/" target="_blank" rel="noopener noreferrer">Knative Documentation<ExternalLinkIcon/></a></li>
+<li>Prometheus：<a href="https://prometheus.io/docs/introduction/overview/" target="_blank" rel="noopener noreferrer">Prometheus Documentation<ExternalLinkIcon/></a></li>
+<li>Jaeger：<a href="https://www.jaegertracing.io/docs/1.26/" target="_blank" rel="noopener noreferrer">Jaeger Documentation<ExternalLinkIcon/></a></li>
+<li>KVM：<a href="https://book.douban.com/subject/25743939/" target="_blank" rel="noopener noreferrer">《KVM 虚拟化技术: 实战与原理解析》<ExternalLinkIcon/></a></li>
+<li>Istio：<a href="https://book.douban.com/subject/34438220/" target="_blank" rel="noopener noreferrer">《云原生服务网格 Istio：原理、实践、架构与源码解析》<ExternalLinkIcon/></a></li>
+<li>Kafka：<a href="https://book.douban.com/subject/30221096/" target="_blank" rel="noopener noreferrer">《Apache Kafka 实战》<ExternalLinkIcon/></a>、《Apache Kafka 源码剖析》](<a href="https://book.douban.com/subject/27038473/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/27038473/<ExternalLinkIcon/></a>)</li>
+<li>Etcd：<a href="https://time.geekbang.org/column/intro/391" target="_blank" rel="noopener noreferrer">etcd 实战课<ExternalLinkIcon/></a></li>
+<li>Tyk：<a href="https://tyk.io/docs/apim/open-source/" target="_blank" rel="noopener noreferrer">Tyk Open Source<ExternalLinkIcon/></a></li>
+<li>Consul：<a href="https://www.consul.io/docs" target="_blank" rel="noopener noreferrer">Consul Documentation<ExternalLinkIcon/></a></li>
+<li>Cilium：<a href="https://www.consul.io/docs" target="_blank" rel="noopener noreferrer">Cilium Documentation<ExternalLinkIcon/></a></li>
+<li>OpenShift：<a href="https://book.douban.com/subject/27088186/" target="_blank" rel="noopener noreferrer">《开源容器云 OpenShift：构建基于 Kubernetes 的企业应用云平台》<ExternalLinkIcon/></a></li>
+</ul>
+<p>其中，Docker、Kubernetes 因为比较重要，建议你根据时间安排，学习 2 本书。</p>
+<h3 id="阶段二-学习云原生编程" tabindex="-1"><a class="header-anchor" href="#阶段二-学习云原生编程"><span>阶段二：学习云原生编程</span></a></h3>
+<p>在阶段一中，我们学习了核心的云原生技术栈，但这些技术栈，并不会教你怎么去进行 Kubernetes 编程。<br>
+学习 Kubernetes 编程，最好的方法是学习一门优质的 Kubernetes 编程实战课。当前行业中，优质的 Kubernetes 编程实战课并不多，这里强烈推荐你学习我的云原生编程实战课：Kubernetes 开发实战课。</p>
+<p>阶段三：进行云原生编程实战</p>
+<p>通过阶段一、阶段二，你已经具备了从事云原生开发相关的工作和能力，接下来你需要做的，就是在工作中积极主动地承担更多的云原生相关的开发工作。这里建议你根据以下顺序，找一个机会，参与到具体的云原生开发工作中，通过真正的工作实战来继续打磨你的云原生开发能力，并将所学回馈给工作：</p>
+<ol>
+<li>团队内如果有云原生相关开发工作，你可以主动为自己争取，参与其中；</li>
+<li>如果团队内没有云原生相关工作岗位，并且在综合评估后，你觉得从事云原生开发工作，比你当前收益更高，你可以选择在合适的时机申请内部转岗云原生相关开发岗位上。当然，你也可以在当前岗位认真工作，并等待机会；</li>
+<li>跳槽：如果你经过认真思考后，觉得从事云原生相关岗位对你收益最大，并且公司内、团队内，现在和未来都没有相关的工作机会，你可以选择在合适的时机跳槽，并选择云原生相关开发岗位。</li>
+</ol>
+<p>另外，在你进行云原生编程实战的时候，同样也可以根据<strong>以工作需求为驱动、以开源项目为切入点、以二次开发为提升手段</strong>的思路去进行编程实战。</p>
+<h3 id="阶段四-精进云原生编程能力" tabindex="-1"><a class="header-anchor" href="#阶段四-精进云原生编程能力"><span>阶段四：精进云原生编程能力</span></a></h3>
+<p>在这个阶段，你需要通过不断的学习来打磨、精进你的云原生编程能力。一些行之有效的方法是阅读 Kubernetes 项目的源码。</p>
+<h2 id="go-云原生进阶之路心得" tabindex="-1"><a class="header-anchor" href="#go-云原生进阶之路心得"><span>Go + 云原生进阶之路心得</span></a></h2>
+<p>上面，我分享具体如何进阶为 Go + 云原生高级开发工程师，希望对你能有所帮助。这里，我再总结下，在整个过程中，我认为比较重要的点。</p>
+<p><strong>第一点：尽快打怪升级。</strong></p>
+<p>程序员职业生涯短暂，竞争比较大，所以我们要通过努力，尽快实现 Go 语言开发能力的提升。想要加速提升能力，无外乎两个点：找对方法、多花时间。如果你刚毕业，或者还年轻，在保证身体健康的情况下，可以多花点时间去学习、实战，周末多加加班。未来的你，一定会感谢现在努力的自己。现在辛苦，换的是未来的轻松。现在小卷王，未来躺赢王。</p>
+<p><strong>第二点：找对方法很重要。</strong></p>
+<p>每个人都有自己的学习方法。我建议的方法是：工作中发现需求 -&gt; 调研优秀的开源项目 -&gt; 二次开发 -&gt; 团队内分享。以工作需求为驱动，一方面可以让你有较强的学习动力、学习目标，另一方面可以使你在学习的过程中，也能在工作中有所产出，工作产出和学习两不误。基于优秀的开源项目二次开发，可以使你有动手实战的机会的同时，又可以学习到优秀开源项目的构建思路和构建方法。</p>
+<p><strong>第三点：进阶云原生开发工程师，提高职业天花板</strong></p>
+<p>当你具备了很强的 Go 语言开发能力之后，你需要慢慢考虑往架构师方向去转型。当前 IT 技术正处在云原生时代，所以，接下来要转型为云原生开发（架构师），以提高你的职业天花板。</p>
+<p>此外，在云时代，我们还要学习云原生架构。学习云原生架构一个有效的方式是手动部署一个 Kubernetes 集群，并研究各部分是如何部署、甚至如何实现的。另外，提升架构能力最高效的途径是借助工作需求来提升，如果工作中有涉及到架构的工作任务，可以踊跃参与讨论、开发和实施。</p>
+<p>最后，我还想补充介绍下我对程序员职业生涯短暂的理解。职业生涯短暂其实是一个伪命题，如果你够优秀，够努力，是可以一直在这个行业混的顺风顺水的。但是，我还是想说一些可能发生的残酷现实：程序员随着年龄的增长，工资越来越高，但精力、体力跟之前比也会有所下降，如果结婚生子之后，还要花费一部分的时间照顾家庭。</p>
+<p>所以对于企业来说，毕业 3～5 年的程序员可能是性价比最高的，要时间有时间，要经验有经验，并且当前所积累的研发技能，已经能或者通过后期的学习能够满足公司业务开发需求了。如果公司遇到危机，需要裁员，可能会优先裁掉性价比低的那部分人。</p>
+<p>那么，如何判断一个程序员的性价比呢？就是<strong>你的能力要跑赢你当前的年龄和薪资</strong>。想跑赢当前的年龄和薪资，需要你尽快地打怪练级，提升自己。</p>
+<h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结"><span>总结</span></a></h2>
+<p>Go 语言具有很多优秀的语言特性，这些优秀的语言级特性，使得当前有很多公司、团队使用 Go 语言开发其项目，并释放出大量的 Go 开发岗位。因为 Go 相较于 Java、Python 等老牌编程语言还年轻，从业者不多，所以 Go 语言开发者，从找工作难易度、薪资水平上，都具有非常强的竞争力。</p>
+<p>另外，当前正处在云原生时代，很多云原生技术都是基于 Go 语言构建的，例如：Docker、Kubernetes 等。Go 语言工程师，可以无缝切入云原生领域，参与其中，享受技术红利。</p>
+<p>所以，作为开发者，学习 Go + 云原生编程是一个非常不错的选择。那么如何学习呢？你可以整体上按照先学习 Go 语言编程，再学习云原生编程的顺序来学习。在学习的过程中，每个流程又可以通过以下四个阶段，来不断打磨你的编程能力：学习基础知识、学习编程实战、进行编程实战、精进编程能力。</p>
+<h2 id="课后练习" tabindex="-1"><a class="header-anchor" href="#课后练习"><span>课后练习</span></a></h2>
+<ol>
+<li>参考本文的学习方法，设计出你未来 Go + 云原生的学习计划和时间线。作为以后的学习规划；</li>
+<li>请思考下，当你学习完 Go + 云原生技术后，该如何利用自己所学的知识，真正在职场里面获得晋升和涨薪？</li>
+<li>请 Star GitHub 项目：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">onex<ExternalLinkIcon/></a>，并找老师免费赠送一套云原生学习教材。</li>
+</ol>
+</div></template>
+
+

@@ -1,10 +1,12 @@
 ---
 title: OneX，一个功能全、扩展强、代码质量高、源自一线大厂的企业级 GO+云原生实战项目
-shortTitle: OneX 项目介绍
+shortTitle: OneX介绍
 date: 2024-03-01
 sticky: true
+icon: jieshao3
 star: true
 isOriginal: true
+order: 1
 category:
   - OneX
 tag:

@@ -1,4 +1,7 @@
-<template><div><p>本节课，会先从方法论上，给你介绍为什么要进阶为 Go + 云原生高级开发工程师，以及如何进阶。希望通过本节课，让你了解到学习云原生实战营课程的价值，以及未来如何进行技术进阶。</p>
+<template><div><h2 id="xxx" tabindex="-1"><a class="header-anchor" href="#xxx"><span>XXX</span></a></h2>
+<h2 id="xxx-1" tabindex="-1"><a class="header-anchor" href="#xxx-1"><span>XXX</span></a></h2>
+<p>note、important、tip、warning、caution</p>
+<p>本节课，会先从方法论上，给你介绍为什么要进阶为 Go + 云原生高级开发工程师，以及如何进阶。希望通过本节课，让你了解到学习云原生实战营课程的价值，以及未来如何进行技术进阶。</p>
 <p>提示：Go 高级工程师能力标准可参考 <a href="/posts/senior-go">Go 语言高级工程师能力标准</a>。</p>
 <p>本节课主要包含以下 4 个部分：</p>
 <ol>

@@ -1,9 +1,15 @@
 ---
-date: 2024-03-01
-lastUpdated: true
-comment: false
-breadcrumb: false
+title: 如何对 OneX 项目进行代码修改，并编译、部署、测试？
+shortTitle: 开发指南
+date: 2022-03-01
+icon: zhinan
+sticky: true
+star: true
+order: 1
+isOriginal: true
 category:
+  - OneX
+tag:
   - OneX
 ---
 

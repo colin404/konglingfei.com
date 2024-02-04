@@ -5,7 +5,7 @@ export const zhNavbar = navbar([
   {
     text: "云原生实战营",
     prefix: "/cloudnative/",
-    icon: "quanzi",
+    icon: "xingqiu2",
     children: [
       /*
       { 
@@ -18,8 +18,10 @@ export const zhNavbar = navbar([
       */
       {
         text: "云原生实战营介绍",
+        prefix: "intro/",
         children: [
-          { text: "云原生实战营介绍", icon: "jieshao", link: "intro" },
+          { text: "实战营目标", icon: "circle-info", link: "target" },
+          { text: "云原生实战营介绍", icon: "circle-info", link: "intro" },
         ],
       },
       {
@@ -33,6 +35,7 @@ export const zhNavbar = navbar([
       },
       {
         text: "实战营成长进阶",
+        prefix: "advanced/",
         children: [
           { text: "如何进阶云原生高级开发", icon: "jinjie", link: "advanced" },
           { text: "如何学习实战营课程", icon: "shuben", link: "learn" },
@@ -55,7 +58,7 @@ export const zhNavbar = navbar([
         text: "项目介绍", 
         prefix: "intro/",
         children: [
-          { text: "OneX 项目介绍", icon: "jieshao", link: "intro" },
+          { text: "OneX 项目介绍", icon: "jieshao3", link: "intro" },
           { text: "OneX 功能列表", icon: "liebiao", link: "feature" },
         ]
       },
@@ -92,6 +95,8 @@ export const zhNavbar = navbar([
       { text: "企业内训", icon: "jiaru", prefix: "/posts/",link: "1"},
     ],
   },
+  */
+  /*
   {
     text: "支线课程",
     icon: "fenxiang",
@@ -131,19 +136,43 @@ export const zhNavbar = navbar([
       },
     ]
   },
+  {
+    text: "支线课程",
+    icon: "fenxiang",
+    prefix: "/posts/",
+    children: [
+      {
+        text: "  Go语言基础",
+        icon: "fenxiang",
+        children: [
+          //{ text: "Go语言基础语法", icon: "go", link: "1" },
+          //{ text: "Go语言设计模式", icon: "sheji", link: "1" },
+          { text: "Go常用面试算法", icon: "suanfa", link: "1" },
+          //{ text: "Go包开发实战", icon: "package", link: "1" },
+        ],
+      },
+    ]
+  },
   */
-  { text: "B 站视频", icon: "bizhan", link: "/posts" },
+  { text: "评论", icon: "pinglun", link: "/posts/comment" },
+  //{ text: "B 站视频", icon: "bizhan", link: "/posts" },
   {
     text: "学习资源",
     icon: "xuexiziyuan",
+    prefix: "learn/",
     children: [
-      { text: "学习路线", icon: "luxian", link: "/posts" },
-      { text: "资源下载", icon: "xiazai", link: "/posts" },
+      { text: "学习路线", icon: "luxian", link: "roadmap" },
+      { text: "资源下载", icon: "xiazai", link: "books" },
+      //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
   },
   //{ text: "面试", icon: "mianshi", link: "/posts" },
-  { text: "公众号文章", icon: "fenxiang", link: "/posts" },
-  { text: "婚恋交友", icon: "fenxiang", link: "/posts" },
+  { 
+    text: "公众号文章", 
+    icon: "fenxiang", 
+    link: "/weichat/README.md",
+  },
+  //{ text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*
   {
     text: "加入社群",
@@ -165,7 +194,7 @@ export const zhNavbar = navbar([
     text: "关于作者",
     icon: "zuozhe",
     children: [
-      { text: "作者介绍", icon: "jieshao", link: "/intro" },
+      { text: "作者介绍", icon: "circle-info", link: "/intro" },
       { text: "关注作者", icon: "guanzhu", link: "/posts" },
     ]
   },

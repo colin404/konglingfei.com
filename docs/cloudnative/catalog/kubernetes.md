@@ -1,5 +1,16 @@
 ---
-footer: false
+title: Kubernetes 开发实战课程目录
+shortTitle: Kubernetes 开发实战课程目录
+date: 2022-03-01
+icon: kubernetes
+sticky: true
+star: true
+order: 1
+isOriginal: true
+category:
+  - 实战营
+tag:
+  - 实战营
 ---
 
 # Kubernetes 开发实战课程目录

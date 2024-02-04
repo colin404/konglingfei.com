@@ -1,5 +1,16 @@
 ---
-contributors: true
+title: 职业发展课课程目录
+shortTitle: 职业发展课课程目录
+date: 2022-03-01
+icon: zhiyefazhan
+sticky: true
+star: true
+order: 1
+isOriginal: true
+category:
+  - 实战营
+tag:
+  - 实战营
 ---
 
 # 职业发展课课程目录

@@ -1,9 +1,18 @@
 ---
+title: OneX 排障指南
+shortTitle: 排障指南
 date: 2024-03-01
+sticky: true
+icon: paizhang
+order: 2
+star: true
+isOriginal: true
 category:
   - OneX
+tag:
+  - OneX
+description: 详细介绍 OneX 项目，让你感受 OneX 项目的教学质量。
 ---
-
 
 在部署和使用 OneX 的过程中，难免会出现一些异常（也称为故障、问题）。这时候，就需要我们能够定位问题，并修复问题。这里，我总结了一些 OneX 的排障方法，以及一些常见故障的解决方法，供你参考。
 

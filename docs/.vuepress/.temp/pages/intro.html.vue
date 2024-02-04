@@ -5,8 +5,9 @@
 <ul>
 <li>数学专业毕业的普通农村孩子，喜欢学习、热爱分享；</li>
 <li>字节跳动云原生资深研发，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 软件工程师；</li>
-<li>中国移动通信联合会专家级讲师，腾讯学院特约讲师。《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者；</li>
-<li>拥有 11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验；</li>
+<li>中国移动通信联合会专家级讲师，腾讯学院特约讲师，2023 年机械工业出版社新锐作者；</li>
+<li>《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者；</li>
+<li>11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验；</li>
 <li>在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。</li>
 </ul>
 <h2 id="我的项目开发经验" tabindex="-1"><a class="header-anchor" href="#我的项目开发经验"><span>我的项目开发经验</span></a></h2>
@@ -17,6 +18,7 @@
 <tr>
 <th style="text-align:center">项目名</th>
 <th style="text-align:center">公司</th>
+<th style="text-align:center">核心技术栈</th>
 <th style="text-align:center">项目描述</th>
 </tr>
 </thead>
@@ -24,51 +26,61 @@
 <tr>
 <td style="text-align:center">RHEL</td>
 <td style="text-align:center">Red Hat</td>
+<td style="text-align:center">Shell、Linux</td>
 <td style="text-align:center">世界知名的 Linux 发行版</td>
 </tr>
 <tr>
 <td style="text-align:center">Xen</td>
 <td style="text-align:center">Red Hat</td>
+<td style="text-align:center">虚拟化</td>
 <td style="text-align:center">世界知名的开源的虚拟化平台</td>
 </tr>
 <tr>
 <td style="text-align:center">KVM</td>
 <td style="text-align:center">联想云</td>
+<td style="text-align:center">虚拟化</td>
 <td style="text-align:center">世界知名的开源的虚拟化平台</td>
 </tr>
 <tr>
 <td style="text-align:center">TenC 容器平台</td>
 <td style="text-align:center">腾讯（互娱）</td>
+<td style="text-align:center">Go、容器、K8S</td>
 <td style="text-align:center">腾讯游戏内部使用的容器云平台</td>
 </tr>
 <tr>
 <td style="text-align:center">API 网关</td>
 <td style="text-align:center">腾讯（互娱）</td>
+<td style="text-align:center">Go、微服务</td>
 <td style="text-align:center">腾讯游戏内部使用的 API 网关</td>
 </tr>
 <tr>
 <td style="text-align:center">微服务框架 MSP</td>
 <td style="text-align:center">腾讯（互娱）</td>
+<td style="text-align:center">Go、微服务</td>
 <td style="text-align:center">腾讯技术运营部微服务框架</td>
 </tr>
 <tr>
 <td style="text-align:center">腾讯云容器服务 TKE</td>
 <td style="text-align:center">腾讯云</td>
+<td style="text-align:center">Go、容器、K8S</td>
 <td style="text-align:center">国内排名 Top 2 的公有云容器服务产品</td>
 </tr>
 <tr>
 <td style="text-align:center">腾讯云云函数 SCF</td>
 <td style="text-align:center">腾讯云</td>
+<td style="text-align:center">Serverless、函数计算</td>
 <td style="text-align:center">国内排名 Top 2 的公有云云函数产品</td>
 </tr>
 <tr>
 <td style="text-align:center">腾讯云原生分布式云中心</td>
 <td style="text-align:center">腾讯云</td>
+<td style="text-align:center">Go、容器、K8S、多集群</td>
 <td style="text-align:center">腾讯云面向多云多集群场景的应用管理平台</td>
 </tr>
 <tr>
 <td style="text-align:center">云引擎 TCE（容器平台）</td>
 <td style="text-align:center">字节跳动</td>
+<td style="text-align:center">Go、容器、K8S、多集群</td>
 <td style="text-align:center">字节跳动内部的容器云平台</td>
 </tr>
 </tbody>
@@ -116,6 +128,6 @@
 <p>CSDN：</p>
 <p>小鹅圈：</p>
 <p>微信公众号：</p>
-</div></template>
+<BiliBili bvid="BV1kt411o7C3" /></div></template>
 
 

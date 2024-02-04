@@ -1,14 +1,16 @@
 ---
-title: 这是一个创建文章的模版
-shortTitle: 文章创建模版
-date: 2023-03-01
+title: XXX
+shortTitle: XXX
+date: 2022-03-01
+icon: go
 sticky: true
 star: true
+order: 1
 isOriginal: true
 category:
-  - 实战营
+  - XXX
 tag:
-  - 实战营
+  - XXX
 ---
 
 ## XXX

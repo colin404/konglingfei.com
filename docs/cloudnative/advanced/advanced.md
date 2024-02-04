@@ -2,14 +2,15 @@
 title: 如何进阶为 Go + 云原生高级开发工程师？
 shortTitle: 高级开发进阶之道
 date: 2022-03-01
+icon: jinjie
 sticky: true
 star: true
+order: 1
 isOriginal: true
 category:
   - 实战营
 tag:
   - 实战营
-description: 加入我的实战营，助你进阶为 Go + 云原生高级开发工程师！
 ---
 
 本节课，会先从方法论上，给你介绍为什么要进阶为 Go + 云原生高级开发工程师，以及如何进阶。希望通过本节课，让你了解到学习云原生实战营课程的价值，以及未来如何进行技术进阶。

@@ -3,37 +3,36 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/onex/": [
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "intro/",
-      children: "structure",
-      collapsible: true,
+      text: '项目动态',
+      icon: 'gonggao',
+      link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md",
     },
     {
-      text: "安装",
-      icon: "book",
-      prefix: "install/",
-      children: "structure",
-      collapsible: true,
+      text: '项目介绍',
+      icon: 'circle-info',
+      prefix: 'intro/',
+      collapsible: false,
+      children: [ 'intro', 'feature' ],
     },
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+      text: '安装指南',
+      icon: 'bushulinghuo',
+      prefix: 'installation/',
+      collapsible: false,
+      children: [ 'docker','sbs','test'],
     },
-  ],
-  "/cloudnative/": [
-    "intro",
-    "advanced",
     {
-      text: "实战营课程目录",
-      icon: "lightbulb",
-      prefix: "catalog/",
-      children: [
-        "go",
-        "kubernetes",
-        "career",
+      text: '开发指南',
+      icon: 'zhinan3',
+      prefix: 'devel/',
+      collapsible: false,
+      children: [ 
+        'devel', 
+        'troubleshooting', 
+        { text: "API 接口", icon: "api", link: "http://konglingfei.com:65534/docs"},
+        'faq',
       ],
     },
-  ]
+  ],
+  "/cloudnative/": "structure",
 });

@@ -27,10 +27,10 @@ export default hopeTheme({
   // Iconfont 精选图标 和 阿里妈妈的互斥
   // iconAssets: "iconfont",
   //iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4425847_289uo2fl8zp.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4425847_gsu0ad9kxpw.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
-  pure: true, 
+  pure: false, 
   print: false, // 是否在桌面模式下显示打印按钮
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
@@ -49,7 +49,7 @@ export default hopeTheme({
   // lastUpdated
   lastUpdated: true,
   // 编辑此页
-  editLink: true,
+  editLink: false,
   headerDepth: 5,
   pageview: true,
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
@@ -154,7 +154,8 @@ export default hopeTheme({
     // 启用站点地图
     sitemap: true,
     // 启用博客
-    blog: true,
+    blog: false,
+    //autoCatalog: {},
 
     // 该插件会监听页面滚动事件。
     // 当页面滚动至某个 标题锚点 后，如果存在对应的 标题链接 ，那么该插件会将路由 Hash 更改为该 标题锚点 。
@@ -209,7 +210,50 @@ export default hopeTheme({
     },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard", "BiliBili"],
+      rootComponents: {
+        notice: [
+          //{ type: 'text', content: '👇公众号👇---👇 微信 👇' },
+          {
+            path: "/",
+            title: "将在2024.1.2推出",
+            content:
+            '<ul><li>自定义工具栏</li></ul><div class="addthis_inline_follow_toolbox_qssu"></div>',
+            actions: [
+              {
+                text: "了解详情→",
+                link: "/cloudnative/intro/intro",
+                type: "primary",
+              },
+              {
+                text: "了解详情2→",
+                link: "https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210",
+                //type: "primary",
+              },
+              //{ text: "Default Action" },
+            ],
+            showOnce: false,
+            key: "2024.1.2",
+            //confirm: true,
+            //fullscreen: true,
+          },
+          {
+            path: "/en",
+            title: "Coming in <b>2024.1.1</b>",
+            content:
+            '<ul><li>Custom toolbar</li></ul><div class="addthis_inline_follow_toolbox"></div>',
+            actions: [
+              {
+                text: "Learn more→",
+                link: "/en/guide/history.html#_2024-1-2",
+                type: "primary",
+              },
+            ],
+            showOnce: true,
+            key: "2024.1.1",
+          },
+        ],
+      },
     },
 
     // all features are enabled for demo, only preserve features you need here

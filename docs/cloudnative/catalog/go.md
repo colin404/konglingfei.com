@@ -1,4 +1,9 @@
 ---
+date: 2024-01-30
+title: Go 项目开发高阶实战课程目录
+icon: go
+star: true
+order: 1
 author: 孔令飞
 ---
 
