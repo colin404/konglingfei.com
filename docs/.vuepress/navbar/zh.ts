@@ -5,7 +5,7 @@ export const zhNavbar = navbar([
   {
     text: "云原生实战营",
     prefix: "/cloudnative/",
-    icon: "xingqiu2",
+    icon: "xingqiu",
     children: [
       /*
       { 
@@ -20,7 +20,7 @@ export const zhNavbar = navbar([
         text: "云原生实战营介绍",
         prefix: "intro/",
         children: [
-          { text: "实战营目标", icon: "circle-info", link: "target" },
+          { text: "实战营课程目标", icon: "mubiao", link: "senior" },
           { text: "云原生实战营介绍", icon: "circle-info", link: "intro" },
         ],
       },

@@ -1,3 +1,3 @@
-<template><div><AutoCatalog/></div></template>
+<template><div><Catalog/></div></template>
 
 

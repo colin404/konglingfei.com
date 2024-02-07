@@ -1,4 +1,6 @@
-// node_modules/.pnpm/@vuepress+shared@2.0.0-rc.2/node_modules/@vuepress/shared/dist/index.js
+import "./chunk-3EJPJMEH.js";
+
+// node_modules/.pnpm/@vuepress+shared@2.0.0-rc.7/node_modules/@vuepress/shared/dist/index.js
 var TAGS_ALLOWED = ["link", "meta", "script", "style", "noscript", "template"];
 var TAGS_UNIQUE = ["title", "base"];
 var resolveHeadIdentifier = ([tag, attrs, content]) => {
@@ -60,6 +62,21 @@ var isLinkExternal = (link, base = "/") => {
 };
 var isLinkWithProtocol = (link) => /^[a-z][a-z0-9+.-]*:/.test(link);
 var isPlainObject = (val) => Object.prototype.toString.call(val) === "[object Object]";
+var normalizeRoutePath = (path) => {
+  const [pathname, ...queryAndHash] = path.split(/(\?|#)/);
+  if (!pathname || pathname.endsWith("/"))
+    return path;
+  let routePath = pathname.replace(/(^|\/)README.md$/i, "$1index.html");
+  if (routePath.endsWith(".md")) {
+    routePath = routePath.substring(0, routePath.length - 3) + ".html";
+  } else if (!routePath.endsWith(".html")) {
+    routePath = routePath + ".html";
+  }
+  if (routePath.endsWith("/index.html")) {
+    routePath = routePath.substring(0, routePath.length - 10);
+  }
+  return routePath + queryAndHash.join("");
+};
 var omit = (obj, ...keys) => {
   const result = { ...obj };
   for (const key of keys) {
@@ -101,6 +118,7 @@ export {
   isLinkWithProtocol,
   isPlainObject,
   isString,
+  normalizeRoutePath,
   omit,
   removeEndingSlash,
   removeLeadingSlash,

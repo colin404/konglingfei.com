@@ -3,8 +3,6 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /intro.html
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
-  // path: /cloudnative/
-  "v-cfe8b6c8": () => import(/* webpackChunkName: "v-cfe8b6c8" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/index.html.js").then(({ data }) => data),
   // path: /demo/
   "v-1473bf53": () => import(/* webpackChunkName: "v-1473bf53" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/index.html.js").then(({ data }) => data),
   // path: /demo/disable.html
@@ -17,6 +15,8 @@ export const pagesData = {
   "v-438ffe52": () => import(/* webpackChunkName: "v-438ffe52" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/markdown.html.js").then(({ data }) => data),
   // path: /demo/page.html
   "v-6e19edb7": () => import(/* webpackChunkName: "v-6e19edb7" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/demo/page.html.js").then(({ data }) => data),
+  // path: /cloudnative/
+  "v-cfe8b6c8": () => import(/* webpackChunkName: "v-cfe8b6c8" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/index.html.js").then(({ data }) => data),
   // path: /en/
   "v-2d0a870d": () => import(/* webpackChunkName: "v-2d0a870d" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/index.html.js").then(({ data }) => data),
   // path: /en/intro.html
@@ -39,6 +39,12 @@ export const pagesData = {
   "v-df8b6e0c": () => import(/* webpackChunkName: "v-df8b6e0c" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/posts/tomato.html.js").then(({ data }) => data),
   // path: /wechat/
   "v-99ef66a0": () => import(/* webpackChunkName: "v-99ef66a0" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/wechat/index.html.js").then(({ data }) => data),
+  // path: /cloudnative/advanced/
+  "v-0559319e": () => import(/* webpackChunkName: "v-0559319e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/index.html.js").then(({ data }) => data),
+  // path: /cloudnative/advanced/advanced.html
+  "v-0dd1a334": () => import(/* webpackChunkName: "v-0dd1a334" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/advanced.html.js").then(({ data }) => data),
+  // path: /cloudnative/advanced/learn.html
+  "v-6c871b06": () => import(/* webpackChunkName: "v-6c871b06" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/learn.html.js").then(({ data }) => data),
   // path: /cloudnative/catalog/
   "v-deb0285c": () => import(/* webpackChunkName: "v-deb0285c" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/catalog/index.html.js").then(({ data }) => data),
   // path: /cloudnative/catalog/career.html
@@ -47,16 +53,12 @@ export const pagesData = {
   "v-adb4ee42": () => import(/* webpackChunkName: "v-adb4ee42" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/catalog/go.html.js").then(({ data }) => data),
   // path: /cloudnative/catalog/kubernetes.html
   "v-8d4f717e": () => import(/* webpackChunkName: "v-8d4f717e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/catalog/kubernetes.html.js").then(({ data }) => data),
-  // path: /cloudnative/advanced/
-  "v-0559319e": () => import(/* webpackChunkName: "v-0559319e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/index.html.js").then(({ data }) => data),
-  // path: /cloudnative/advanced/advanced.html
-  "v-0dd1a334": () => import(/* webpackChunkName: "v-0dd1a334" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/advanced.html.js").then(({ data }) => data),
-  // path: /cloudnative/advanced/learn.html
-  "v-6c871b06": () => import(/* webpackChunkName: "v-6c871b06" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/advanced/learn.html.js").then(({ data }) => data),
   // path: /cloudnative/intro/
   "v-d103b242": () => import(/* webpackChunkName: "v-d103b242" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/intro/index.html.js").then(({ data }) => data),
   // path: /cloudnative/intro/intro.html
   "v-80114be8": () => import(/* webpackChunkName: "v-80114be8" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/intro/intro.html.js").then(({ data }) => data),
+  // path: /cloudnative/intro/senior.html
+  "v-6cc8cf2c": () => import(/* webpackChunkName: "v-6cc8cf2c" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/cloudnative/intro/senior.html.js").then(({ data }) => data),
   // path: /en/demo/
   "v-395cd082": () => import(/* webpackChunkName: "v-395cd082" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/demo/index.html.js").then(({ data }) => data),
   // path: /en/demo/disable.html
@@ -77,14 +79,6 @@ export const pagesData = {
   "v-57615dc1": () => import(/* webpackChunkName: "v-57615dc1" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/strawberry.html.js").then(({ data }) => data),
   // path: /en/posts/tomato.html
   "v-285adf66": () => import(/* webpackChunkName: "v-285adf66" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/en/posts/tomato.html.js").then(({ data }) => data),
-  // path: /onex/installation/
-  "v-6932891e": () => import(/* webpackChunkName: "v-6932891e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/index.html.js").then(({ data }) => data),
-  // path: /onex/installation/docker.html
-  "v-462beab0": () => import(/* webpackChunkName: "v-462beab0" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/docker.html.js").then(({ data }) => data),
-  // path: /onex/installation/sbs.html
-  "v-25f121c6": () => import(/* webpackChunkName: "v-25f121c6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/sbs.html.js").then(({ data }) => data),
-  // path: /onex/installation/test.html
-  "v-4f50c994": () => import(/* webpackChunkName: "v-4f50c994" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/test.html.js").then(({ data }) => data),
   // path: /onex/devel/
   "v-50a88977": () => import(/* webpackChunkName: "v-50a88977" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/index.html.js").then(({ data }) => data),
   // path: /onex/devel/devel.html
@@ -93,6 +87,14 @@ export const pagesData = {
   "v-333f540c": () => import(/* webpackChunkName: "v-333f540c" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/faq.html.js").then(({ data }) => data),
   // path: /onex/devel/troubleshooting.html
   "v-1df4deb6": () => import(/* webpackChunkName: "v-1df4deb6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/devel/troubleshooting.html.js").then(({ data }) => data),
+  // path: /onex/installation/
+  "v-6932891e": () => import(/* webpackChunkName: "v-6932891e" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/index.html.js").then(({ data }) => data),
+  // path: /onex/installation/docker.html
+  "v-462beab0": () => import(/* webpackChunkName: "v-462beab0" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/docker.html.js").then(({ data }) => data),
+  // path: /onex/installation/sbs.html
+  "v-25f121c6": () => import(/* webpackChunkName: "v-25f121c6" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/sbs.html.js").then(({ data }) => data),
+  // path: /onex/installation/test.html
+  "v-4f50c994": () => import(/* webpackChunkName: "v-4f50c994" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/installation/test.html.js").then(({ data }) => data),
   // path: /onex/intro/
   "v-59aee087": () => import(/* webpackChunkName: "v-59aee087" */"/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/intro/index.html.js").then(({ data }) => data),
   // path: /onex/intro/feature.html

@@ -114,6 +114,7 @@
 </ol>
 <figure><img src="/images/OneX源码统计-水印.png" alt="OneX源码统计" tabindex="0" loading="lazy"><figcaption>OneX源码统计</figcaption></figure>
 <ol start="8">
+<li>一个可以魔改后，作为项目经验的企业级实战项目，让你简历的项目栏不再单调；</li>
 <li>一对一免费提问交流（专属建议，走心回答）；</li>
 <li>海量优质的 Go 语言面试资料；</li>
 <li>海量经典图书免费下载；</li>

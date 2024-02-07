@@ -27,7 +27,7 @@ export default hopeTheme({
   // Iconfont 精选图标 和 阿里妈妈的互斥
   // iconAssets: "iconfont",
   //iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4425847_gsu0ad9kxpw.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4425847_49mnzsdr50k.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
   pure: false, 
