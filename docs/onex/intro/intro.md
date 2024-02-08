@@ -3,7 +3,7 @@ title: OneX，一个功能全、扩展强、代码质量高、源自一线大厂
 shortTitle: OneX介绍
 date: 2024-03-01
 sticky: true
-icon: jieshao3
+icon: circle-info
 star: true
 isOriginal: true
 order: 1
@@ -30,7 +30,9 @@ OneX 寓意该实战项目具有功能全、扩展性强、灵活性高等特点
 
 OneX GitHub 地址为：https://github.com/superproj/onex ，建议大家先 Star，以便及时获取 OneX 的更新。对于一个优秀的开源项目，在学习过程中，顺手 Star 是一个好的习惯。当你需要再学习或者参考时，可以在你的 Star 列表中找到该项目。否则，你只能通过记忆找到这个项目。
 
-OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有近 12w 行代码，具体代码统计如下图所示：TODO
+OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有近 12w 行代码，具体代码统计如下图所示：
+
+![OneX一期源码统计](/images/OneX源码统计-水印.png)
 
 ## OneX 实战项目特点
 
@@ -58,7 +60,9 @@ OneX 也提供一些付费功能（二期实现），例如：
 
 ## OneX 实战项目一期架构
 
-这里，我们再来看下 OneX 的实现架构。OneX 架构图如下： TODO
+这里，我们再来看下 OneX 的实现架构。OneX 架构图如下：
+
+![OneX一期架构图](/images/OneX一期架构图-水印.png)
 
 **OneX 平台使用流程如下：**
 1. 用户登录：用户通过前端登录 OneX 平台，前端会调用 onex-usercenter提供的 RESTful API 接口登录系统，登录成功（用户名：密码验证成功），后端返回 Token，前端之后通过该 Token 跟后端交互。用户可以在控制台创建一个密钥对，用来访问 onex-gateway组件；

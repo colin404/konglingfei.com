@@ -1,16 +1,3 @@
-import comp from "/home/colin/workspace/golang/src/github.com/superproj/konglingfei.com/docs/.vuepress/.temp/pages/onex/index.html.vue"
-const data = JSON.parse("{\"path\":\"/onex/\",\"title\":\"Onex\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"Onex\",\"article\":false,\"feed\":false,\"sitemap\":false,\"description\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"http://konglingfei.com/onex/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"孔令飞的云原生实战营\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"Onex\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"website\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"孔令飞\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"WebPage\\\",\\\"name\\\":\\\"Onex\\\"}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"autoDesc\":true,\"git\":{},\"excerpt\":\"\"}")
+import comp from "/home/colin/workspace/konglingfei.com/docs/.vuepress/.temp/pages/onex/index.html.vue"
+const data = JSON.parse("{\"path\":\"/onex/\",\"title\":\"OneX\",\"lang\":\"zh-CN\",\"frontmatter\":{\"date\":\"2024-02-04T00:00:00.000Z\",\"title\":\"OneX\",\"index\":true,\"icon\":\"onex\",\"dir\":{\"order\":2},\"description\":\"\",\"head\":[[\"meta\",{\"property\":\"og:url\",\"content\":\"http://konglingfei.com/onex/\"}],[\"meta\",{\"property\":\"og:site_name\",\"content\":\"孔令飞的云原生实战营\"}],[\"meta\",{\"property\":\"og:title\",\"content\":\"OneX\"}],[\"meta\",{\"property\":\"og:type\",\"content\":\"article\"}],[\"meta\",{\"property\":\"og:locale\",\"content\":\"zh-CN\"}],[\"meta\",{\"property\":\"article:author\",\"content\":\"孔令飞\"}],[\"meta\",{\"property\":\"article:published_time\",\"content\":\"2024-02-04T00:00:00.000Z\"}],[\"script\",{\"type\":\"application/ld+json\"},\"{\\\"@context\\\":\\\"https://schema.org\\\",\\\"@type\\\":\\\"Article\\\",\\\"headline\\\":\\\"OneX\\\",\\\"image\\\":[\\\"\\\"],\\\"datePublished\\\":\\\"2024-02-04T00:00:00.000Z\\\",\\\"dateModified\\\":null,\\\"author\\\":[{\\\"@type\\\":\\\"Person\\\",\\\"name\\\":\\\"孔令飞\\\",\\\"email\\\":\\\"colin404@foxmail.com\\\",\\\"url\\\":\\\"https://konglingfei.com\\\"}]}\"]]},\"headers\":[],\"readingTime\":{\"minutes\":0.05,\"words\":15},\"filePathRelative\":\"onex/README.md\",\"localizedDate\":\"2024年2月4日\",\"autoDesc\":true,\"git\":{\"createdTime\":null,\"updatedTime\":null,\"contributors\":[]},\"excerpt\":\"\"}")
 export { comp, data }
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}

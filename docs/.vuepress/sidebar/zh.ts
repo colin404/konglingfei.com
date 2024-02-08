@@ -9,7 +9,7 @@ export const zhSidebar = sidebar({
     },
     {
       text: '项目介绍',
-      icon: 'circle-info',
+      icon: 'jieshao',
       prefix: 'intro/',
       collapsible: false,
       children: [ 'intro', 'feature' ],

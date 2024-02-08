@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.7",
+    "@vuepress/plugin-catalog": "2.0.0-rc.12",
     "@vuepress/plugin-git": "2.0.0-rc.12",
     "@waline/client": "3.0.0-alpha.11",
     "twikoo": "^1.6.31",
@@ -25,7 +26,7 @@
   },
   "dependencies": {
     "@vue/repl": "^3.4.0",
-    "vuepress/client": "2.0.0-rc.7",
+    "@vuepress/client": "2.0.0-rc.7",
     "artalk": "^2.8.2",
     "chart.js": "^4.4.1",
     "echarts": "^5.4.3",

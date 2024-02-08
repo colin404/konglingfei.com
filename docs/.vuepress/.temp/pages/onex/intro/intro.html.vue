@@ -8,7 +8,8 @@
 <p>OneX 寓意该实战项目具有功能全、扩展性强、灵活性高等特点。未来 OneX 会继续集成进很多跟 Go、云原生相关的功能。因为 OneX 在项目设计的时候，就考虑到了未来功能和架构的扩展，所以 OneX 未来可以无缝、丝滑的扩展很多新的功能。</p>
 </div>
 <p>OneX GitHub 地址为：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">https://github.com/superproj/onex<ExternalLinkIcon/></a> ，建议大家先 Star，以便及时获取 OneX 的更新。对于一个优秀的开源项目，在学习过程中，顺手 Star 是一个好的习惯。当你需要再学习或者参考时，可以在你的 Star 列表中找到该项目。否则，你只能通过记忆找到这个项目。</p>
-<p>OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有近 12w 行代码，具体代码统计如下图所示：TODO</p>
+<p>OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有近 12w 行代码，具体代码统计如下图所示：</p>
+<figure><img src="/images/OneX源码统计-水印.png" alt="OneX一期源码统计" tabindex="0" loading="lazy"><figcaption>OneX一期源码统计</figcaption></figure>
 <h2 id="onex-实战项目特点" tabindex="-1"><a class="header-anchor" href="#onex-实战项目特点"><span>OneX 实战项目特点</span></a></h2>
 <p>OneX 实战项目具有以下特点：</p>
 <ul>
@@ -34,7 +35,8 @@
 </ul>
 <p>此外， OneX 还是一个微型的 Kubernetes 平台。学习好 OneX，等同于学习了部分 Kubernetes 源码（kube-apiserver、kube-controller-manager）。部署 OneX 平台，就等于部署了一套微型 Kubernetes。</p>
 <h2 id="onex-实战项目一期架构" tabindex="-1"><a class="header-anchor" href="#onex-实战项目一期架构"><span>OneX 实战项目一期架构</span></a></h2>
-<p>这里，我们再来看下 OneX 的实现架构。OneX 架构图如下： TODO</p>
+<p>这里，我们再来看下 OneX 的实现架构。OneX 架构图如下：</p>
+<figure><img src="/images/OneX一期架构图-水印.png" alt="OneX一期架构图" tabindex="0" loading="lazy"><figcaption>OneX一期架构图</figcaption></figure>
 <p><strong>OneX 平台使用流程如下：</strong></p>
 <ol>
 <li>用户登录：用户通过前端登录 OneX 平台，前端会调用 onex-usercenter提供的 RESTful API 接口登录系统，登录成功（用户名：密码验证成功），后端返回 Token，前端之后通过该 Token 跟后端交互。用户可以在控制台创建一个密钥对，用来访问 onex-gateway组件；</li>

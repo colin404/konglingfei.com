@@ -6,7 +6,7 @@
 <h2 id="markdown-config" tabindex="-1"><a class="header-anchor" href="#markdown-config"><span>Markdown Config</span></a></h2>
 <p>VuePress introduce configuration for each markdown page using Frontmatter.</p>
 <div class="hint-container info">
-<p class="hint-container-title">Info</p>
+<p class="hint-container-title">相关信息</p>
 <p>Frontmatter is a important concept in VuePress. If you don't know it, you need to read <a href="https://theme-hope.vuejs.press/cookbook/vuepress/page.html#front-matter" target="_blank" rel="noopener noreferrer">Frontmatter Introduction<ExternalLinkIcon/></a>.</p>
 </div>
 <h2 id="markdown-extension" tabindex="-1"><a class="header-anchor" href="#markdown-extension"><span>Markdown Extension</span></a></h2>

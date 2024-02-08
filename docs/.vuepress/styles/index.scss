@@ -1,1 +1,13 @@
 // place your custom styles here
+.list-item {
+  // none,dise,circle,square,decimal
+  list-style-type: disc;
+  display: list-item;
+  margin-bottom: 5px;
+  //content: "\2022 ";
+  //color: #ff8f00;
+  //list-style-position: inside;
+  //color: #333; /* 设置文字颜色 */
+  //font-size: 16px; /* 设置文字大小 */
+  //font-weight: bold; /* 设置文字加粗 */
+}

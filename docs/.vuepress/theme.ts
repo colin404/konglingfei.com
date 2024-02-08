@@ -27,14 +27,13 @@ export default hopeTheme({
   // Iconfont 精选图标 和 阿里妈妈的互斥
   // iconAssets: "iconfont",
   //iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4425847_49mnzsdr50k.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4425847_p2wmcp4tsmj.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
   pure: false, 
   print: false, // 是否在桌面模式下显示打印按钮
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
-  //logo: "/cloudnative-logo.png",
+  logo: "/cloudnative-orange.svg",
 
   repo: "https://github.com/superproj/onex",
   // 项目仓库标签
@@ -55,8 +54,8 @@ export default hopeTheme({
   // 文章信息，可以填入数组，数组的顺序是各条目显示的顺序
   //pageInfo: ["Author", "Original", "Date", "Category", "Tag", "Word", "ReadingTime", "PageView"],
   pageInfo: ["Author", "Original", "Word", "ReadingTime", "PageView", "Date", "Category", "Tag"],
-  footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 沪ICP备2022029946号-  2</a >',
-  displayFooter: true,
+  footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 粤ICP备2024181276号</a >',
+  displayFooter: false,
 
   docsDir: "docs",
 
@@ -76,7 +75,7 @@ export default hopeTheme({
   },
 
   locales: {
-     // Chinese locale config
+    // Chinese locale config
     "/": {
       // navbar
       navbar: zhNavbar,
@@ -86,7 +85,7 @@ export default hopeTheme({
 
       blog: {
         description: "喜欢学习、热爱分享",
-        intro: "/intro",
+        intro: "/intro/intro",
       },
 
       // page meta
@@ -94,11 +93,12 @@ export default hopeTheme({
         editLink: "编辑此页",
       },
     },
+    /*
     "/en/": {
-      // navbar
+    // navbar
       navbar: enNavbar,
 
-      // sidebar
+    // sidebar
       sidebar: enSidebar,
 
       footer: "Default footer",
@@ -114,6 +114,7 @@ export default hopeTheme({
         editLink: "Edit this page on GitHub",
       },
     },
+     */
   },
 
   encrypt: {
@@ -122,9 +123,9 @@ export default hopeTheme({
       "/demo/encrypt.html": ["1234"],
     },
   },
-    // 提示文字
+  // 提示文字
   encryptLocales: {
-    placeholder: "微信搜‘沉默王二’回复‘密码’获取口令",
+    placeholder: "微信搜‘孔令飞‘密码’获取口令",
 
     /**
      * Passwrod error hint
@@ -140,8 +141,8 @@ export default hopeTheme({
   navbarLayout:{ 
     start: ["Brand"], 
     center: ["Links"], 
-    //end: ["Language", "Repo", "Outlook", "Search"],
-    end: ["Language", "WeChatLink", "QQLink", "Repo","Outlook", "Search"],
+    //end: ["Language", "WeChatLink", "QQLink", "Repo","Outlook", "Search"],
+    end: ["Language", "WeChatLink", "Repo","Outlook", "Search"],
   },
   /*
   navbarLayout: {
@@ -155,7 +156,8 @@ export default hopeTheme({
     sitemap: true,
     // 启用博客
     blog: false,
-    //autoCatalog: {},
+    //catalog : true,
+
 
     // 该插件会监听页面滚动事件。
     // 当页面滚动至某个 标题锚点 后，如果存在对应的 标题链接 ，那么该插件会将路由 Hash 更改为该 标题锚点 。
@@ -184,6 +186,7 @@ export default hopeTheme({
     // WARNING: This is a test server for demo only.
     // You should create and use your own comment service in production.
     comment: {
+      comment: false,
       provider: "Giscus",
       repo: "colin404/for-giscus",
       //repoId:"R_kgDOLLPxvA",
@@ -213,27 +216,34 @@ export default hopeTheme({
       components: ["Badge", "VPCard", "BiliBili"],
       rootComponents: {
         notice: [
-          //{ type: 'text', content: '👇公众号👇---👇 微信 👇' },
+          { type: 'text', content: '👇公众号👇---👇 微信群 👇' },
           {
             path: "/",
-            title: "将在2024.1.2推出",
-            content:
-            '<ul><li>自定义工具栏</li></ul><div class="addthis_inline_follow_toolbox_qssu"></div>',
+            title: "限时优惠",
+            content: "知识星球 7 折优惠中，<a href=https://www.example.com>欢迎加入</a>！",
+            /*
             actions: [
               {
-                text: "了解详情→",
-                link: "/cloudnative/intro/intro",
-                type: "primary",
+                text: "👉 扫码加入",
+                link: "/contact/wechat-8cm.jpg",
+                type: "default",
               },
+            ],
               {
-                text: "了解详情2→",
+                text: "交流群",
                 link: "https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210",
                 //type: "primary",
               },
+              {
+                text: "下资料",
+                link: "https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210",
               //{ text: "Default Action" },
+                //
+              }
             ],
+            */
             showOnce: false,
-            key: "2024.1.2",
+            key: "2024.1.4",
             //confirm: true,
             //fullscreen: true,
           },

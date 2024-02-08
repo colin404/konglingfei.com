@@ -1,5 +1,6 @@
 import { defineUserConfig } from "vuepress";
 import { appendDatePlugin } from "vuepress-plugin-append-date";
+import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { gitPlugin } from '@vuepress/plugin-git'
 import theme from "./theme.js";
 
@@ -43,11 +44,13 @@ export default defineUserConfig({
       title: "孔令飞的云原生实战营",
       description: "分享Go和云原生相关的技术栈",
     },
+    /*
     "/en/": {
       lang: "en-US",
       title: "Blog Demo",
       description: "A blog demo for vuepress-theme-hope",
     },
+     */
   },
 
   theme,
@@ -56,13 +59,10 @@ export default defineUserConfig({
   plugins: [
     appendDatePlugin(),
     gitPlugin(),
+    autoCatalogPlugin(),
   ],
 
-  pagePatterns: [
-    "**/*.md",
-    "!.vuepress",
-    "!node_modules",
-  ],
+  pagePatterns: [ "**/*.md", "!.vuepress", "!node_modules"],
 
   markdown: {
     header: {
