@@ -1,15 +1,17 @@
 <template><div><h1 id="onex-一个功能全、扩展强、代码质量高、源自一线大厂的企业级-go-云原生实战项目" tabindex="-1"><a class="header-anchor" href="#onex-一个功能全、扩展强、代码质量高、源自一线大厂的企业级-go-云原生实战项目"><span>OneX，一个功能全、扩展强、代码质量高、源自一线大厂的企业级 GO+云原生实战项目</span></a></h1>
-<p>你好，我是 <a href="http://konglingfei.com/intro.html" target="_blank" rel="noopener noreferrer">孔令飞<ExternalLinkIcon/></a>，字节跳动云原生资深研发、前腾讯云原生技术专家。《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》图书作者，欢迎加入 <a href="http://konglingfei.com/onex/intro/intro.html" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a>，助你进阶 Go + 云原生高级开发工程师。</p>
 <p>云原生实战营最核心的一个学习内容或价值，便是实战营的实战项目：OneX 云原生实战平台（以后统称 OneX）。OneX 为了能够承载更多的知识点，设计的比较复杂，上手可能有一定难度，但是越有难度的东西，带给你的提升越大，简单的东西网上随处可见。为了降低你的学习难度，这里会从一个上帝视角对 OneX 进行介绍。</p>
 <h2 id="onex-云原生实战平台" tabindex="-1"><a class="header-anchor" href="#onex-云原生实战平台"><span>OneX 云原生实战平台</span></a></h2>
-<p><a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">OneX<ExternalLinkIcon/></a> 云原生实战平台是一个 Go 语言 + 云原生实战平台，也是一个企业级的云平台，具备超越一线大厂企业级应用的能力。该平台通过提供功能完备、规范、高质量的 Go 源码来实现代码即学习的理念，通过配套的 Go 开发课程，来降低学习难度，扩展学习深度和广度。通过专有的云原生开发社群：<a href="http://konglingfei.com/onex/intro/intro.html" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a>，来提高云原生技术学习的积极性和效率。</p>
+<p><a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">OneX<ExternalLinkIcon/></a> 云原生实战平台是一个 Go 语言 + 云原生实战平台，也是一个企业级的云平台，具备超越一线大厂企业级应用的能力。该平台通过提供功能完备、规范、高质量的 Go 源码来实现代码即学习的理念，通过配套的 Go 开发课程，来降低学习难度，扩展学习深度和广度。通过专有的云原生开发社群：<a href="/onex/intro/intro">孔令飞的云原生实战营</a>，来提高云原生技术学习的积极性和效果。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">为什么起名 OneX？</p>
-<p>OneX 寓意该实战项目具有功能全、扩展性强、灵活性高等特点。未来 OneX 会继续集成进很多跟 Go、云原生相关的功能。因为 OneX 在项目设计的时候，就考虑到了未来功能和架构的扩展，所以 OneX 未来可以无缝、丝滑的扩展很多新的功能。</p>
+<p>OneX 寓意该实战项目具有功能全、扩展性高等特点。未来 OneX 会继续集成进很多跟 Go、云原生相关的功能。因为 OneX 在项目设计的时候，就考虑到了未来功能和架构的扩展，所以 OneX 未来可以无缝、丝滑的扩展很多新的功能。</p>
 </div>
-<p>OneX GitHub 地址为：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">https://github.com/superproj/onex<ExternalLinkIcon/></a> ，建议大家先 Star，以便及时获取 OneX 的更新。对于一个优秀的开源项目，在学习过程中，顺手 Star 是一个好的习惯。当你需要再学习或者参考时，可以在你的 Star 列表中找到该项目。否则，你只能通过记忆找到这个项目。</p>
-<p>OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有近 12w 行代码，具体代码统计如下图所示：</p>
-<figure><img src="/images/OneX源码统计-水印.png" alt="OneX一期源码统计" tabindex="0" loading="lazy"><figcaption>OneX一期源码统计</figcaption></figure>
+<br/>
+<p>OneX GitHub 地址为：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">https://github.com/superproj/onex<ExternalLinkIcon/></a> <strong>建议大家先 Star，以便及时获取 OneX 的更新</strong>。对于一个优秀的开源项目，在学习过程中，顺手 Star 是一个好的习惯。当你需要再学习或者参考时，可以在你的 Star 列表中找到该项目。否则，你只能通过记忆找到这个项目。</p>
+<br/>
+<p>OneX 项目的设计，足以承载企业开发时，用到的绝大部分技能点。OneX 一期有 12w+ 行代码，具体代码统计如下图所示：</p>
+<figure><img src="/images/OneX源码统计.png" alt="OneX一期源码统计" tabindex="0" loading="lazy"><figcaption>OneX一期源码统计</figcaption></figure>
+<p>OneX 项目详细的功能列表见：<a href="https://konglingfei.com/onex/intro/feature.html" target="_blank" rel="noopener noreferrer">OneX 项目功能列表<ExternalLinkIcon/></a>。</p>
 <h2 id="onex-实战项目特点" tabindex="-1"><a class="header-anchor" href="#onex-实战项目特点"><span>OneX 实战项目特点</span></a></h2>
 <p>OneX 实战项目具有以下特点：</p>
 <ul>
@@ -21,9 +23,8 @@
 <li>微服务技术栈：分布式日志、监控告警、服务编排、调用链、负载均衡、服务治理、配置中心等。</li>
 </ul>
 </li>
-<li><strong>代码质量高：</strong> 整个项目具有很高的代码质量，包括但不限于：遵循简洁架构、代码简洁健壮、接口性能高、高可维护性、高可扩展性等；</li>
 <li><strong>项目规范：</strong> 规范先行。整个实战项目具有目录规范、代码规范、日志规范、错误码规范、文档规范、提交规范、版本规范等规范项；</li>
-<li><strong>生态闭环：</strong> 整个项目用到了 Go 开发中的绝大部分功能点、技术栈和实现方式，完全可以通过一个实战项目闭环学习整个 Go 开发技术栈。</li>
+<li><strong>技术生态闭环：</strong> 整个项目用到了 Go 开发中的绝大部分功能点、技术栈和实现方式，完全可以通过一个实战项目闭环学习整个 Go 开发技术栈。</li>
 </ul>
 <h2 id="onex-实战项目功能概述" tabindex="-1"><a class="header-anchor" href="#onex-实战项目功能概述"><span>OneX 实战项目功能概述</span></a></h2>
 <p>OneX 也是一个矿机云平台，在该平台中你可以注册用户，创建私有链，并购买矿机进行区块链挖矿。购买矿机时需要指定矿机的副本数，OneX 平台会使用声明式编程范式，确保始终有期望副本数的矿机处在健康状态，并执行挖矿任务。</p>
@@ -36,7 +37,11 @@
 <p>此外， OneX 还是一个微型的 Kubernetes 平台。学习好 OneX，等同于学习了部分 Kubernetes 源码（kube-apiserver、kube-controller-manager）。部署 OneX 平台，就等于部署了一套微型 Kubernetes。</p>
 <h2 id="onex-实战项目一期架构" tabindex="-1"><a class="header-anchor" href="#onex-实战项目一期架构"><span>OneX 实战项目一期架构</span></a></h2>
 <p>这里，我们再来看下 OneX 的实现架构。OneX 架构图如下：</p>
-<figure><img src="/images/OneX一期架构图-水印.png" alt="OneX一期架构图" tabindex="0" loading="lazy"><figcaption>OneX一期架构图</figcaption></figure>
+<figure><img src="/images/OneX架构图-水印.png" alt="OneX一期架构图" tabindex="0" loading="lazy"><figcaption>OneX一期架构图</figcaption></figure>
+<div class="hint-container info">
+<p class="hint-container-title">提示</p>
+<p>架构图中，浅黄色部分是一个微型的 K8S 实现。用 OneX 开发业务代码，其实就是将 K8S 代码和架构迁移到业务中。</p>
+</div>
 <p><strong>OneX 平台使用流程如下：</strong></p>
 <ol>
 <li>用户登录：用户通过前端登录 OneX 平台，前端会调用 onex-usercenter提供的 RESTful API 接口登录系统，登录成功（用户名：密码验证成功），后端返回 Token，前端之后通过该 Token 跟后端交互。用户可以在控制台创建一个密钥对，用来访问 onex-gateway组件；</li>
@@ -189,37 +194,37 @@
 <tr>
 <td style="text-align:center">一期</td>
 <td style="text-align:center">v1.x.x</td>
-<td style="text-align:center">2024.05.01</td>
+<td style="text-align:center">2024.04.05</td>
 <td style="text-align:left">实现绝大部分 OneX 核心功能、云原生开发、微服务技术栈</td>
 </tr>
 <tr>
 <td style="text-align:center">二期</td>
 <td style="text-align:center">v2.x.x</td>
-<td style="text-align:center">2024.12.31</td>
-<td style="text-align:left">实现以下功能：<li>OneX 脚手架工具</li><li>OneX 费用中心</li><li>Miner 健康探测</li><li>分布式 ID</li><li>配置管理</li><li>...</li></td>
+<td style="text-align:center">2025.04.05</td>
+<td style="text-align:left">实现集群运维、集群可观测性（云探）、基于事件的监控告警、监控告警、日志等</td>
 </tr>
 <tr>
 <td style="text-align:center">三期</td>
 <td style="text-align:center">v3.x.x</td>
-<td style="text-align:center">2024.12.31</td>
-<td style="text-align:left">实现集群运维、集群可观测性（云探）、基于事件的监控告警、监控告警、日志等</td>
+<td style="text-align:center">2026.04.05</td>
+<td style="text-align:left">实现以下功能：<li>OneX 脚手架工具</li><li>OneX 费用中心</li><li>Miner 健康探测</li><li>分布式 ID</li><li>配置管理</li><li>...</li></td>
 </tr>
 <tr>
 <td style="text-align:center">四期</td>
 <td style="text-align:center">v4.x.x</td>
-<td style="text-align:center">2025.12.31</td>
-<td style="text-align:left">自定义 K8S 调度器、K8S 资源管理、FinOps、在离线混布、多集群管理、多集群调度等</td>
+<td style="text-align:center">2027.04.05</td>
+<td style="text-align:left">企业级 API 网关、AIOps、ChatGPT、AI 聊天室等</td>
 </tr>
 <tr>
 <td style="text-align:center">五期</td>
 <td style="text-align:center">v5.x.x</td>
-<td style="text-align:center">2026.01.31</td>
-<td style="text-align:left">企业级 API 网关、AIOps、ChatGPT、AI 聊天室等</td>
+<td style="text-align:center">...</td>
+<td style="text-align:left">自定义 K8S 调度器、K8S 资源管理、FinOps、在离线混布、多集群管理、多集群调度等</td>
 </tr>
 <tr>
 <td style="text-align:center">六期</td>
 <td style="text-align:center">v6.x.x</td>
-<td style="text-align:center">2027.10.24</td>
+<td style="text-align:center">...</td>
 <td style="text-align:left">Rust、企业级的区块链（Go 版）、企业级的区块链（Rust 重构版）</td>
 </tr>
 </tbody>
@@ -227,8 +232,9 @@
 <p>OneX 项目在一开始就规划好了未来的功能演进，所以 OneX 项目从一期，便具有很高的可扩展性。</p>
 <ul>
 <li>一期当前已经实现；</li>
-<li>二期、三期、四期会在 2024、2025 年逐步实现；</li>
-<li>五期、六期因为实现要 2 年后，并且功能跟云原生没有太多关联，大家仅做了解，不做预期。</li>
+<li>二期会在 2025 年实现；</li>
+<li>三期会在 2026年实现；</li>
+<li>四期、五期、六期会视情况实现。</li>
 </ul>
 </div></template>
 

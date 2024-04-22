@@ -16,6 +16,17 @@ sudo: go: <span class="token builtin class-name">command</span> not found
 <li><code v-pre>command not found</code>：确认命令是否存在，如果不存在，可以重新安装命令。</li>
 <li><code v-pre>permission denied</code>：确认是否有操作权限，如果没有，要切换到有权限的用户或者目录。</li>
 </ul>
-</div></template>
+<h2 id="q-报-failed-to-parse-input-unexpected-end-of-json-input-generate-node-cert" tabindex="-1"><a class="header-anchor" href="#q-报-failed-to-parse-input-unexpected-end-of-json-input-generate-node-cert"><span>Q：报 <code v-pre>Failed to parse input: unexpected end of JSON input .*  generate-node-cert(...). *</code></span></a></h2>
+<p>该问题大概率是因为在使用 <code v-pre>cfssl</code> 工具生成证书的时候报的错，版本不匹配导致的。建议大家重新安装 <code v-pre>v1.6.1</code> 版本的 <code v-pre>cfssl</code> 工具。</p>
+<p>因为国内墙的原因，使用脚本可能会安装超时，可以手动安装。安装方法如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ <span class="token function">mkdir</span> <span class="token parameter variable">-p</span> <span class="token environment constant">$HOME</span>/bin/
+$ <span class="token function">wget</span> https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssl_1.6.1_linux_amd64 <span class="token parameter variable">-O</span> <span class="token environment constant">$HOME</span>/bin/cfssl
+$ <span class="token function">wget</span> https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssljson_1.6.1_linux_amd64 <span class="token parameter variable">-O</span> <span class="token environment constant">$HOME</span>/bin/cfssljson
+$ <span class="token function">wget</span> https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssl-certinfo_1.6.1_linux_amd64 <span class="token parameter variable">-O</span> <span class="token environment constant">$HOME</span>/bin/cfssl-certinfo
+$ <span class="token function">chmod</span> +x <span class="token environment constant">$HOME</span>/bin/<span class="token punctuation">{</span>cfssl,cfssljson,cfssl-certinfo<span class="token punctuation">}</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="q-安装-vim-ide-时报-vim-go-error-installing-golang-org-x-tools-cmd-guru-master-go-golang-org-x-tools-cmd-guru-master" tabindex="-1"><a class="header-anchor" href="#q-安装-vim-ide-时报-vim-go-error-installing-golang-org-x-tools-cmd-guru-master-go-golang-org-x-tools-cmd-guru-master"><span>Q：安装 Vim IDE 时报 <code v-pre>vim-go: Error installing golang.org/x/tools/cmd/guru@master: go: golang.org/x/tools/cmd/guru@master ....</code></span></a></h2>
+<p>可以手动安装 <code v-pre>guru</code> 工具，安装命令如下：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ go <span class="token function">install</span> golang.org/x/tools/cmd/guru@latest
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div></div></template>
 
 

@@ -1,5 +1,5 @@
 <template><div><p>本节课，会先从方法论上，给你介绍为什么要进阶为 Go + 云原生高级开发工程师，以及如何进阶。希望通过本节课，让你了解到学习云原生实战营课程的价值，以及未来如何进行技术进阶。</p>
-<p>提示：Go 高级工程师能力标准可参考 <a href="/posts/senior-go">Go 语言高级工程师能力标准</a>。</p>
+<p>提示：Go 高级工程师能力标准可参考 <RouteLink to="/posts/senior-go.html">Go 语言高级工程师能力标准</RouteLink>。</p>
 <p>本节课主要包含以下 4 个部分：</p>
 <ol>
 <li>为什么要学习 Go 语言？</li>
@@ -15,7 +15,7 @@
 <li><strong>更高的薪资待遇：</strong> Go 语言岗位多，从业者少。云原生时代，很多技术都比较前沿、门槛高，这就导致 Go + 云原生开发者的薪资相较于其他语言更高。</li>
 </ul>
 <p>上面，我给你分析了为什么要学习 Go 语言，接下来，我用一些数据再来证明学习 Go 语言的价值。</p>
-<h2 id="go-带给你更强的职业优势" tabindex="-1"><a class="header-anchor" href="#go-带给你更强的职业优势"><span>Go 带给你更强的职业优势</span></a></h2>
+<h3 id="go-带给你更强的职业优势" tabindex="-1"><a class="header-anchor" href="#go-带给你更强的职业优势"><span>Go 带给你更强的职业优势</span></a></h3>
 <p>学好 Go 语言，可以使你具有很强的职业优势。这里通过以下一些官方的调查和数据来佐证这一点：</p>
 <ol>
 <li>2021、2022 年连续两年在腾讯内部，Go 取代 C++ 成为最热门编程语言；</li>
@@ -34,17 +34,27 @@
 </li>
 <li>Go 官方组织的 <a href="https://go.dev/blog/survey2023-h2-results" target="_blank" rel="noopener noreferrer">Go 官方 2023 年调查报告<ExternalLinkIcon/></a>。</li>
 </ul>
-<p>Go 使你具备撬开云原生世界大门的能力</p>
+<h3 id="go-使你具备撬开云原生世界大门的能力" tabindex="-1"><a class="header-anchor" href="#go-使你具备撬开云原生世界大门的能力"><span>Go 使你具备撬开云原生世界大门的能力</span></a></h3>
 <p>先来看看 Go 云原生世界中有什么。完整的技术图谱可见：<a href="https://landscape.cncf.io/" target="_blank" rel="noopener noreferrer">CNCF Cloud Native Landscape<ExternalLinkIcon/></a>。为了便于你了解，我按分类列出了其中最受欢迎的一些成员及其开发语言（云原生技术栈内容很多，这里列出了我觉得重要的类别，更多类别，你可以直接参考 CNCF Cloud Native Landscape）：</p>
 <figure><img src="/images/云原生核心技术栈列表.png" alt="云原生核心技术栈列表" tabindex="0" loading="lazy"><figcaption>云原生核心技术栈列表</figcaption></figure>
 <p>上面列出的这些开源项目，在各自所属类别中，通常是标准或者事实标准。我们再来分析下这些技术栈中开源项目的语言组成：</p>
 <figure><img src="/images/云原生技术栈语言组成-水印.png" alt="云原生技术栈语言组成" tabindex="0" loading="lazy"><figcaption>云原生技术栈语言组成</figcaption></figure>
 <p>Go 语言占比 <strong>63%</strong>，占了云原生技术栈的绝大部分！所以，如果学会 Go 语言，你可以很轻松地在云原生圈子游走。</p>
-<h2 id="go-带给你更高的薪资待遇" tabindex="-1"><a class="header-anchor" href="#go-带给你更高的薪资待遇"><span>Go 带给你更高的薪资待遇</span></a></h2>
+<h3 id="go-带给你更高的薪资待遇" tabindex="-1"><a class="header-anchor" href="#go-带给你更高的薪资待遇"><span>Go 带给你更高的薪资待遇</span></a></h3>
 <p>Go 语言相关的就业薪资相比于其他语言，也很有优势（居 Java、C++、PHP、C、C#、。NET、Python、Node.js 等语言之首），下图是从 <a href="https://www.zhipin.com/salaryxc/p100116.html" target="_blank" rel="noopener noreferrer">Boss招聘平台<ExternalLinkIcon/></a>（此链接已被 Boss 关闭）进行统计的结果图示：</p>
 <figure><img src="/images/Boss招聘薪资调研.png" alt="Boss招聘薪资调研" tabindex="0" loading="lazy"><figcaption>Boss招聘薪资调研</figcaption></figure>
 <p>在《StackOverflow 开发人员调查报告 2023》中，在常用的开发语言中，只有 Go 语言的薪资进入了前十：</p>
 <figure><img src="/images/StackOverflow开发人员调查报告_2023.png" alt="StackOverflow开发人员调查报告 2023" tabindex="0" loading="lazy"><figcaption>StackOverflow开发人员调查报告 2023</figcaption></figure>
+<p>在最近的一份程序员薪资报告中，Go 的平均薪资位居榜首，平均薪资 ¥25739，Java、C++、C 分别位列 13、12、11 名，平均薪资在 ¥18000 ~ 19000 之间：</p>
+<figure><img src="/images/薪资报告.png" alt="薪资报告" tabindex="0" loading="lazy"><figcaption>薪资报告</figcaption></figure>
+<h3 id="go-发展势头强劲" tabindex="-1"><a class="header-anchor" href="#go-发展势头强劲"><span>Go 发展势头强劲</span></a></h3>
+<p>在 <a href="https://www.tiobe.com/tiobe-index/" target="_blank" rel="noopener noreferrer">TIOBE<ExternalLinkIcon/></a> 发布 2 月编程指数排行榜，Go 语言首度进入排名前 10，这也是 Go 有史以来的最高排名。具体排名见下图：</p>
+<figure><img src="/images/TIOBE_编程语言排名.png" alt="TIOBE 编程语言排名" tabindex="0" loading="lazy"><figcaption>TIOBE 编程语言排名</figcaption></figure>
+<p>相较于 2023 年，Go 语言的排名上升 2 个名次。在 2024 年，Java 占比 8.88%。Java 占比越大，意味着未来 Go 的增长空间越大。因为 Go 和 Java 作为服务端 2 大语言，有着此消彼长的关系。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>TIOBE 编程语言排名（TIOBE Index）是一种用于评估和比较编程语言流行度的指标。TIOBE 编程语言排名由 TIOBE 公司创建和维护，每月更新一次。该指数基于全球范围内编程语言的搜索引擎结果和数据，通过衡量不同编程语言的相关搜索量和使用量来评估它们的受欢迎程度。TIOBE 编程语言排名是行业内非常权威的编程语言排名。</p>
+</div>
 <h2 id="为什么要学习云原生开发" tabindex="-1"><a class="header-anchor" href="#为什么要学习云原生开发"><span>为什么要学习云原生开发？</span></a></h2>
 <p>云原生时代，涌现了一大批的理念，技术架构和开源项目（例如：Docker、Kubernetes、Prometheus 等）。通过走进云原生的圈子，我们可以学习到优秀的开发理念、编程技巧和实现方式，以此<strong>反哺我们的 Go 开发能力</strong>。</p>
 <p>另外，云原生时代，大量的新技术架构、开源项目共同实现云原生的理念，这就导致企业会额外多出很多组件，带来了维护成本。为了节省成本，提高效率，企业通常会选择将这些基础能力下沉，通过中台的形式对外提供各种能力。这些特点也产生了一个<strong>新的就业方向：基础架构开发</strong>。基础架构开发因为从业者少、门槛高等原因，也导致了，基础架构开发者的薪资普遍要比业务开发者高。</p>
@@ -96,7 +106,7 @@
 <li><strong>对具有一定 Go 编程经验的开发者来说，收益并没有最大化：</strong> 如果你是一个有丰富 Go 编程经验的 Go 语言开发者，学习这类项目，你能够顺利了解到功能、架构的实现方式，但其实功能背后的设计思考、以及相关的技术点通过阅读源码，很难获知。很多时候，背后的构建思路和思考才是最有价值的。所以，对于有一定编程经验的 Go 开发者来说，虽说没有了学习障碍，但收益却没有最大化。</li>
 </ul>
 <p>如果你只是想了解开源项目具体实现方法，可以选择直接阅读源码，简单高效。但如果你是想通过学习，来提高自己的技术能力，最好使用第 2 种方法。</p>
-<p>**第 2 种方法，学习效果最好。**这些课程一般都具有比较高的代码质量，并且你在学习项目代码的同时，配套的课程，也会讲解相关的知识、背后的思考、相关知识点、开发流程、构建技巧等来自作者一线项目开发的实战经验。所以，很适合系统性的提高你的技术能力。</p>
+<p><strong>第 2 种方法，学习效果最好。</strong> 这些课程一般都具有比较高的代码质量，并且你在学习项目代码的同时，配套的课程，也会讲解相关的知识、背后的思考、相关知识点、开发流程、构建技巧等来自作者一线项目开发的实战经验。所以，很适合系统性的提高你的技术能力。</p>
 <p>另外，这种实战课程，又在“课程复杂度”和“课程实现的项目功能” 两方面有差异。</p>
 <ul>
 <li>课程复杂度：低复杂度的课程：学习周期短，能学到很多核心项目开发知识，并能很快进行企业应用开发。但相较高复杂度的课程，从深度、广度上有所欠缺；高复杂度的课程：学习周期长，但能学到非常全面的项目开发知识。</li>
@@ -160,7 +170,7 @@
 </ul>
 <p>不过，这些开源项目只是经过了初步筛选，里面有很多是不满足我们需求的，甚至可能跟我们的需求完全不一致。所以，我们还需要进行二次筛选，可以通过精读开源项目的 README 来筛选。如果有必要，并且项目部署简单，你也可以部署这个开源项目，亲自体验一下。</p>
 <p>经过第二次的筛选，我们已经筛选出了一些能够满足要求的优秀开源项目。这时候，我们还需要再经过一轮筛选。这轮筛选，我们要从各方面来对比这些开源项目，并从中选出一个最合适的开源项目，来进行二次开发。这个开源项目，你可以自信地跟你老板说它是一个最优解。</p>
-<p>问题三：如何进行二次开发？</p>
+<h3 id="问题三-如何进行二次开发" tabindex="-1"><a class="header-anchor" href="#问题三-如何进行二次开发"><span>问题三：如何进行二次开发？</span></a></h3>
 <p>接下来，你就可以基于这个项目进行二次开发，最终出色地完成设定的需求。那么如何对选定的项目进行二次开发呢？我总结了 5 个步骤：</p>
 <ol>
 <li>手动编译、部署这个开源项目。</li>
@@ -215,7 +225,7 @@
 <h3 id="阶段二-学习云原生编程" tabindex="-1"><a class="header-anchor" href="#阶段二-学习云原生编程"><span>阶段二：学习云原生编程</span></a></h3>
 <p>在阶段一中，我们学习了核心的云原生技术栈，但这些技术栈，并不会教你怎么去进行 Kubernetes 编程。<br>
 学习 Kubernetes 编程，最好的方法是学习一门优质的 Kubernetes 编程实战课。当前行业中，优质的 Kubernetes 编程实战课并不多，这里强烈推荐你学习我的云原生编程实战课：Kubernetes 开发实战课。</p>
-<p>阶段三：进行云原生编程实战</p>
+<h3 id="阶段三-进行云原生编程实战" tabindex="-1"><a class="header-anchor" href="#阶段三-进行云原生编程实战"><span>阶段三：进行云原生编程实战</span></a></h3>
 <p>通过阶段一、阶段二，你已经具备了从事云原生开发相关的工作和能力，接下来你需要做的，就是在工作中积极主动地承担更多的云原生相关的开发工作。这里建议你根据以下顺序，找一个机会，参与到具体的云原生开发工作中，通过真正的工作实战来继续打磨你的云原生开发能力，并将所学回馈给工作：</p>
 <ol>
 <li>团队内如果有云原生相关开发工作，你可以主动为自己争取，参与其中；</li>

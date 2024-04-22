@@ -40,3 +40,25 @@ sudo: go: command not found
 - `No such file or directory`：确认文件是否存在，不存在的原因是什么。
 - `command not found`：确认命令是否存在，如果不存在，可以重新安装命令。
 - `permission denied`：确认是否有操作权限，如果没有，要切换到有权限的用户或者目录。
+
+## Q：报 `Failed to parse input: unexpected end of JSON input .*  generate-node-cert(...). *`
+
+该问题大概率是因为在使用 `cfssl` 工具生成证书的时候报的错，版本不匹配导致的。建议大家重新安装 `v1.6.1` 版本的 `cfssl` 工具。
+
+因为国内墙的原因，使用脚本可能会安装超时，可以手动安装。安装方法如下：
+
+```bash
+$ mkdir -p $HOME/bin/
+$ wget https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssl_1.6.1_linux_amd64 -O $HOME/bin/cfssl
+$ wget https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssljson_1.6.1_linux_amd64 -O $HOME/bin/cfssljson
+$ wget https://github.com/cloudflare/cfssl/releases/download/v1.6.1/cfssl-certinfo_1.6.1_linux_amd64 -O $HOME/bin/cfssl-certinfo
+$ chmod +x $HOME/bin/{cfssl,cfssljson,cfssl-certinfo}
+```
+
+## Q：安装 Vim IDE 时报 `vim-go: Error installing golang.org/x/tools/cmd/guru@master: go: golang.org/x/tools/cmd/guru@master ....`
+
+可以手动安装 `guru` 工具，安装命令如下：
+
+```bash
+$ go install golang.org/x/tools/cmd/guru@latest
+```

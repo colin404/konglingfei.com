@@ -1,4 +1,8 @@
-<template><div><p>本节课，我会详细介绍下如何一步一步通过手动操作实践去部署 OneX 系统，一窥项目部署的细节。因为在上一节课，你已经成功部署了 OneX。本节课，你可以根据需要进行选学。</p>
+<template><div><p>本文，我会详细介绍下如何一步一步通过手动操作实践去部署 OneX 系统，一窥项目部署的细节。因为在上一节课，你已经成功部署了 OneX。本节课，你可以根据需要进行选学。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">建议</p>
+<p>建议根据<RouteLink to="/onex/installation/prepare.html">Go开发环境准备</RouteLink>准备一套可用的 Go 开发环境。当然，你也可以在已有机器上部署，但可能会遇到些问题，不用担心，问题不多且可解决。</p>
+</div>
 <h2 id="一个开发课程-为什么部署和测试需要用四节课来讲" tabindex="-1"><a class="header-anchor" href="#一个开发课程-为什么部署和测试需要用四节课来讲"><span>一个开发课程，为什么部署和测试需要用四节课来讲？</span></a></h2>
 <p>你可能会问，一个开发课程，为什么会花四节课，来介绍项目是如何部署测试的？之所以要花四节课程来讲项目如何部署和测试，除了因为项目本身具有一定的复杂度之外，更重要的原因是，通过部署实战，可以让你熟悉 Linux 系统的操作、掌握 Linux 常用的命令及 Linux 系统下软件部署的方法技巧等，是很难得的一次带着目标去学习的机会。</p>
 <p>因为本课程期望达到的目标是高级 Go 开发工程师的水平，仅仅具备优秀的开发能力其实还达不到高级工程师的能力标准。高级工程师不仅要具备优秀的开发能力，还要具备架构及服务器运维、软件部署等能力。所以，我会借 OneX 项目部署的实践机会，带你熟悉和掌握 Linux 系统下软件部署的常用技能和方法，以此打磨并提高你的 Linux 系统操作、软件部署、Shell 脚本编程等能力。</p>
@@ -347,7 +351,7 @@ $ ./scripts/installation/mongo.sh onex::mongo::sbs::uninstall  <span class="toke
 </ol>
 <p>APT 源配置命令如下：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ <span class="token function">apt</span> <span class="token function">install</span> <span class="token parameter variable">-y</span> gnupg
-$ <span class="token function">wget</span> <span class="token parameter variable">-qO</span> - https://www.mongodb.org/static/pgp/server-7.0.asc <span class="token operator">|</span> <span class="token function">sudo</span> apt-  key <span class="token function">add</span> -
+$ <span class="token function">wget</span> <span class="token parameter variable">-qO</span> - https://www.mongodb.org/static/pgp/server-7.0.asc <span class="token operator">|</span> <span class="token function">sudo</span> apt-key <span class="token function">add</span> -
 $ <span class="token builtin class-name">echo</span> <span class="token string">"deb [arch=amd64,arm64] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/7.0 multiverse"</span> <span class="token operator">|</span> <span class="token function">sudo</span> <span class="token function">tee</span> /etc/apt/sources.list.d/mongodb-org-7.0.list
 $ <span class="token function">wget</span> http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb <span class="token parameter variable">-P</span> /tmp/
 $ <span class="token function">sudo</span> <span class="token parameter variable">-S</span> <span class="token parameter variable">-i</span> dpkg <span class="token parameter variable">-i</span> /tmp/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
@@ -648,7 +652,7 @@ $ <span class="token function">sudo</span> <span class="token function">cp</span
 $ <span class="token function">sudo</span> <span class="token function">cp</span> <span class="token variable">${LOCAL_OUTPUT_ROOT}</span>/systemd/* /etc/systemd/system/
 $ <span class="token function">sudo</span> systemctl daemon-reload
 $ <span class="token assign-left variable">services</span><span class="token operator">=</span><span class="token string">"onex-usercenter onex-apiserver onex-gateway onex-nightwatch onex-pump onex-toyblc onex-controller-manager onex-minerset-controller onex-miner-controller onex-fakeserver onex-cacheserver"</span>
-$ <span class="token keyword">for</span> <span class="token for-or-select variable">service</span> <span class="token keyword">in</span> <span class="token variable">$c</span><span class="token punctuation">;</span> <span class="token keyword">do</span> <span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> <span class="token variable">${service}</span><span class="token punctuation">;</span> <span class="token function">sudo</span> systemctl restart <span class="token variable">${service}</span><span class="token punctuation">;</span> <span class="token keyword">done</span>
+$ <span class="token keyword">for</span> <span class="token for-or-select variable">service</span> <span class="token keyword">in</span> <span class="token variable">${services}</span><span class="token punctuation">;</span> <span class="token keyword">do</span> <span class="token function">sudo</span> systemctl <span class="token builtin class-name">enable</span> <span class="token variable">${service}</span><span class="token punctuation">;</span> <span class="token function">sudo</span> systemctl restart <span class="token variable">${service}</span><span class="token punctuation">;</span> <span class="token keyword">done</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可以看到 OneX 虽然包含了很多组件，但安装起来还是很便捷的，这是因为项目比较规范，能够将很多内容抽象成为一个模版，并通过脚本进行统一的处理和安装。</p>
 <h4 id="onex-客户端组件安装和配置" tabindex="-1"><a class="header-anchor" href="#onex-客户端组件安装和配置"><span>OneX 客户端组件安装和配置</span></a></h4>
 <p>上面，我们安装了 OneX 服务端组件，接下来就可以安装 OneX 客户端组件了。OneX 的客户端组件是 <code v-pre>onexctl</code>，但因为访问 onex-apiserver 需要使用 <code v-pre>kubectl</code>，所以还需要安装 <code v-pre>kubectl</code>。</p>

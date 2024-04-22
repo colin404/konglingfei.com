@@ -2,6 +2,9 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   //"/demo/",
+  //{ text: "加入星球", icon: "xingqiu", link: "https://t.zsxq.com/17mjPoYGc"},
+  //{ text: "🔥加入星球", icon: "xingqiu", link: "https://t.zsxq.com/18EzGnxqr"},
+  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/18EzGnxqr"},
   {
     text: "云原生实战营",
     prefix: "/cloudnative/",
@@ -16,10 +19,18 @@ export const zhNavbar = navbar([
           ]
       },
       */
+      { 
+        text: "实战营动态", 
+        prefix: "dynamics/",
+        children:[
+          { text: "实战营课程动态", icon: "rizhi",link: "changelog" },
+        ],
+      },
       {
         text: "云原生实战营介绍",
         prefix: "intro/",
         children: [
+          { text: "知识星球创建原因", icon: "wenhao", link: "why" },
           { text: "云原生实战营介绍", icon: "circle-info", link: "intro" },
           { text: "云原生实战营目标", icon: "mubiao", link: "senior" },
         ],
@@ -29,7 +40,8 @@ export const zhNavbar = navbar([
         prefix: "catalog/",
         children: [
           { text: "Go 项目开发高阶实战课", icon: "go", link: "go" },
-          { text: "Kubernetes 开发实战课", icon: "kubernetes", link: "kubernetes" },
+          { text: "Kubernetes 源码剖析课", icon: "k8sdevel", link: "kubernetes" },
+          { text: "Kubernetes 开发实战课", icon: "kubernetes", link: "k8s-devel" },
           { text: "职业发展课", icon: "zhiyefazhan", link: "career" },
         ],
       },
@@ -38,20 +50,20 @@ export const zhNavbar = navbar([
         prefix: "advanced/",
         children: [
           { text: "如何进阶云原生高级开发", icon: "jinjie", link: "advanced" },
-          { text: "如何学习实战营课程", icon: "shuben", link: "learn" },
+          { text: "如何学习实战营课程", icon: "shuben", link: "how" },
         ],
       },
     ],
   },
   {
-    text: "云原生实战平台",
+    text: "OneX 云原生实战平台",
     icon: "onex",
     prefix: "/onex/",
     children: [
       { 
         text: "项目动态", 
         children:[
-          { text: "项目动态", icon: "gonggao",link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md" },
+          { text: "更新动态", icon: "rizhi",link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md" },
         ],
       },
       { 
@@ -66,24 +78,43 @@ export const zhNavbar = navbar([
         icon: "bushulinghuo",
         prefix: "installation/",
         children: [
+          { text: "环境准备", icon: "zhunbei",link: "prepare" },
           { text: "容器部署", icon: "docker",link: "docker" },
-          { text: "手动部署", icon: "shoudong",link: "sbs" },
-          { text: "功能测试", icon: "ceshi",link: "test" },
+          //{ text: "手动部署", icon: "shoudong",link: "sbs" },
+          //{ text: "功能测试", icon: "ceshi",link: "test" },
         ],
       },
+      /*
       {
         text: "开发指南", 
-        prefix: "devel/",
+        prefix: "/onex/devel/",
         children: [
           { text: "开发指南", icon: "zhinan", link: "devel" },
           { text: "排障指南", icon: "paizhang", link: "troubleshooting" },
-          { text: "API 接口", icon: "api", link: "http://konglingfei.com:65534/docs" },
+          { text: "API 接口", icon: "api", link: "https://app.swaggerhub.com/apis-docs/COLIN404/onex/v0.1.0" },
           { text: "常见问题", icon: "wenti", link: "faq" },
         ]
       },
+      */
     ]
   },
-  { text: "购买加入", icon: "jiaru", prefix: "/posts/",link: "1"},
+  /*
+  {
+    text: "OneX 编程规范",
+    icon: "guifan",
+    prefix: "/onex/conventions/",
+    children: [
+      { text: "日志规范", icon: "rizhi", link: "log" },
+      { text: "错误规范", icon: "cuowu", link: "error" },
+      { text: "编码规范", icon: "daima", link: "code" },
+      { text: "提交规范", icon: "tijiao", link: "commit" },
+      { text: "版本号规范", icon: "banbenhao", link: "version" },
+      { text: "Event 规范", icon: "shijian", link: "event" },
+      //{ text: "Linux 命令", icon: "guifan", link: "books" },
+      //{ text: "资源分享", icon: "luxian", link: "link" },
+    ],
+  },
+  */
   /*
   { 
     text: "购买加入", 
@@ -154,24 +185,40 @@ export const zhNavbar = navbar([
     ]
   },
   */
-  { text: "评论", icon: "pinglun", link: "/posts/comment" },
+  //{ text: "评论", icon: "pinglun", link: "/posts/comment" },
   //{ text: "B 站视频", icon: "bizhan", link: "/posts" },
+  /*
+  {
+    text: "开发手册",
+    icon: "shouce",
+    prefix: "handbook/",
+    children: [
+      { text: "Go编码规范", icon: "guifan", link: "conventions" },
+      { text: "开发工具集", icon: "gongju", link: "tools" },
+      { text: "Vim操作命令", icon: "vim", link: "vim" },
+      //{ text: "Linux 命令", icon: "guifan", link: "books" },
+      //{ text: "资源分享", icon: "luxian", link: "link" },
+    ],
+  },
+  */
   {
     text: "学习资源",
     icon: "xuexiziyuan",
     prefix: "learn/",
     children: [
       { text: "学习路线", icon: "luxian", link: "roadmap" },
-      { text: "资源下载", icon: "xiazai", link: "books" },
+      { text: "资源推荐", icon: "tuijian", link: "books" },
       //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
   },
   //{ text: "面试", icon: "mianshi", link: "/posts" },
+  /*
   { 
     text: "公众号文章", 
-    icon: "fenxiang", 
+    icon: "weixin", 
     link: "/weichat/README.md",
   },
+  */
   //{ text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*
   {
@@ -191,11 +238,14 @@ export const zhNavbar = navbar([
   },
   */
   {
-    text: "关于作者",
+    text: "作者介绍",
     icon: "zuozhe",
+    link: "/intro",
+    /*
     children: [
       { text: "作者介绍", icon: "circle-info", link: "/intro" },
       { text: "关注作者", icon: "guanzhu", link: "/posts" },
     ]
+    */
   },
 ]);

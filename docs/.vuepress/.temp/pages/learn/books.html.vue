@@ -1,6 +1,6 @@
 <template><div><h1 id="经典-it-图书分享" tabindex="-1"><a class="header-anchor" href="#经典-it-图书分享"><span>经典 IT 图书分享</span></a></h1>
 <h2 id="分享背景" tabindex="-1"><a class="header-anchor" href="#分享背景"><span>分享背景</span></a></h2>
-<p>看了一些书，学了一些技术。在技术资料选择上，有一点强迫症，喜欢搜：<strong>最好、最清</strong> 等字样，所以平日里整理了不少精品书籍，这里做了些分类分享出来。分享分为 3 类，后期会慢慢更新：</p>
+<p>毕业到现在看很多书，学了不少技术。在技术资料选择上，有一点强迫症，喜欢搜：<strong>最好、最清</strong> 等字样，所以平日里整理了不少精品书籍，这里做了些分类分享出来。分享分为 3 类，后期会慢慢更新：</p>
 <ol>
 <li><strong>经典书籍推荐：</strong> 会按类别推荐经典的书籍</li>
 <li><strong>珍藏书籍推荐：</strong> 在经典书籍中按分类推荐 1 ~ 5 本非常经典的书</li>
@@ -30,7 +30,7 @@
 </tr>
 <tr>
 <td>Kubernetes</td>
-<td><a href="https://book.douban.com/subject/33444476/" target="_blank" rel="noopener noreferrer">Kubernetes权威指南：从Docker到Kubernetes实践全接触（第4版）<ExternalLinkIcon/></a></td>
+<td><a href="https://book.douban.com/subject/35458432/" target="_blank" rel="noopener noreferrer">Kubernetes权威指南：从Docker到Kubernetes实践全接触（第5版）<ExternalLinkIcon/></a></td>
 </tr>
 <tr>
 <td>Serverless</td>
@@ -245,8 +245,8 @@
 </tr>
 <tr>
 <td>Kubernetes</td>
-<td>Kubernetes权威指南：从Docker到Kubernetes实践全接触（第4版）<br>基于Kubernetes的容器云平台实战</td>
-<td><a href="https://book.douban.com/subject/33444476/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/33444476/<ExternalLinkIcon/></a><br><a href="https://book.douban.com/subject/30333237/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/30333237/<ExternalLinkIcon/></a></td>
+<td>Kubernetes权威指南：从Docker到Kubernetes实践全接触（第5版）<br>基于Kubernetes的容器云平台实战</td>
+<td><a href="https://book.douban.com/subject/35458432/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/35458432/<ExternalLinkIcon/></a><br><a href="https://book.douban.com/subject/30333237/" target="_blank" rel="noopener noreferrer">https://book.douban.com/subject/30333237/<ExternalLinkIcon/></a></td>
 </tr>
 <tr>
 <td>Serverless</td>

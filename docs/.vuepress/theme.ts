@@ -27,7 +27,7 @@ export default hopeTheme({
   // Iconfont 精选图标 和 阿里妈妈的互斥
   // iconAssets: "iconfont",
   //iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4425847_p2wmcp4tsmj.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4425847_lax8v5sprh.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
   pure: false, 
@@ -45,8 +45,8 @@ export default hopeTheme({
   docsRepo:"https://github.com/superproj/konglingfei.com",
   // 文档源文件的仓库分支
   docsBranch: "master",
-  // lastUpdated
-  lastUpdated: true,
+  // lastUpdated，在职状态，暂时不开启
+  lastUpdated: false,
   // 编辑此页
   editLink: false,
   headerDepth: 5,
@@ -125,7 +125,7 @@ export default hopeTheme({
   },
   // 提示文字
   encryptLocales: {
-    placeholder: "微信搜‘孔令飞‘密码’获取口令",
+    placeholder: "微信搜‘令飞编程密码’获取口令",
 
     /**
      * Passwrod error hint
@@ -136,13 +136,13 @@ export default hopeTheme({
   // enable it to preview all changes in time
   // hotReload: true,
 
-  navTitle: "孔令飞的云原生实战营",
+  navTitle: "云原生实战星球",
   // 默认值: { start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }
   navbarLayout:{ 
     start: ["Brand"], 
     center: ["Links"], 
     //end: ["Language", "WeChatLink", "QQLink", "Repo","Outlook", "Search"],
-    end: ["Language", "WeChatLink", "Repo","Outlook", "Search"],
+    end: ["Language", "Repo","Outlook", "Search"],
   },
   /*
   navbarLayout: {
@@ -219,8 +219,8 @@ export default hopeTheme({
           { type: 'text', content: '👇公众号👇---👇 微信群 👇' },
           {
             path: "/",
-            title: "限时优惠",
-            content: "知识星球 7 折优惠中，<a href=https://www.example.com>欢迎加入</a>！",
+            title: "🔥 限时优惠",
+            content: "知识星球上新 85 折优惠中，早买早学习 👉 <a href=https://t.zsxq.com/19UzGVCs9>点击加入</a> ",
             /*
             actions: [
               {

@@ -8,12 +8,15 @@
 <li>微服务技术栈。</li>
 </ul>
 <h2 id="onex-功能列表-1" tabindex="-1"><a class="header-anchor" href="#onex-功能列表-1"><span>OneX 功能列表</span></a></h2>
-<p>列表详情见：<a href="https://feizaonet.feishu.cn/wiki/DtZkwxhKTi4u36kLSKNcaQBvngd#doxcndNrfzVQCvCNAke9IPsajod" target="_blank" rel="noopener noreferrer">OneX 功能列表<ExternalLinkIcon/></a></p>
-<h2 id="onex-项目中使用到的工具列表" tabindex="-1"><a class="header-anchor" href="#onex-项目中使用到的工具列表"><span>OneX 项目中使用到的工具列表</span></a></h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>以下工具绝大部分在 OneX 项目中有被使用到，其他未被使用到的工具，这里也列出，以使你了解这些个工具的可能用途。</p>
+<p>以下功能绝大部分会在 OneX 一期实现，其他功能会在二期/三期实现。</p>
 </div>
+<figure><img src="/images/OneX功能列表.png" alt="OneX功能列表" tabindex="0" loading="lazy"><figcaption>OneX功能列表</figcaption></figure>
+<h2 id="onex-项目中使用到的工具列表" tabindex="-1"><a class="header-anchor" href="#onex-项目中使用到的工具列表"><span>OneX 项目中使用到的工具列表</span></a></h2>
+<p>这里，我再将 OneX 项目中，用到的工具列举出来，通过这些工具侧面感受下 OneX 项目涉及到的内容。以下工具绝大部分在 OneX 项目中有被使用到，其他未被使用到的工具，这里也列出，以使你了解这些个工具的可能用途。</p>
+</br>
+<p>工具列表如下：</p>
 <table>
 <thead>
 <tr>
@@ -24,7 +27,7 @@
 <tbody>
 <tr>
 <td style="text-align:center">Kubernetes 代码生成工具</td>
-<td style="text-align:left"></td>
+<td style="text-align:left"><li>client-gen：生成用于与 Kubernetes API 服务器进行通信的客户端代码；</li><li>lister-gen：生成用于从 Kubernetes API 服务器读取对象列表的代码；</li><li>informer-gen：生成用于跟踪 Kubernetes API 服务器中对象变化的代码；</li><li>defaulter-gen：生成用于为 Kubernetes API 对象设置默认值的代码；</li><li>deepcopy-gen：生成用于创建 Kubernetes API 对象的深层副本的代码；</li><li>prerelease-lifecycle-gen：生成用于管理 Kubernetes API 对象的生命周期的代码；</li><li>conversion-gen：生成用于转换 Kubernetes API 对象的代码；</li><li>openapi-gen：生成用于验证 Kubernetes API 对象的 OpenAPI 模式的代码。</li></td>
 </tr>
 <tr>
 <td style="text-align:center">golangci-lint</td>
@@ -165,6 +168,26 @@
 <tr>
 <td style="text-align:center">yq</td>
 <td style="text-align:left">yq 用于在命令行中处理 YAML 文件。它可以用于查询、修改和转换 YAML 文件，提供了一种便捷的方式来处理 YAML 格式的配置文件和数据</td>
+</tr>
+<tr>
+<td style="text-align:center">minikube</td>
+<td style="text-align:left">Minikube 是一个用于在本地机器上快速搭建和运行单节点 Kubernetes 集群的工具。它可以帮助开发人员在本地环境中进行 Kubernetes 应用程序的开发、测试和调试</td>
+</tr>
+<tr>
+<td style="text-align:center">kustomize</td>
+<td style="text-align:left">Kustomize 是 Kubernetes 官方提供的一个工具，用于管理和定制 Kubernetes 部署清单（manifests）</td>
+</tr>
+<tr>
+<td style="text-align:center">go-gitlint</td>
+<td style="text-align:left">一个 Git 钩子（hook）工具，用于在 Git 提交时检查提交信息的格式和规范性</td>
+</tr>
+<tr>
+<td style="text-align:center">mockgen</td>
+<td style="text-align:left">Mockgen 是 Go 语言中的一个工具，用于自动生成接口的 Mock 实现</td>
+</tr>
+<tr>
+<td style="text-align:center">uplift</td>
+<td style="text-align:left">自动生成语义化版本号的工具</td>
 </tr>
 </tbody>
 </table>

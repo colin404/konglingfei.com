@@ -6,16 +6,20 @@ sticky: true
 star: true
 isOriginal: true
 icon: docker
-order: 1
+order: 2
 category:
   - 实战营
 tag:
   - 实战营
 ---
 
-为了尽可能多涵盖 Go 项目开发中常用的技术，OneX 项目具有一定的复杂度，这也会带来一定的部署难度。为了降低入手难度，同时让大家学习到软件部署的方法和技术，OneX 项目提供了多种不同的软件部署方式，以满足不同的部署需求。
+为了尽可能多的涵盖 Go 项目开发中常用的技术，OneX 项目具有一定的复杂度，这也会带来一定的部署难度。为了降低入手难度，同时让大家学习到软件部署的方法和技术，OneX 项目提供了多种不同的软件部署方式，以满足不同的部署需求。
 
-本节课，我会介绍这些部署方式，并在接下来的几节课中，给你详细介绍具体如何部署 OneX 项目。也希望，你不仅能把 OneX 项目部署成功，而且能从中学习到很多 Linux 下部署软件的方法和技术。
+本文，我会介绍这些部署方式，并在接下来的几节课中，给你详细介绍具体如何部署 OneX 项目。也希望，你不仅能把 OneX 项目部署成功，而且能从中学习到很多 Linux 下部署软件的方法和技术。
+
+:::tip 建议
+建议根据[Go开发环境准备](/onex/installation/prepare.md)准备一套可用的 Go                                                                          开发环境。当然，你也可以在已有机器上部署，但可能会遇到些问题，不用担心，问题不多且可解决。
+:::
 
 ## 高效学习方法之一：带着问题去学习
 
@@ -31,7 +35,7 @@ tag:
 
 当然，如果你花费了不少时间，仍然没有解决问题，也没必要继续耗费很多时间在这个问题上，这时候你可以在星球上直接向老师提问，寻求老师的帮助，尽快帮你解决学习过程中遇到的卡点。
 
-这里我也准备了一份 [OneX 排障指南](/onex/devel/troubleshooting) 供你参考。
+这里我也准备了一份 [OneX 排障指南](/onex/devel/troubleshooting.md) 供你参考。
 
 ## OneX 项目部署方式介绍
 
@@ -292,7 +296,7 @@ $ git clone https://github.com/superproj/onex
 
 ### 2. 初始化工作区
 
-本课程使用的 Go 版本为 `go1.21.5`，`go1.21.5` 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下：
+本课程使用的 Go 版本为 `go1.22.2`，`go1.22.2` 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下：
 
 ```bash
 $ cd $WORKSPACE/golang/src/github.com/superproj
@@ -314,7 +318,7 @@ $ make docker-install # 会下载 ccr.ccs.tencentyun.com/superproj/onex-allinone
 ```
 
 上述命令会按顺序依次执行以下安装操作：
-1. 安装不要的软件包，并配置 `/etc/hosts`（具体可以查看 `/etc/hosts` 新增内容）；
+1. 安装需要的软件包，并配置 `/etc/hosts`（具体可以查看 `/etc/hosts` 新增内容）；
 2. 依次安装存储组件：mariadb、redis、mongo、etcd；
 3. 依次安装其他中间件：jaeger、kafka；
 4. 安装 OneX 前准备工作：
@@ -376,6 +380,21 @@ $ make serve-swagger
 
 ![SwaggerAPI文档](/images/SwaggerAPI文档.png)
 
+## 简单测试（声明式 API）
+
+测试命令如下（需要指定 `onex-apiserver` 的 config 文件）：
+
+```bash
+$ cd ${ONEX_ROOT} # OneX 项目仓库根目录
+$ source manifests/env.local
+$ kubectl --kubeconfig=${ONEX_ADMIN_KUBECONFIG} api-resources | egrep apps.onex.io # 查看 onex-apiserver 中 onex 自定义资源
+$ kubectl --kubeconfig=${ONEX_ADMIN_KUBECONFIG} -n user-admin get minerset # 查看 minerset 资源列表
+NAME   READY   CURRENT   AVAILABLE   AGE
+test   2/2     2         2           33m
+```
+
+惊不惊喜，意不意外，没有安装任何 K8S 集群，但是却能像访问 K8S 集群一样去访问 OneX。这是因为 OneX 本身就包含了一个微型的 K8S 架构。
+
 ## 总结
 
 在开始学习 OneX 项目前，你需要先部署好 OneX 系统，给自己准备好一个开发、部署环境。OneX 提供几乎所有的安装方式：Docker快速安装、脚本自动安装、手动部署等。旨在通过不同的安装方法，让你通过动手操作，学习如何在 Linux 下部署软件。
@@ -396,3 +415,5 @@ $ make docker-install
 ```
 
 2. 阅读 Makefile `docker-install`、`docker-uninstall` 规则的实现，学习 OneX 的安装流程和实现。
+
+**更多部署方式请加入 孔令飞的云原生实战营 进行学习。**

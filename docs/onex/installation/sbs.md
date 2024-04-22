@@ -4,16 +4,21 @@ shortTitle: 手动部署
 date: 2022-03-01
 sticky: true
 star: true
+article: false
 isOriginal: true
 icon: shoudong
-order: 2
+order: 3
 category:
   - 实战营
 tag:
   - 实战营
 ---
 
-本节课，我会详细介绍下如何一步一步通过手动操作实践去部署 OneX 系统，一窥项目部署的细节。因为在上一节课，你已经成功部署了 OneX。本节课，你可以根据需要进行选学。
+本文，我会详细介绍下如何一步一步通过手动操作实践去部署 OneX 系统，一窥项目部署的细节。因为在上一节课，你已经成功部署了 OneX。本节课，你可以根据需要进行选学。
+
+:::tip 建议
+建议根据[Go开发环境准备](/onex/installation/prepare.md)准备一套可用的 Go 开发环境。当然，你也可以在已有机器上部署，但可能会遇到些问题，不用担心，问题不多且可解决。
+:::
 
 ## 一个开发课程，为什么部署和测试需要用四节课来讲？
 
@@ -524,7 +529,7 @@ APT 源配置命令如下：
 
 ```bash
 $ apt install -y gnupg
-$ wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo apt-  key add -
+$ wget -qO - https://www.mongodb.org/static/pgp/server-7.0.asc | sudo apt-key add -
 $ echo "deb [arch=amd64,arm64] https://repo.mongodb.org/apt/ubuntu bionic/mongodb-org/7.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-7.0.list
 $ wget http://archive.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2_amd64.deb -P /tmp/
 $ sudo -S -i dpkg -i /tmp/libssl1.1_1.1.1f-1ubuntu2_amd64.deb
@@ -933,7 +938,7 @@ $ sudo cp ${LOCAL_OUTPUT_ROOT}/config ${ONEX_CONFIG_DIR}/
 $ sudo cp ${LOCAL_OUTPUT_ROOT}/systemd/* /etc/systemd/system/
 $ sudo systemctl daemon-reload
 $ services="onex-usercenter onex-apiserver onex-gateway onex-nightwatch onex-pump onex-toyblc onex-controller-manager onex-minerset-controller onex-miner-controller onex-fakeserver onex-cacheserver"
-$ for service in $c; do sudo systemctl enable ${service}; sudo systemctl restart ${service}; done
+$ for service in ${services}; do sudo systemctl enable ${service}; sudo systemctl restart ${service}; done
 ```
 
 可以看到 OneX 虽然包含了很多组件，但安装起来还是很便捷的，这是因为项目比较规范，能够将很多内容抽象成为一个模版，并通过脚本进行统一的处理和安装。

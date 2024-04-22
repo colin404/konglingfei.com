@@ -2,10 +2,10 @@
 title: 经典 IT 图书分享
 shortTitle: 资料分享
 date: 2022-03-01
-icon: shuben
+icon: tuijian
 sticky: true
 star: true
-order: 1
+order: 2
 isOriginal: true
 category:
   - learn
@@ -17,7 +17,7 @@ tag:
 
 ## 分享背景
 
-看了一些书，学了一些技术。在技术资料选择上，有一点强迫症，喜欢搜：**最好、最清** 等字样，所以平日里整理了不少精品书籍，这里做了些分类分享出来。分享分为 3 类，后期会慢慢更新：
+毕业到现在看很多书，学了不少技术。在技术资料选择上，有一点强迫症，喜欢搜：**最好、最清** 等字样，所以平日里整理了不少精品书籍，这里做了些分类分享出来。分享分为 3 类，后期会慢慢更新：
 1. **经典书籍推荐：** 会按类别推荐经典的书籍
 2. **珍藏书籍推荐：** 在经典书籍中按分类推荐 1 ~ 5 本非常经典的书
 3. **按标签推荐：** 比如学习微服务需要看哪些书、学习虚拟化要看哪些书、学习容器需要看哪些书
@@ -32,7 +32,7 @@ tag:
 | ------ | ----------------------------------------------------- |
 | 微服务 | [微服务设计](https://book.douban.com/subject/26772677) |
 |   Docker     |  [《Docker 技术入门与实战》（第 3 版）](https://book.douban.com/subject/30329430/)、[《Docker容器与容器云》（第 2 版）](https://book.douban.com/subject/26894736/)                                                      |
-|    Kubernetes    |        [Kubernetes权威指南：从Docker到Kubernetes实践全接触（第4版）](https://book.douban.com/subject/33444476/)                                               |
+|    Kubernetes    |        [Kubernetes权威指南：从Docker到Kubernetes实践全接触（第5版）](https://book.douban.com/subject/35458432/)                                               |
 |     Serverless   |    [Knative Documentation](https://knative.dev/docs/)                                                     |
 |   KVM     |   [KVM 虚拟化技术 : 实战与原理解析](https://book.douban.com/subject/25743939/)                                                    |
 |  监控告警      |       [Prometheus Documentation](https://prometheus.io/docs/introduction/overview/)                                                 |
@@ -83,7 +83,7 @@ tag:
 |虚拟化原理|系统虚拟化 : 原理与实现|https://book.douban.com/subject/3619896/|
 |KVM|KVM虚拟化技术 : 实战与原理解析|https://book.douban.com/subject/25743939/|
 |Docker|Docker技术入门与实战（第3版）<br>Docker 容器与容器云（第2版）|https://book.douban.com/subject/30329430/<br>https://book.douban.com/subject/26894736/|
-|Kubernetes|Kubernetes权威指南：从Docker到Kubernetes实践全接触（第4版）<br>基于Kubernetes的容器云平台实战|https://book.douban.com/subject/33444476/<br>https://book.douban.com/subject/30333237/|
+|Kubernetes|Kubernetes权威指南：从Docker到Kubernetes实践全接触（第5版）<br>基于Kubernetes的容器云平台实战|https://book.douban.com/subject/35458432/<br>https://book.douban.com/subject/30333237/|
 |Serverless|Serverless架构：从原理、设计到项目实战<br>Serverless架构：无服务器应用与AWS Lambda|我们团队刘宇大佬写的一本书，没有盗版PDF<br>https://book.douban.com/subject/30290516/|
 |微服务|微服务架构与实践（第1版）<br>微服务设计|https://book.douban.com/subject/26693152/<br>https://book.douban.com/subject/26772677/|
 |ServiceMesh|云原生服务网格Istio：原理、实践、架构与源码解析|https://book.douban.com/subject/34438220/|

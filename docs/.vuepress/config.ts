@@ -41,7 +41,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "孔令飞的云原生实战营",
+      title: "云原生实战星球",
       description: "分享Go和云原生相关的技术栈",
     },
     /*

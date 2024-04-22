@@ -5,7 +5,7 @@ icon: mulu
 index: false
 dir:
   collapsible: false
-  order: 2
+  order: 3
 ---
 
 <Catalog />

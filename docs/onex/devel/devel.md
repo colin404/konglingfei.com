@@ -56,7 +56,7 @@ OneX 项目提供了丰富、便捷的代码编译方法，来满足不同场景
 ```bash
 $ make build BINS=onex-usercenter # 编译单个：编译 onex-usercenter 组件
 $ make build BINS="onex-usercenter onex-gateway" # 编译多个：编译 onex-usercenter, onex-gateway 组件
-$ make buid # 编译所有：会编译 cmd/ 目录下的所有 main 文件
+$ make build # 编译所有：会编译 cmd/ 目录下的所有 main 文件
 $ make build BINS=onex-usercenter VERSION=v0.1.0 # 编译时，通过指定 VERSION 变量，指定版本
 ```
 
@@ -82,7 +82,7 @@ export PATH=${ONEX_ROOT}/_output/platforms/linux/amd64:${ONEX_ROOT}/scripts:$PAT
 ```bash
 $ mksuger.sh uc # 等效于 make build BINS=onex-usercenter
 $ mksuger.sh uc gw # 等效于 make build BINS="onex-usercenter onex-gateway"
-$ mksuger.sh # 等效于 make buid
+$ mksuger.sh # 等效于 make build
 $ mksuger.sh uc -v v0.1.0 # 等效于 make build BINS=onex-usercenter VERSION=v0.1.0
 ```
 

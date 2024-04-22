@@ -3,8 +3,8 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/onex/": [
     {
-      text: '项目动态',
-      icon: 'gonggao',
+      text: '更新日志',
+      icon: 'rizhi',
       link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md",
     },
     {
@@ -19,8 +19,10 @@ export const zhSidebar = sidebar({
       icon: 'bushulinghuo',
       prefix: 'installation/',
       collapsible: false,
-      children: [ 'docker','sbs','test'],
+      //children: [ 'prepare', 'docker','sbs','test'],
+      children: [ 'prepare', 'docker'],
     },
+    /*
     {
       text: '开发指南',
       icon: 'zhinan3',
@@ -33,6 +35,23 @@ export const zhSidebar = sidebar({
         'faq',
       ],
     },
+    {
+      text: '编程规范',
+      icon: 'guifan',
+      prefix: 'conventions/',
+      collapsible: false,
+      children: [ 
+        'log', 
+        'error',
+        'code',
+        'commit',
+        'version',
+        'event',
+      ],
+    },
+    */
   ],
   "/cloudnative/": "structure",
+  "/learn/": "structure",
+  "/handbook/": "structure",
 });

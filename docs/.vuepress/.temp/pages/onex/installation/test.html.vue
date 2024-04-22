@@ -665,7 +665,7 @@ NAME   REPLICAS   DISPLAYNAME    CREATED
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结"><span>总结</span></a></h2>
 <p>我们可以通过测试，来体验和学习 OneX 项目提供的各类功能。这有助于我们全面了解 OneX 实战项目。本节课，分别给你展示了如何使用 Postman 和curl命令行工具，来测试 OneX 各个组件的功能。通过详细测试，OneX 中的每一个组件，来给你介绍了每一个组件的功能和使用方式。</p>
 <p>OneX 项目的 Postman API 接口可以参考：<a href="https://www.postman.com/gold-crater-394532/workspace/onex/overview%E3%80%82" target="_blank" rel="noopener noreferrer">https://www.postman.com/gold-crater-394532/workspace/onex/overview。<ExternalLinkIcon/></a></p>
-<p>OneX 项目的 RESTful API 接口请访问：<a href="http://konglingfei.com:65534/docs" target="_blank" rel="noopener noreferrer">OneX API 接口<ExternalLinkIcon/></a>。</p>
+<p>OneX 项目的 RESTful API 接口请访问：<a href="https://konglingfei.com:65534/docs" target="_blank" rel="noopener noreferrer">OneX API 接口<ExternalLinkIcon/></a>。</p>
 <h2 id="课后练习" tabindex="-1"><a class="header-anchor" href="#课后练习"><span>课后练习</span></a></h2>
 <ol>
 <li>请分别设计并测试 onex-fakeserver、onex-cacheserver是否被成功安装；</li>

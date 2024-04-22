@@ -1,5 +1,9 @@
-<template><div><p>为了尽可能多涵盖 Go 项目开发中常用的技术，OneX 项目具有一定的复杂度，这也会带来一定的部署难度。为了降低入手难度，同时让大家学习到软件部署的方法和技术，OneX 项目提供了多种不同的软件部署方式，以满足不同的部署需求。</p>
-<p>本节课，我会介绍这些部署方式，并在接下来的几节课中，给你详细介绍具体如何部署 OneX 项目。也希望，你不仅能把 OneX 项目部署成功，而且能从中学习到很多 Linux 下部署软件的方法和技术。</p>
+<template><div><p>为了尽可能多的涵盖 Go 项目开发中常用的技术，OneX 项目具有一定的复杂度，这也会带来一定的部署难度。为了降低入手难度，同时让大家学习到软件部署的方法和技术，OneX 项目提供了多种不同的软件部署方式，以满足不同的部署需求。</p>
+<p>本文，我会介绍这些部署方式，并在接下来的几节课中，给你详细介绍具体如何部署 OneX 项目。也希望，你不仅能把 OneX 项目部署成功，而且能从中学习到很多 Linux 下部署软件的方法和技术。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">建议</p>
+<p>建议根据<RouteLink to="/onex/installation/prepare.html">Go开发环境准备</RouteLink>准备一套可用的 Go                                                                          开发环境。当然，你也可以在已有机器上部署，但可能会遇到些问题，不用担心，问题不多且可解决。</p>
+</div>
 <h2 id="高效学习方法之一-带着问题去学习" tabindex="-1"><a class="header-anchor" href="#高效学习方法之一-带着问题去学习"><span>高效学习方法之一：带着问题去学习</span></a></h2>
 <p>在开始部署之前，我想先分享一个高效的学习方法：问题驱动型学习方式。</p>
 <p>在部署 OneX 项目的过程中，因为部署环境、网络环境、开发水平等差异，会导致在部署过程中，可能会遇到各种各样的问题。这些问题，可能会给你带来一些学习难度，甚至想放弃的念头。那么如何对待这些问题呢？请看一下我的想法。</p>
@@ -7,7 +11,7 @@
 <p>其次，部署过程中遇到的问题，其实是非常好的学习入手点。我们可以带着这些问题，在互联网上调研问题可能出现的原因、解决方法，并最终解决这些问题。这个过程就是带着问题去学习，会极大的提高你的学习效率，扩展你的知识面，并且你对知识的理解程度、记忆深度都比正常的阅读型学习要深刻的多。如果，你在部署的过程中，发现项目脚本、代码出现问题，导致部署失败，你也可以积极提交 PR，修复这个Bug。未来找工作时，如果你觉得简历内容太少，想丰富一下，你也许可以加上一句：热爱开源，参与过开源项目的代码贡献等。</p>
 <p>所以，如果部署过程中遇到问题，建议先尝试在互联网上查找问题可能出现的原因，并尝试解决问题。最简单的方法，就是将错误信息粘贴到 Google / Baidu 上，寻找具有相同错误的帖子/文章，看下这些帖子/文章中有没有相匹配的解决方法。在查找/解决问题的过程中，我们会学习到很多新的知识，这些知识是对我们解决问题的奖励。</p>
 <p>当然，如果你花费了不少时间，仍然没有解决问题，也没必要继续耗费很多时间在这个问题上，这时候你可以在星球上直接向老师提问，寻求老师的帮助，尽快帮你解决学习过程中遇到的卡点。</p>
-<p>这里我也准备了一份 <a href="/onex/devel/troubleshooting">OneX 排障指南</a> 供你参考。</p>
+<p>这里我也准备了一份 <RouteLink to="/onex/devel/troubleshooting.html">OneX 排障指南</RouteLink> 供你参考。</p>
 <h2 id="onex-项目部署方式介绍" tabindex="-1"><a class="header-anchor" href="#onex-项目部署方式介绍"><span>OneX 项目部署方式介绍</span></a></h2>
 <p>OneX 项目提供了 6 种部署方式，这些部署方式分别适用于不同的场景，并带来不同的收益。不同的部署方式，也会从不同的维度，去丰富你的运维知识、组件部署技能。这些部署方式如下图所示：</p>
 <figure><img src="/images/OneX项目部署方式-水印.png" alt="OneX项目部署方式" tabindex="0" loading="lazy"><figcaption>OneX项目部署方式</figcaption></figure>
@@ -192,7 +196,7 @@ EOF</span>
 $ <span class="token builtin class-name">cd</span> <span class="token variable">$WORKSPACE</span>/golang/src/github.com/superproj
 $ <span class="token function">git</span> clone https://github.com/superproj/onex
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h3 id="_2-初始化工作区" tabindex="-1"><a class="header-anchor" href="#_2-初始化工作区"><span>2. 初始化工作区</span></a></h3>
-<p>本课程使用的 Go 版本为 <code v-pre>go1.21.5</code>，<code v-pre>go1.21.5</code> 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下：</p>
+<p>本课程使用的 Go 版本为 <code v-pre>go1.22.2</code>，<code v-pre>go1.22.2</code> 支持多模块工作区，所以这里也需要初始化工作区。初始化命令如下：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ <span class="token builtin class-name">cd</span> <span class="token variable">$WORKSPACE</span>/golang/src/github.com/superproj
 $ go work init
 $ go <span class="token function">env</span> GOWORK <span class="token comment"># 执行此命令，查看 go.work 工作区文件路径</span>
@@ -207,7 +211,7 @@ $ go work use ./onex/
 $ <span class="token function">make</span> docker-install <span class="token comment"># 会下载 ccr.ccs.tencentyun.com/superproj/onex-allinone-amd64:v0.1.0 镜像，并启动</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><p>上述命令会按顺序依次执行以下安装操作：</p>
 <ol>
-<li>安装不要的软件包，并配置 <code v-pre>/etc/hosts</code>（具体可以查看 <code v-pre>/etc/hosts</code> 新增内容）；</li>
+<li>安装需要的软件包，并配置 <code v-pre>/etc/hosts</code>（具体可以查看 <code v-pre>/etc/hosts</code> 新增内容）；</li>
 <li>依次安装存储组件：mariadb、redis、mongo、etcd；</li>
 <li>依次安装其他中间件：jaeger、kafka；</li>
 <li>安装 OneX 前准备工作：</li>
@@ -245,6 +249,15 @@ $ <span class="token function">make</span> serve-swagger
 <span class="token number">2024</span>/01/16 <span class="token number">22</span>:42:12 serving docs at http://localhost:65534/docs
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>之后，你可以通过 <code v-pre>http://localhost:65534/docs</code> 来访问 Swagger API 文档：</p>
 <figure><img src="/images/SwaggerAPI文档.png" alt="SwaggerAPI文档" tabindex="0" loading="lazy"><figcaption>SwaggerAPI文档</figcaption></figure>
+<h2 id="简单测试-声明式-api" tabindex="-1"><a class="header-anchor" href="#简单测试-声明式-api"><span>简单测试（声明式 API）</span></a></h2>
+<p>测试命令如下（需要指定 <code v-pre>onex-apiserver</code> 的 config 文件）：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ <span class="token builtin class-name">cd</span> <span class="token variable">${ONEX_ROOT}</span> <span class="token comment"># OneX 项目仓库根目录</span>
+$ <span class="token builtin class-name">source</span> manifests/env.local
+$ kubectl <span class="token parameter variable">--kubeconfig</span><span class="token operator">=</span><span class="token variable">${ONEX_ADMIN_KUBECONFIG}</span> api-resources <span class="token operator">|</span> <span class="token function">egrep</span> apps.onex.io <span class="token comment"># 查看 onex-apiserver 中 onex 自定义资源</span>
+$ kubectl <span class="token parameter variable">--kubeconfig</span><span class="token operator">=</span><span class="token variable">${ONEX_ADMIN_KUBECONFIG}</span> <span class="token parameter variable">-n</span> user-admin get minerset <span class="token comment"># 查看 minerset 资源列表</span>
+NAME   READY   CURRENT   AVAILABLE   AGE
+<span class="token builtin class-name">test</span>   <span class="token number">2</span>/2     <span class="token number">2</span>         <span class="token number">2</span>           33m
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>惊不惊喜，意不意外，没有安装任何 K8S 集群，但是却能像访问 K8S 集群一样去访问 OneX。这是因为 OneX 本身就包含了一个微型的 K8S 架构。</p>
 <h2 id="总结" tabindex="-1"><a class="header-anchor" href="#总结"><span>总结</span></a></h2>
 <p>在开始学习 OneX 项目前，你需要先部署好 OneX 系统，给自己准备好一个开发、部署环境。OneX 提供几乎所有的安装方式：Docker快速安装、脚本自动安装、手动部署等。旨在通过不同的安装方法，让你通过动手操作，学习如何在 Linux 下部署软件。</p>
 <p>本节课，安装 OneX 最便捷的方法是容器化安装，命令如下：</p>
@@ -258,6 +271,7 @@ $ <span class="token function">make</span> docker-install
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
 <li>阅读 Makefile <code v-pre>docker-install</code>、<code v-pre>docker-uninstall</code> 规则的实现，学习 OneX 的安装流程和实现。</li>
 </ol>
+<p><strong>更多部署方式请加入 孔令飞的云原生实战营 进行学习。</strong></p>
 </div></template>
 
 

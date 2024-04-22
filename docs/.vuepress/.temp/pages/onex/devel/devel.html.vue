@@ -36,7 +36,7 @@
 <p>编译命令如下：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ <span class="token function">make</span> build <span class="token assign-left variable">BINS</span><span class="token operator">=</span>onex-usercenter <span class="token comment"># 编译单个：编译 onex-usercenter 组件</span>
 $ <span class="token function">make</span> build <span class="token assign-left variable">BINS</span><span class="token operator">=</span><span class="token string">"onex-usercenter onex-gateway"</span> <span class="token comment"># 编译多个：编译 onex-usercenter, onex-gateway 组件</span>
-$ <span class="token function">make</span> buid <span class="token comment"># 编译所有：会编译 cmd/ 目录下的所有 main 文件</span>
+$ <span class="token function">make</span> build <span class="token comment"># 编译所有：会编译 cmd/ 目录下的所有 main 文件</span>
 $ <span class="token function">make</span> build <span class="token assign-left variable">BINS</span><span class="token operator">=</span>onex-usercenter <span class="token assign-left variable">VERSION</span><span class="token operator">=</span>v0.1.0 <span class="token comment"># 编译时，通过指定 VERSION 变量，指定版本</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
 <li>使用脚本快捷编译</li>
@@ -57,7 +57,7 @@ $ <span class="token function">make</span> build <span class="token assign-left 
 <p>所以，如果你想更快捷的编译源码，可以选择使用以下命令中的一个：</p>
 <div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ mksuger.sh uc <span class="token comment"># 等效于 make build BINS=onex-usercenter</span>
 $ mksuger.sh uc gw <span class="token comment"># 等效于 make build BINS="onex-usercenter onex-gateway"</span>
-$ mksuger.sh <span class="token comment"># 等效于 make buid</span>
+$ mksuger.sh <span class="token comment"># 等效于 make build</span>
 $ mksuger.sh uc <span class="token parameter variable">-v</span> v0.1.0 <span class="token comment"># 等效于 make build BINS=onex-usercenter VERSION=v0.1.0</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>可以看到开发中，最频繁的编译动作被封装成了一个 <code v-pre>mksuger.sh</code> 脚本，只需要执行很短的命令行，便能够更具需要编译组件。这可以极大的提高我们的开发效率和体验。</p>
 <p>这里只是提高开发效率的一个示例，在你的日常开发中，建议你通过发现、思考将一些开发工作或者操作，通过脚本或者其他工具来实现自动化，以提高你的开发效率和体验。在 OneX 项目中，你会看到很多，这种提高效率的案例。</p>

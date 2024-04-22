@@ -21,10 +21,10 @@ export default defineClientConfig({
   },
   setup: () => {
     useStyleTag(`\
-@import url("//at.alicdn.com/t/c/font_4425847_p2wmcp4tsmj.css");
+@import url("//at.alicdn.com/t/c/font_4425847_lax8v5sprh.css");
 `);
   },
   rootComponents: [
-    () => h(Notice, { config: [{"noticeKey":"2024.1.1","path":"/en","title":"Coming in <b>2024.1.1</b>","content":"<ul><li>Custom toolbar</li></ul><div class=\"addthis_inline_follow_toolbox\"></div>","actions":[{"text":"Learn more→","link":"/en/guide/history.html#_2024-1-2","type":"primary"}],"showOnce":true},{"noticeKey":"2024.1.4","path":"/","title":"限时优惠","content":"知识星球 7 折优惠中，<a href=https://www.example.com>欢迎加入</a>！","showOnce":false},{"type":"text","content":"👇公众号👇---👇 微信群 👇"}] }),
+    () => h(Notice, { config: [{"noticeKey":"2024.1.1","path":"/en","title":"Coming in <b>2024.1.1</b>","content":"<ul><li>Custom toolbar</li></ul><div class=\"addthis_inline_follow_toolbox\"></div>","actions":[{"text":"Learn more→","link":"/en/guide/history.html#_2024-1-2","type":"primary"}],"showOnce":true},{"noticeKey":"2024.1.4","path":"/","title":"🔥 限时优惠","content":"知识星球上新 85 折优惠中，早买早学习 👉 <a href=https://t.zsxq.com/19qSRJQLA>点击加入</a> ","showOnce":false},{"type":"text","content":"👇公众号👇---👇 微信群 👇"}] }),
   ],
 });

@@ -1,5 +1,5 @@
 <template><div><h1 id="go-语言高级工程师能力标准" tabindex="-1"><a class="header-anchor" href="#go-语言高级工程师能力标准"><span>Go 语言高级工程师能力标准</span></a></h1>
-<p><a href="http://konglingfei.com/cloudnative/intro.html" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a>的一个核心课程目标是零基础带你进阶为 Go 语言高级工程师。那么 Go 语言高级工程师如何定义呢？需要具备哪些能力？本文就来详细介绍下。</p>
+<p><RouteLink to="/cloudnative/intro/intro.html">云原生实战营</RouteLink>的一个核心课程目标是零基础带你进阶为 Go 语言高级工程师。那么 Go 语言高级工程师如何定义呢？需要具备哪些能力？本文就来详细介绍下。</p>
 <!--more-->
 <p>因为每个公司对 Go 语言高级工程师的定义不一样。为了给出一个相对靠谱的定义，这里我调研了一线互联网大厂腾讯对高级工程师的要求。</p>
 <p>在调研了腾讯 &gt; 60个高级工程师（T9、T10、T11）岗位的任职要求，并结合我大量的面试经验和行业经验之后，我总结出了高级工程师的能力标准。能力标准分为以下 3 部分：</p>

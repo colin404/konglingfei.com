@@ -5,7 +5,7 @@ index: false
 icon: jieshao
 dir:
   collapsible: false
-  order: 1
+  order: 2
 ---
 
 <Catalog />
