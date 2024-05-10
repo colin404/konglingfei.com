@@ -958,6 +958,18 @@ $ sudo mv kubectl /usr/bin/
 $ kubectl version --client --output=yaml # 验证 kubectl 是否安装成功
 ```
 
+**重点：** 如果你想访问 onex-apiserver，需要设置 `KUBECONFIG` 为 onex-apiserver 的配置文件。可以执行以下命令来设置：
+
+```bash
+export KUBECONFIG=/opt/onex/etc/config
+```
+
+或者：
+
+```bash
+$ kubectl --kubeconfig=/opt/onex/etc/config get minerset -A
+```
+
 2. `onexctl` 安装
 
 执行以下命令安装：

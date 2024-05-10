@@ -80,11 +80,10 @@ export const zhNavbar = navbar([
         children: [
           { text: "环境准备", icon: "zhunbei",link: "prepare" },
           { text: "容器部署", icon: "docker",link: "docker" },
-          //{ text: "手动部署", icon: "shoudong",link: "sbs" },
-          //{ text: "功能测试", icon: "ceshi",link: "test" },
+          { text: "手动部署", icon: "shoudong",link: "sbs" },
+          { text: "功能测试", icon: "ceshi",link: "test" },
         ],
       },
-      /*
       {
         text: "开发指南", 
         prefix: "/onex/devel/",
@@ -95,7 +94,6 @@ export const zhNavbar = navbar([
           { text: "常见问题", icon: "wenti", link: "faq" },
         ]
       },
-      */
     ]
   },
   /*

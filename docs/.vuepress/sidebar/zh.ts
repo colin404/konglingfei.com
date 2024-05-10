@@ -19,10 +19,8 @@ export const zhSidebar = sidebar({
       icon: 'bushulinghuo',
       prefix: 'installation/',
       collapsible: false,
-      //children: [ 'prepare', 'docker','sbs','test'],
-      children: [ 'prepare', 'docker'],
+      children: [ 'prepare', 'docker','sbs','test'],
     },
-    /*
     {
       text: '开发指南',
       icon: 'zhinan3',
@@ -35,6 +33,7 @@ export const zhSidebar = sidebar({
         'faq',
       ],
     },
+    /*
     {
       text: '编程规范',
       icon: 'guifan',

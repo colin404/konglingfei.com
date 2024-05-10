@@ -664,7 +664,11 @@ $ <span class="token keyword">for</span> <span class="token for-or-select variab
 $ <span class="token function">chmod</span> +x kubectl
 $ <span class="token function">sudo</span> <span class="token function">mv</span> kubectl /usr/bin/
 $ kubectl version <span class="token parameter variable">--client</span> <span class="token parameter variable">--output</span><span class="token operator">=</span>yaml <span class="token comment"># 验证 kubectl 是否安装成功</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ol start="2">
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p><strong>重点：</strong> 如果你想访问 onex-apiserver，需要设置 <code v-pre>KUBECONFIG</code> 为 onex-apiserver 的配置文件。可以执行以下命令来设置：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code><span class="token builtin class-name">export</span> <span class="token assign-left variable">KUBECONFIG</span><span class="token operator">=</span>/opt/onex/etc/config
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><p>或者：</p>
+<div class="language-bash line-numbers-mode" data-ext="sh" data-title="sh"><pre v-pre class="language-bash"><code>$ kubectl <span class="token parameter variable">--kubeconfig</span><span class="token operator">=</span>/opt/onex/etc/config get minerset <span class="token parameter variable">-A</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><ol start="2">
 <li><code v-pre>onexctl</code> 安装</li>
 </ol>
 <p>执行以下命令安装：</p>
