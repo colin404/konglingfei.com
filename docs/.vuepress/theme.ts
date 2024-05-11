@@ -223,7 +223,7 @@ export default hopeTheme({
           {
             path: "/",
             title: "🔥 限时优惠",
-            content: "知识星球上新 85 折优惠中，早买早学习 👉 <a href=https://t.zsxq.com/19UzGVCs9>点击加入</a> ",
+            content: "知识星球上新 85 折优惠中 👉 <a href=https://t.zsxq.com/19UzGVCs9>点击加入</a> ",
             /*
             actions: [
               {
