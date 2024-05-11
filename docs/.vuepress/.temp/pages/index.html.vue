@@ -30,14 +30,14 @@
 </ul>
 <h2 id="欢迎关注" tabindex="-1"><a class="header-anchor" href="#欢迎关注"><span>👉 欢迎关注</span></a></h2>
 <ul>
-<li>欢迎关注公众号【<a href="https://mp.weixin.qq.com/s/KEnHofWkxBSO2d_25tf8RA" target="_blank" rel="noopener noreferrer">令飞编程<ExternalLinkIcon/></a>】，干货不错过：
+<li>欢迎关注公众号我的公众号，干货不错过：
 <ul>
 <li>回复【资料】免费获取全套 Go + 云原生学习资料；</li>
 <li>回复【好友】加我微信，拉您进入技术交流群，免费 1V1 技术交流；</li>
 </ul>
 </li>
 </ul>
-<img src="/images/contact/令飞编程.png" alt="fenxiang" style="display: block;width:800px;height:auto;margin-left: 0;margin-right:auto;">
+<img src="/images/contact/令飞编程.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
 </div></template>
 
 

@@ -210,13 +210,11 @@ export const zhNavbar = navbar([
     ],
   },
   //{ text: "面试", icon: "mianshi", link: "/posts" },
-  /*
   { 
-    text: "公众号文章", 
+    text: "技术分享", 
     icon: "weixin", 
-    link: "/weichat/README.md",
+    link: "/wechat/README.md",
   },
-  */
   //{ text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*
   {
