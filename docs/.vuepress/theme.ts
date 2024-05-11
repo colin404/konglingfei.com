@@ -33,7 +33,7 @@ export default hopeTheme({
   pure: false, 
   print: false, // 是否在桌面模式下显示打印按钮
 
-  logo: "/cloudnative-orange.svg",
+  logo: "/cloudnative-blue.svg",
 
   repo: "https://github.com/superproj/onex",
   // 项目仓库标签
@@ -156,8 +156,11 @@ export default hopeTheme({
     sitemap: true,
     // 启用博客
     blog: false,
-    //catalog : true,
-
+    catalog : true,
+    // 启用水印
+    watermark: true,
+    // 启用 SEO 优化
+    seo: true,
 
     // 该插件会监听页面滚动事件。
     // 当页面滚动至某个 标题锚点 后，如果存在对应的 标题链接 ，那么该插件会将路由 Hash 更改为该 标题锚点 。
@@ -378,10 +381,10 @@ export default hopeTheme({
         color: "#ffffff",
       },
       manifest: {
-        name: "Mr.Hope 的个人博客",
-        short_name: "Mr.Hope Blog",
-        description: "Mr.Hope 的个人博客",
-        theme_color: "#5c92d1",
+        name: "孔令飞的个人博客",
+        short_name: "孔令飞的个人博客",
+        description: "孔令飞的个人博客",
+        theme_color: "#034fd8",
         icons: [
           {
             src: "/assets/icon/chrome-mask-512.png",

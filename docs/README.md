@@ -4,7 +4,7 @@ home: true
 icon: home
 title: 主页
 heroText: 云原生实战星球
-heroImage: /cloudnative-orange.svg
+heroImage: /cloudnative-blue.svg
 tagline: 一个助你进阶为 Go + 云原生高级开发的知识星球<br/><br/><font color="gray" size="4.5" face="KaiTi">行业精品课，加入不后悔！</font>
 actions:
   - text: 实战营介绍

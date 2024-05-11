@@ -1,4 +1,6 @@
 import { defineUserConfig } from "vuepress";
+import { defineUserConfig } from "vuepress/cli";
+import { getDirname, path } from "vuepress/utils";
 import { appendDatePlugin } from "vuepress-plugin-append-date";
 import { autoCatalogPlugin } from "vuepress-plugin-auto-catalog";
 import { gitPlugin } from '@vuepress/plugin-git'
@@ -34,8 +36,7 @@ export default defineUserConfig({
       },
     ],
     ['meta', {name: 'application-name', content: 'jt808'}],
-    //['meta', {name: 'theme-color', content: '#3eaf7c'}],
-    ['meta', {name: 'theme-color', content: '#FF8800'}],
+    ['meta', {name: 'theme-color', content: '#034fd8'}],
   ],
 
   locales: {
