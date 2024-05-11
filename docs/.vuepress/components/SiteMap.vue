@@ -7,8 +7,9 @@
         <h4>
           <div class="sitemap-top-title">{{ navbar.name }}</div>
           <span>
-            <a :href="v.href" class="sitemap-top-link" v-for="v of navbar.rightLinks.reverse()" :key="v.text">
-              {{ v.text }}</a>
+            <RouteLink :target="v.href.startsWith('http') ? '_blank' : ''" class="sitemap-top-link"
+              v-for="v of navbar.rightLinks.reverse()" :key="v.text" :to="v.href" :title="v.text">
+              {{ v.text }}</RouteLink>
           </span>
         </h4>
 
@@ -19,17 +20,18 @@
             </td>
             <td class="sitemap-col-item-group">
               <div class="sitemap-col-item" v-for="v of item.items" :key="v.title">
-                <a :href="v.href" target="_blank" :title="v.title">
+                <RouteLink :to="v.href" :target="v.href.startsWith('http') ? '_blank' : ''" :title="v.title">
                   {{ v.title }}
-                  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100"
-                    width="15" height="15" class="icon outbound">
+                  <svg v-if="v.href.startsWith('http')" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px"
+                    y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound">
                     <path fill="currentColor"
                       d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z">
                     </path>
                     <polygon fill="currentColor"
                       points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9">
                     </polygon>
-                  </svg></a>
+                  </svg>
+                </RouteLink>
               </div>
             </td>
           </tr>
@@ -41,7 +43,7 @@
 
 <script setup>
 const item = {
-  name: "站点导航",
+  name: "站点图",
   icon: "/assets/images/sitemap.png",
 }
 
@@ -53,13 +55,13 @@ const navbar = {
       href: '/intro.md',
     },
   ],
-}
+} 
 
 const list = [{
   title: '常用搜索',
   items: [{
-    title: '百度1',
-    href: '/intro.md',
+    title: '百度',
+    href: '/cloudnative/dynamics/changelog.html',
   }, {
     title: 'Google',
     href: 'http://www.google.com/',
@@ -173,7 +175,7 @@ const list = [{
   title: '面向对象',
   items: [{
     title: '百度',
-    href: 'http://www.baidu.com/',
+    href: '/cloudnative/dynamics/changelog',
   }, {
     title: 'Google',
     href: 'http://www.google.com/',
@@ -305,7 +307,6 @@ const list = [{
   cursor: auto;
   position: absolute;
   color: #2c3e50;
-  left: 100%;
   bottom: -30px;
   min-height: 500px;
   padding: 0 10px;
@@ -314,9 +315,14 @@ const list = [{
   box-shadow: 1px -2px 10px 7px rgba(0, 0, 0, 0.08);
   border-radius: 4px;
   left: unset;
-  right: 100%;
+  right: 98%;
   margin-right: 2px;
   margin-left: 0;
+  z-index: 1;
+}
+
+.disseminate-item-content:hover {
+  display: block;
 }
 
 .disseminate-item:hover .disseminate-item-content {
@@ -339,7 +345,7 @@ const list = [{
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #eaecef;
-  background: #42b983;
+  background: #3370FF;
   color: #fff;
 }
 
@@ -396,7 +402,7 @@ const list = [{
 
 .sitemap-col-item,
 .sitemap-col-item a {
-  color: #42b983;
+  color: #034fd8;
   font-weight: 400;
 }
 

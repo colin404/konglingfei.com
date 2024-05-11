@@ -5,7 +5,7 @@ import QQLink from "./components/QQLink.js";
 import TwitterLink from "./components/TwitterLink.js";
 import WeChatLink from "./components/WeChatLink.js";
 import Disseminate from "./components/Disseminate.vue";
-import Sitemap from "./components/Sitemap.vue";
+import SiteMap from "./components/SiteMap.vue";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
@@ -17,6 +17,6 @@ export default defineClientConfig({
   },
   rootComponents: [
     Disseminate,
-    //Sitemap,
+    //SiteMap,
   ],
 });
