@@ -47,7 +47,7 @@ const list = [{
     display: flex;
     flex-direction: column;
     z-index: 99;
-    top: calc(var(--navbar-height) + 150px);
+    top: calc(var(--navbar-height) + 50px);
 }
 
 .disseminate-item {

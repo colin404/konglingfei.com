@@ -218,13 +218,13 @@ export default hopeTheme({
     components: {
       components: ["Badge", "VPCard", "BiliBili"],
       rootComponents: {
+        /*
         notice: [
           { type: 'text', content: '👇公众号👇---👇 微信群 👇' },
           {
             path: "/",
             title: "🔥 限时优惠",
             content: "知识星球上新 85 折优惠中 👉 <a href=https://t.zsxq.com/19UzGVCs9>点击加入</a> ",
-            /*
             actions: [
               {
                 text: "👉 扫码加入",
@@ -240,15 +240,14 @@ export default hopeTheme({
               {
                 text: "下资料",
                 link: "https://img.cdn.sugarat.top/mdImg/MTYxNTAxODc2NTIxMA==615018765210",
-              //{ text: "Default Action" },
+                //{ text: "Default Action" },
                 //
               }
             ],
-            */
             showOnce: false,
             key: "2024.1.4",
-            //confirm: true,
-            //fullscreen: true,
+        //confirm: true,
+        //fullscreen: true,
           },
           {
             path: "/en",
@@ -266,6 +265,7 @@ export default hopeTheme({
             key: "2024.1.1",
           },
         ],
+         */
       },
     },
 
