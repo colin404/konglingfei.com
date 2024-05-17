@@ -199,6 +199,17 @@ export const zhNavbar = navbar([
     ],
   },
   */
+  //{ text: "面试", icon: "mianshi", link: "/posts" },
+  {
+    text: "编程分享",
+    icon: "jishufenxiang",
+    //prefix: "learn/",
+    children: [
+      { text: "技术分享", icon: "fenxiang", link: "/posts/" },
+      { text: "微信文章", icon: "weixin", link: "/wechat/README.md" },
+      //{ text: "资源分享", icon: "luxian", link: "link" },
+    ],
+  },
   {
     text: "学习资源",
     icon: "xuexiziyuan",
@@ -208,12 +219,6 @@ export const zhNavbar = navbar([
       { text: "资源推荐", icon: "tuijian", link: "books" },
       //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
-  },
-  //{ text: "面试", icon: "mianshi", link: "/posts" },
-  { 
-    text: "技术分享", 
-    icon: "weixin", 
-    link: "/wechat/README.md",
   },
   //{ text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*

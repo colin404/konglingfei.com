@@ -53,4 +53,5 @@ export const zhSidebar = sidebar({
   "/cloudnative/": "structure",
   "/learn/": "structure",
   "/handbook/": "structure",
+  "/posts/": "structure",
 });
