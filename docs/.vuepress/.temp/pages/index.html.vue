@@ -1,4 +1,22 @@
-<template><div><h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读"><span>⭐ 推荐阅读</span></a></h2>
+<template><div><h2 id="学完课程后-你能收获什么" tabindex="-1"><a class="header-anchor" href="#学完课程后-你能收获什么"><span>🎁 学完课程后，你能收获什么？</span></a></h2>
+<ul>
+<li>零基础进阶 Go + 云原生高级开发工程师，提高职场竞争      力，享受时代红利；</li>
+<li>Go + 云原生实战项目填充简历项目栏，提高简历竞争力；</li>
+<li>高质量Go应用开发脚手架，减小开发难度，提高开发效率；</li>
+<li>深入讲解 Kubernetes 源码、二次开发及调度器，助你进入  AI 领域；</li>
+<li>海量优质 Go + 云原生面试资料、学习资料分享；</li>
+<li>免费课程辅导，让你顺畅高效的学习Go+云原生开发技术；</li>
+<li>免费求职指导、简历指导，让你少走弯路，找到心仪工作。</li>
+</ul>
+<h2 id="课程适宜人群" tabindex="-1"><a class="header-anchor" href="#课程适宜人群"><span>👫 课程适宜人群</span></a></h2>
+<ul>
+<li>想进阶为 Go + 云原生高级/专家开发的开发者、学生；</li>
+<li>想系统学习、并通过实战掌握云原生开发能力的开发者；</li>
+<li>想魔改优秀开源项目，完成开发任务的开发者；</li>
+<li>想了解大厂 Go 项目开发方式、最佳实践的开发者；</li>
+<li>想切入 AI 领域的 Go 或云原生开发开发者。</li>
+</ul>
+<h2 id="推荐阅读" tabindex="-1"><a class="header-anchor" href="#推荐阅读"><span>⭐ 推荐阅读</span></a></h2>
 <ul>
 <li>孔令飞的云原生实战营：
 <ul>

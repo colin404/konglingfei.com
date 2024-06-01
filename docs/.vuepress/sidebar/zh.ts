@@ -33,22 +33,21 @@ export const zhSidebar = sidebar({
         'faq',
       ],
     },
-    /*
     {
       text: '编程规范',
       icon: 'guifan',
-      prefix: 'conventions/',
+      prefix: 'convention/',
       collapsible: false,
       children: [ 
+        //'code',
+        'rest', 
         'log', 
         'error',
-        'code',
         'commit',
         'version',
-        'event',
+        //'event',
       ],
     },
-    */
   ],
   "/cloudnative/": "structure",
   "/learn/": "structure",

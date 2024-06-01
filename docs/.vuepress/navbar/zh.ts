@@ -96,23 +96,22 @@ export const zhNavbar = navbar([
       },
     ]
   },
-  /*
   {
     text: "OneX 编程规范",
     icon: "guifan",
-    prefix: "/onex/conventions/",
+    prefix: "/onex/convention/",
     children: [
+      //{ text: "编码规范", icon: "daima", link: "code" },
+      { text: "接口规范", icon: "api", link: "rest" },
       { text: "日志规范", icon: "rizhi", link: "log" },
       { text: "错误规范", icon: "cuowu", link: "error" },
-      { text: "编码规范", icon: "daima", link: "code" },
-      { text: "提交规范", icon: "tijiao", link: "commit" },
+      { text: "提交规范", icon: "git", link: "commit" },
       { text: "版本号规范", icon: "banbenhao", link: "version" },
-      { text: "Event 规范", icon: "shijian", link: "event" },
+      //{ text: "Event 规范", icon: "shijian", link: "event" },
       //{ text: "Linux 命令", icon: "guifan", link: "books" },
       //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
   },
-  */
   /*
   { 
     text: "购买加入", 
