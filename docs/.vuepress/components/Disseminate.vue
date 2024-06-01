@@ -24,7 +24,7 @@ const list = [{
     icon: '/assets/icon/xingqiu.png',
     topText: '一个可以助你进阶为Go+云原生高级开发工程师的实战星球',
     img: '/assets/qrcode/知识星球-无优惠.png',
-    //bottomText: '知识星球: 编程导航',
+    bottomText: '',
 }, {
     name: '交流群',
     icon: '/assets/icon/weixin.png',
@@ -36,7 +36,7 @@ const list = [{
     icon: '/assets/icon/xiazai.png',
     topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span> 获取海量编程学习资源「无任何套路」</span>',
     img: '/assets/qrcode/公众号-令飞编程.png',
-    //bottomText: '公众号: 鱼皮',
+    bottomText: '',
 }]
 </script>
 
