@@ -70,7 +70,7 @@ tag:
       - 当日志记录对象是单个 Kubernetes 资源对象时（例如：*v1.Pod），使用klog.KObj；
       - 当日志记录对象是 Kubernetes 资源对象数组时（例如[]*v1.Pod），使用klog.KObjSlice。
    - 优先传递结构化的对象，而非object.String()；
-   - 当期望将[]byte类型的对象作为string类型记录时，需要明确使用string(<byte array>)进行转换；
+   - 当期望将[]byte类型的对象作为string类型记录时，需要明确使用string(\<byte array\>)进行转换；
 - 如果使用 github.com/superproj/onex/pkg/log日志包：
    - 要使用结构化的日志记录方式：log.C(ctx).Errorw()、log.C(ctx).Infow()等；
    - 如果日志能获取到 context.Context 变量，需要使用 log.C() 函数打印，例如：log.C(ctx).Warnw("please enable redis, otherwise the idempotent is invalid")。使用 log.C(ctx) 可以输出必要的 KV，例如：trace.id、user.id 等。
