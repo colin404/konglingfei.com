@@ -1,4 +1,4 @@
-<template><div><h2 id="学完课程后-你能收获什么" tabindex="-1"><a class="header-anchor" href="#学完课程后-你能收获什么"><span>🎁 学完课程后，你能收获什么？</span></a></h2>
+<template><div><h2 id="学完星球课程后-你能收获什么" tabindex="-1"><a class="header-anchor" href="#学完星球课程后-你能收获什么"><span>🎁 学完星球课程后，你能收获什么？</span></a></h2>
 <ul>
 <li>零基础进阶 Go + 云原生高级开发工程师，提高职场竞争      力，享受时代红利；</li>
 <li>Go + 云原生实战项目填充简历项目栏，提高简历竞争力；</li>
@@ -8,7 +8,7 @@
 <li>免费课程辅导，让你顺畅高效的学习Go+云原生开发技术；</li>
 <li>免费求职指导、简历指导，让你少走弯路，找到心仪工作。</li>
 </ul>
-<h2 id="课程适宜人群" tabindex="-1"><a class="header-anchor" href="#课程适宜人群"><span>👫 课程适宜人群</span></a></h2>
+<h2 id="星球课程适宜人群" tabindex="-1"><a class="header-anchor" href="#星球课程适宜人群"><span>👫 星球课程适宜人群</span></a></h2>
 <ul>
 <li>想进阶为 Go + 云原生高级/专家开发的开发者、学生；</li>
 <li>想系统学习、并通过实战掌握云原生开发能力的开发者；</li>
