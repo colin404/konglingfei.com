@@ -40,6 +40,7 @@ export const zhNavbar = navbar([
         prefix: "catalog/",
         children: [
           { text: "Go 项目开发高阶实战课", icon: "go", link: "go" },
+          { text: "Go 项目开发方法课", icon: "go", link: "high-quality-go.md" },
           { text: "Kubernetes 源码剖析课", icon: "k8sdevel", link: "kubernetes" },
           { text: "Kubernetes 开发实战课", icon: "kubernetes", link: "k8s-devel" },
           { text: "职业发展课", icon: "zhiyefazhan", link: "career" },
