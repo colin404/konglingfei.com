@@ -65,8 +65,7 @@ DELETE /gists/:id/star # github unstar action
 ### **REST 资源操作映射为 HTTP 方法**
 基本上 RESTful API 都是使用 HTTP 协议原生的 `GET`、`PUT`、`POST`、`DELETE` 来标识对资源的 CRUD 操作，形成的规范如下表所示：
 
-| 
- | **Collection 资源（**`**/v1/users**`**）** | **Ember 资源（**`**/v1/users/:username**`**）** |
+| | **Collection 资源（`/v1/users`）** | **Ember 资源（`/v1/users/:username`）** |
 | --- | --- | --- |
 | GET | 获取一个 Collection 下所有的 Member 信息 | 获取一个 Member 的状态表征 |
 | POST | 在 Collection 中新建一个 Member | 没有这类操作 |
@@ -91,8 +90,7 @@ Go + 云原生实战项目 [OneX](https://github.com/superproj/onex) 的 API 接
 
 `GET`、`PUT`、`POST`、`DELETE` 是 RESTful API 最常用的 HTTP 请求方法。HTTP 还提供了另外 3 种请求方法，这些方法不经常使用，这里也列举出来供你参考：
 
-| 
- | **Collection 资源（/v1/users）** | **Ember 资源（/v1/users/:username）** |
+| | **Collection 资源（/v1/users）** | **Ember 资源（/v1/users/:username）** |
 | --- | --- | --- |
 | PATCH | 整个 Collection 进行部分更新，通常用于更新 Collection 的某些属性或字段 | 获取一个 Member 的元信息 |
 | HEAD | 获取一个 Collection 的元信息，但不需要获取实际资源的内容 | 获取 Member 的元信息，但不需要获取实际资源的内容 |
@@ -148,34 +146,13 @@ HTTP 请求参数，可以视情况设置在以下位置：
 
 | **请求方法** | **参数位置** |
 | --- | --- |
-| GET | 
-- 适配的请求参数位置：查询参数（Query Parameters）和路径参数（Path Parameters）；
-- GET 请求通常通过查询参数传递参数，也可以通过路径参数传递需要标识的资源。
- |
-| POST | 
-- 适配的请求参数位置：请求体（Request Body）；
-- POST 请求通常通过请求体传递需要创建的资源的数据。
- |
-| PUT | 
-- 适配的请求参数位置：路径参数（Path Parameters）和请求体（Request Body）；
-- PUT 请求通常通过路径参数指定要更新的资源，通过请求体传递更新后的数据。
- |
-| DELETE | 
-- 适配的请求参数位置：路径参数（Path Parameters）；
-- DELETE 请求通常通过路径参数指定要删除的资源。
- |
-| PATCH | 
-- 适配的请求参数位置：路径参数（Path Parameters）和请求体（Request Body）；
-- PATCH 请求通常通过路径参数指定要部分更新的资源，通过请求体传递更新的部分数据。
- |
-| HEAD | 
-- 适配的请求参数位置：查询参数（Query Parameters）和路径参数（Path Parameters）；
-- HEAD 请求通常通过查询参数和路径参数传递参数，用于获取资源的元信息而不获取资源本身。
- |
-| OPTIONS | 
-- 适配的请求参数位置：无特定参数位置要求；
-- OPTIONS 请求通常用于获取目标资源所支持的通信选项，不需要特定的请求参数位置。
- |
+| GET |<li>适配的请求参数位置：查询参数（Query Parameters）和路径参数（Path Parameters）；</li><li>GET 请求通常通过查询参数传递参数，也可以通过路径参数传递需要标识的资源。</li>|
+| POST |<li>适配的请求参数位置：请求体（Request Body）；</li><li>POST 请求通常通过请求体传递需要创建的资源的数据。</li>|
+| PUT |<li>适配的请求参数位置：路径参数（Path Parameters）和请求体（Request Body）；</li><li>PUT 请求通常通过路径参数指定要更新的资源，通过请求体传递更新后的数据。</li>|
+| DELETE |<li>适配的请求参数位置：路径参数（Path Parameters）；</li><li>DELETE 请求通常通过路径参数指定要删除的资源。</li>|
+| PATCH |<li>适配的请求参数位置：路径参数（Path Parameters）和请求体（Request Body）；</li><li>PATCH 请求通常通过路径参数指定要部分更新的资源，通过请求体传递更新的部分数据。</li>|
+| HEAD |<li>适配的请求参数位置：查询参数（Query Parameters）和路径参数（Path Parameters）；</li><li>HEAD 请求通常通过查询参数和路径参数传递参数，用于获取资源的元信息而不获取资源本身。</li>|
+| OPTIONS |<li>适配的请求参数位置：无特定参数位置要求；</li><li>OPTIONS 请求通常用于获取目标资源所支持的通信选项，不需要特定的请求参数位置。</li>|
 
 ### **统一的返回格式**
 一般来说，一个系统的 RESTful API 会向外界开放多个资源的接口，每个接口的返回格式要保持一致。另外，每个接口都会返回成功和失败两种消息，这两种消息的格式也要保持一致。不然，客户端代码要适配不同接口的返回格式，每个返回格式又要适配成功和失败两种消息格式，会大大增加用户的学习和使用成本。返回的格式没有强制的标准，你可以根据实际的业务需要返回不同的格式。
