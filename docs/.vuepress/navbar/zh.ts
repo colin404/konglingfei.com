@@ -215,8 +215,9 @@ export const zhNavbar = navbar([
     icon: "xuexiziyuan",
     prefix: "learn/",
     children: [
-      { text: "学习路线", icon: "luxian", link: "roadmap" },
-      { text: "资源推荐", icon: "tuijian", link: "books" },
+      { text: "Go 学习路线", icon: "go", link: "https://roadmap.sh/golang"},
+      { text: "云原生学习路线", icon: "luxian", link: "roadmap" },
+      { text: "学习资源推荐", icon: "tuijian", link: "books" },
       //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
   },
