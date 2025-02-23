@@ -42,8 +42,8 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "云原生实战星球",
-      description: "分享Go和云原生相关的技术栈",
+      title: "云原生AI实战星球",
+      description: "分享Go、云原生和AI相关的技术栈",
     },
     /*
     "/en/": {

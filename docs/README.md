@@ -3,12 +3,12 @@ date: 2024-01-30
 home: true
 icon: home
 title: 主页
-heroText: 云原生实战星球
+heroText: 云原生AI实战星球
 heroImage: /cloudnative-blue.svg
-tagline: 一个助你进阶为 Go + 云原生高级开发的知识星球<br/><br/><font color="gray" size="4.5" face="KaiTi">入职大厂、升职加薪！</font>
+tagline: 助力Go开发者在AI时代建立技术竞争力的星球<br/><br/><font color="gray" size="4.5" face="KaiTi">建立持久的技术竞争力，入职大厂、升职加薪！</font>
 actions:
   - text: 实战营介绍
-    link: /cloudnative/intro/intro
+    link: /cloudai/intro/intro
     type: primary
   - text: 实战项目介绍
     link: /onex/intro/intro
@@ -17,10 +17,10 @@ actions:
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
-  details: <span class="list-item">Red Hat、联想、腾讯、字节跳动超 10 年 Go + 云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">2 本书，4 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span><span class="list-item">一个为写课敢于放弃头发的人</span>
-- title: 4 套高质量云原生体系课
+  details: <span class="list-item">Red Hat、联想、腾讯、字节跳动超 10 年 Go + 云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书，4 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
+- title: 11 套高质量云原生及AI体系课
   icon: boshimao
-  details: <span class="list-item">独有的 4 套高质量云原生体系课（原创）</span><span class="list-item">350 节课，充足的课程量</span><span class="list-item">100 节 Go 项目开发高阶实战课</span><span class="list-item">22 节 高质量 GO 项目开发方法课</span><span class="list-item">32 节 Kubernetes 源码剖析课</span><span class="list-item">130 节 Kubernetes 开发实战课</span><span class="list-item">15 节 职业发展辅导 + 面试辅导</span></span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
+  details: <span class="list-item">独有的 11 套高质量云原生及AI体系课</span><span class="list-item">500 节课，充足的课程量</span><span class="list-item">[云原生 AI 实战营课程目录](/cloudnative/intro/intro.md)</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
 - title: 超高质量实战项目（带你做）
   icon: xiangmu
   details: <span class="list-item">内容全：12 万行源码，囊括 Go 企业应用开发中绝大部分功能点的企业级 Go 项目</span><span class="list-item">质量高：项目代码规范、质量高、功能全、易扩展</span><span class="list-item">开发模式全：命令式+声明式编程范式等</span><span class="list-item">架构先进：简洁架构、Kubernetes 架构</span><span class="list-item">持续更新：项目功能、架构等持续更新</span>
@@ -52,11 +52,11 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 ## :star: 推荐阅读 
 
 - 孔令飞的云原生实战营：
-  - [孔令飞的云原生实战营介绍](/cloudnative/intro/intro.md)：详细介绍孔令飞的云原生实战营里有什么、如何在实战营获得成长等；
+  - [云原生 AI 实战营介绍](/cloudai/intro/intro.md)：详细介绍云原生AI实战营里有什么、如何在实战营获得成长等；
   - 实战营课程介绍：
-    - [Go 项目开发高阶实战课目录](/cloudnative/catalog/go.md)：课程详细目录；
-    - [Kubernetes 源码剖析课目录](/cloudnative/catalog/kubernetes.md)：课程详细目录；
-    - [Kubernetes 开发实战课目录](/cloudnative/catalog/k8s-devel.md)：课程详细目录；
+    - [Go 项目开发高阶实战课目录](/cloudai/catalog/go.md)：课程详细目录；
+    - [Kubernetes 源码剖析课目录](/cloudai/catalog/kubernetes.md)：课程详细目录；
+    - [Kubernetes 开发实战课目录](/cloudai/catalog/k8s-devel.md)：课程详细目录；
     - [职业发展课目录](/cloudnative/catalog/career.md)：课程详细目录。
 - OneX 云原生实战平台：
   - [OneX 云原生实战平台介绍](/onex/intro/intro.md)：详细介绍 OneX 实战项目的功能特点、组件和架构；
@@ -70,7 +70,7 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 ## :point_right: 欢迎关注
 
 - 欢迎关注公众号我的公众号，干货不错过：
-  - 回复【资料】免费获取全套 Go + 云原生学习资料；
+  - 回复【资料】免费获取全套 Go、云原生、AI学习资料；
   - 回复【好友】加我微信，拉您进入技术交流群，免费 1V1 技术交流；
 
 <img src="/images/contact/令飞编程.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">

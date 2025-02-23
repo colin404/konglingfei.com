@@ -23,12 +23,12 @@
 <ul>
 <li>孔令飞的云原生实战营：
 <ul>
-<li><RouteLink to="/cloudnative/intro/intro.html">孔令飞的云原生实战营介绍</RouteLink>：详细介绍孔令飞的云原生实战营里有什么、如何在实战营获得成长等；</li>
+<li><RouteLink to="/cloudai/intro/intro.html">云原生 AI 实战营介绍</RouteLink>：详细介绍云原生AI实战营里有什么、如何在实战营获得成长等；</li>
 <li>实战营课程介绍：
 <ul>
-<li><RouteLink to="/cloudnative/catalog/go.html">Go 项目开发高阶实战课目录</RouteLink>：课程详细目录；</li>
-<li><RouteLink to="/cloudnative/catalog/kubernetes.html">Kubernetes 源码剖析课目录</RouteLink>：课程详细目录；</li>
-<li><RouteLink to="/cloudnative/catalog/k8s-devel.html">Kubernetes 开发实战课目录</RouteLink>：课程详细目录；</li>
+<li><RouteLink to="/cloudai/catalog/go.html">Go 项目开发高阶实战课目录</RouteLink>：课程详细目录；</li>
+<li><RouteLink to="/cloudai/catalog/kubernetes.html">Kubernetes 源码剖析课目录</RouteLink>：课程详细目录；</li>
+<li><RouteLink to="/cloudai/catalog/k8s-devel.html">Kubernetes 开发实战课目录</RouteLink>：课程详细目录；</li>
 <li><RouteLink to="/cloudnative/catalog/career.html">职业发展课目录</RouteLink>：课程详细目录。</li>
 </ul>
 </li>
@@ -53,7 +53,7 @@
 <ul>
 <li>欢迎关注公众号我的公众号，干货不错过：
 <ul>
-<li>回复【资料】免费获取全套 Go + 云原生学习资料；</li>
+<li>回复【资料】免费获取全套 Go、云原生、AI学习资料；</li>
 <li>回复【好友】加我微信，拉您进入技术交流群，免费 1V1 技术交流；</li>
 </ul>
 </li>

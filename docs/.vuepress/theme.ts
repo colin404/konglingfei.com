@@ -136,7 +136,7 @@ export default hopeTheme({
   // enable it to preview all changes in time
   // hotReload: true,
 
-  navTitle: "云原生实战星球",
+  navTitle: "云原生AI实战星球",
   // 默认值: { start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }
   navbarLayout:{ 
     start: ["Brand"], 
