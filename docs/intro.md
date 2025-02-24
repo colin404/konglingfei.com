@@ -13,8 +13,11 @@ date: 2024-02-01
 - 数学专业毕业的普通农村孩子，喜欢学习、热爱分享；
 - 字节跳动云原生开发专家，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 软件工程师；
 - 中国移动通信联合会专家级讲师，腾讯学院特约讲师，2023 年机械工业出版社新锐作者；
-- 《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者；
-- 11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验；
+- 出版作品：
+  - 图书：《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》唯一作者；《Kubernetes调度器权威指南》(写作中)作者；
+  - 极客时间专栏：Go 语言项目开发实战、Kubernetes 源码剖析课
+  - 掘金小册：从零开发企业级 Go 应用、基于 Go 语言构建企业级的 RESTful API 服务
+- 12 年云计算相关开发经验，超 9 年的 Go 项目开发和管理经验；
 - 在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。
 
 
@@ -48,12 +51,16 @@ date: 2024-02-01
   - [从零开发企业级 Go 应用](https://juejin.cn/book/7176608782871429175?utm_source=profile_book) （2022.12.26 号上线，1.3k+ 订阅）
 - 极客时间专栏
   - [Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601)（2021.05.31 号上线，4.1w+ 订阅）
+  - [Kubernetes源码剖析]()
 - 机械工业出版社 [《企业级 Go 项目开发实战》](https://book.douban.com/subject/36262929/)；
-- 人民邮电出版社 《从零开发企业级 Go 应用》图书作者（出版中）；
+- 人民邮电出版社 《从零开发企业级 Go 应用》图书作者（下半年出版）；
+- 机械工业出版社：《Kubernetes调度器权威指南》（写作中）
 - 腾讯内部学习平台近 2 万阅读量的 Go 实战课程：《Go API 开发实战》；
 - GitHub 3500+ Star 开源项目作者：[iam](https://github.com/marmotedu/iam)；
 - 一个非常优秀的 Go + 云原生实战项目：[onex](https://github.com/superproj/onex)。
-- 一个非常值得加入的云原生训练营：[孔令飞的云原生实战营](https://t.zsxq.com/17mjPoYGc)。
+- 一个非常值得加入的云原生 AI 训练营：[云原生AI实战营](https://t.zsxq.com/17mjPoYGc)。
+- 更多实战项目见：[云原生 AI 实战营项目介绍](https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg)
+- 更多课程见：[云原生 AI 实战营课程介绍](https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i)
 
 ## 我为什么可以帮助你成长？
 

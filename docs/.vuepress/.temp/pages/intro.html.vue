@@ -6,8 +6,14 @@
 <li>数学专业毕业的普通农村孩子，喜欢学习、热爱分享；</li>
 <li>字节跳动云原生开发专家，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 软件工程师；</li>
 <li>中国移动通信联合会专家级讲师，腾讯学院特约讲师，2023 年机械工业出版社新锐作者；</li>
-<li>《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》2 本书唯一作者；</li>
-<li>11 年云计算相关开发经验，超 7 年的 Go 项目开发和管理经验；</li>
+<li>出版作品：
+<ul>
+<li>图书：《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》唯一作者；《Kubernetes调度器权威指南》(写作中)作者；</li>
+<li>极客时间专栏：Go 语言项目开发实战、Kubernetes 源码剖析课</li>
+<li>掘金小册：从零开发企业级 Go 应用、基于 Go 语言构建企业级的 RESTful API 服务</li>
+</ul>
+</li>
+<li>12 年云计算相关开发经验，超 9 年的 Go 项目开发和管理经验；</li>
 <li>在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。</li>
 </ul>
 <h2 id="我的项目开发经验" tabindex="-1"><a class="header-anchor" href="#我的项目开发经验"><span>我的项目开发经验</span></a></h2>
@@ -32,14 +38,18 @@
 <li>极客时间专栏
 <ul>
 <li><a href="https://time.geekbang.org/column/intro/100079601" target="_blank" rel="noopener noreferrer">Go 语言项目开发实战<ExternalLinkIcon/></a>（2021.05.31 号上线，4.1w+ 订阅）</li>
+<li><a href="">Kubernetes源码剖析</a></li>
 </ul>
 </li>
 <li>机械工业出版社 <a href="https://book.douban.com/subject/36262929/" target="_blank" rel="noopener noreferrer">《企业级 Go 项目开发实战》<ExternalLinkIcon/></a>；</li>
-<li>人民邮电出版社 《从零开发企业级 Go 应用》图书作者（出版中）；</li>
+<li>人民邮电出版社 《从零开发企业级 Go 应用》图书作者（下半年出版）；</li>
+<li>机械工业出版社：《Kubernetes调度器权威指南》（写作中）</li>
 <li>腾讯内部学习平台近 2 万阅读量的 Go 实战课程：《Go API 开发实战》；</li>
 <li>GitHub 3500+ Star 开源项目作者：<a href="https://github.com/marmotedu/iam" target="_blank" rel="noopener noreferrer">iam<ExternalLinkIcon/></a>；</li>
 <li>一个非常优秀的 Go + 云原生实战项目：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">onex<ExternalLinkIcon/></a>。</li>
-<li>一个非常值得加入的云原生训练营：<a href="https://t.zsxq.com/17mjPoYGc" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a>。</li>
+<li>一个非常值得加入的云原生 AI 训练营：<a href="https://t.zsxq.com/17mjPoYGc" target="_blank" rel="noopener noreferrer">云原生AI实战营<ExternalLinkIcon/></a>。</li>
+<li>更多实战项目见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg" target="_blank" rel="noopener noreferrer">云原生 AI 实战营项目介绍<ExternalLinkIcon/></a></li>
+<li>更多课程见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i" target="_blank" rel="noopener noreferrer">云原生 AI 实战营课程介绍<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="我为什么可以帮助你成长" tabindex="-1"><a class="header-anchor" href="#我为什么可以帮助你成长"><span>我为什么可以帮助你成长？</span></a></h2>
 <figure><img src="/images/我为什么可以帮助你成长-水印.png" alt="我为什么可以帮助你成长" tabindex="0" loading="lazy"><figcaption>我为什么可以帮助你成长</figcaption></figure>
