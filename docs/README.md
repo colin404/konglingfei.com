@@ -19,7 +19,7 @@ actions:
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
-  details: <span class="list-item">字节跳动、腾讯、联想、Red Hat超 10 年 Go、云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书，4 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
+  details: <span class="list-item">字节跳动、腾讯、联想、Red Hat超 10 年 Go、云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书，5 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
 - title: 11 套高质量体系课
   icon: boshimao
   details: <span class="list-item">拥有 11 套高质量 Go、云原生、AI体系课</span><span class="list-item">500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>

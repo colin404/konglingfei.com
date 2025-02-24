@@ -4,7 +4,6 @@ export const zhNavbar = navbar([
   //"/demo/",
   //{ text: "加入星球", icon: "xingqiu", link: "https://t.zsxq.com/17mjPoYGc"},
   //{ text: "🔥加入星球", icon: "xingqiu", link: "https://t.zsxq.com/18EzGnxqr"},
-  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/18EzGnxqr"},
   {
     text: "实战营课程",
     icon: "cloudnative",
@@ -288,4 +287,5 @@ export const zhNavbar = navbar([
     ]
     */
   },
+  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/18EzGnxqr"}
 ]);
