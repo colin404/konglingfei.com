@@ -1,15 +1,23 @@
+---
+date: 2025-02-23
+---
+
+# 云原生 AI 实战营介绍
+
 一个助力 Go 开发者在当代及 AI 时代建立职场竞争力的技术训练营。
 
 ## 当前 Go 开发者面临的痛点
+
 + 网上知识大爆炸，文章/课程质量参差不齐、内容散碎。学习精力有限，不知如何高效学习、进阶；
 + 想进腾讯、字节等头部公司，大不知道如何才能圆了自己的大厂梦；
 + LLM 迅猛发展，不知如何在 AI 时代提升职场竞争力，从而缓解职业焦虑；
 + 工作中不知道如何采用最佳方式开发分配的产品功能；
 + 想提高自己的开发效率和开发能力，并习逐步进阶为高级、乃至专家级工程师，但不知道如何实现。
 
-如果，你遇到了上述问题，那么建议点击链接加入 [云原生 AI 实战营](https://konglingfei.com)。
+如果，你遇到了上述问题，那么建议点击链接加入 [云原生 AI 实战营](https://t.zsxq.com/19UzGVCs9)。
 
 ## 云原生 AI 实战营介绍
+
 云原生 AI 实战营是一个技术训练营。训练营中包含了高质量的课程及实战项目。课程及实战项目组成了一个功能完备的技术体系（onexstack）。技术体系中包括了当前及未来火热的技术：Go、云原生和 AI。云原生 AI 实战营将 Go、云原生和 AI ，以体系化的高质量课程 + 高质量实战项目的形式呈现给 Go 开发者，除了帮助 Go 开发者解决面临的痛点外，还能助力开发者实现以下目标：
 
 + **建立 AI 时代的职场竞争力：** 帮助 Go 开发者在当前及 AI 时代建立持久的职场竞争力，全面提升开发者的职业高度、职业宽度和专业深度，消除职业焦虑；
@@ -17,8 +25,6 @@
 + **进阶 Go 专家级工程师：** 全方位提升开发者的技术能力，助力开发者进阶为专家级 Go 开发工程师并具备架构师的核心能力；
 + **提升工作效率与质量，降低开发难度：** 帮助 Go 开发者更高效、更高质量的完成工作中的开发任务，并降低工作中的开发难度。技术栈也会持续不断的加入一些工作提效工具，例如：开发脚手架、自动代码生成插件、提效开发技术等；
 + **拓宽职业宽度：** 通过学习技术栈中的课程，可以使开发者具备从事 Go 应用开发、云原生基础架构开发、AI 工程平台开发等工作岗位的能力；
-
-
 
 云原生 AI 实战营具有以下核心特点：
 
@@ -31,13 +37,14 @@
         * 掘金小册：基于 Go 语言构建企业级的 RESTful API 服务、从零开发企业级 Go 应用
 
 ## 云原生 AI 实战营核心内容
+
 云原生 AI 实战营包含了丰富的技术、课程和实战项目。主要包括以下几类内容：
 
-![画板](https://cdn.nlark.com/yuque/0/2025/jpeg/43447143/1740290503830-2e4a6da8-21d5-48b2-ba29-ea238245d143.jpeg)
+![](/images/云原生AI实战营核心内容.jpg)
 
 + **高质量的实战课程（课程详细介绍见：** [**云原生 AI 实战营课程介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i)）：
     - **Go 项目开发实战课：** 包括 [Go 项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)、 <font style="color:#117CEE;">2 小时 Go 项目开发极速入门课</font>、[Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG)、[Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)，通过这些课程的学习，可以使开发者成为 Go 项目开发的高手，乃至具备专家级开发能力；
-    - **Kubernetes 开发实战课：** 包括 [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)、[Kuberentes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)、[Kubernetes 编程实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv) 等云原生课程。通过这些课程的学习，不仅可以大幅提升开发者的开发能力，还可以使开发者掌握云原生领域中的核心技术能力及开发能力，并从事云原生相关的工作岗位；
+    - **Kubernetes 开发实战课：** 包括 [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)、[Kuberentes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)、[Kubernetes 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv) 等云原生课程。通过这些课程的学习，不仅可以大幅提升开发者的开发能力，还可以使开发者掌握云原生领域中的核心技术能力及开发能力，并从事云原生相关的工作岗位；
     - **AI 开发实战课：** 包括了 [LLMOPS开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#mR1F)、[Kuberentes 调度器开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ITin)、[机器学习平台开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#4xCu)。通过这些课程的学习，开发者可以从事 AI 相关的工作岗位，并且开发能力会再次得到大幅提升；
     - **职业发展课：** 包括 <font style="color:#117CEE;">程序员职业发展课、程序员面试指南 </font>等课程，通过这些课程的学习，结合其他课程的学习，可以使开发者能够更轻松的通过面试，进入头部企业，升职加薪。
     - **其他辅助课程**：[Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)、[常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku) 等。通过这些课程的学习可以进一步丰富开发知识，提高开发能力。
@@ -69,12 +76,13 @@
 ![云原生 AI 实战营课程介绍](/images/云原生AI实战营内容思维导图.jpg)
 
 ## 如何在实战营中学习、进阶？
-![画板](https://cdn.nlark.com/yuque/0/2025/jpeg/43447143/1738556951768-2baab171-c1d4-4beb-b3ec-ed77f2d79229.jpeg)
+
+![](/images/如何在实战营中学习进阶.jpg)
 
 你可以根据按照以下课程顺序来学习进阶：
 
 1. **Go 项目开发类课程（夯实 Go 开发能力）：** [Go 项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx) -> [Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG) -> [Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)；
-2. **Kubernetes 开发类课程（补全架构能力）：** [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg) -> [Kuberentes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx) -> [Kubernetes 编程实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv)；
+2. **Kubernetes 开发类课程（补全架构能力）：** [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg) -> [Kuberentes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx) -> [Kubernetes 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv)；
 3. **AI 工程开发类课程（进军 AI 领域）：** [LLMOPS开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#mR1F) -> [Kuberentes 调度器开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ITin) -> [机器学习平台开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#4xCu)；
 
 </br>

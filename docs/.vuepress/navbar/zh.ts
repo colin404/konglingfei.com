@@ -6,58 +6,93 @@ export const zhNavbar = navbar([
   //{ text: "🔥加入星球", icon: "xingqiu", link: "https://t.zsxq.com/18EzGnxqr"},
   { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/18EzGnxqr"},
   {
-    text: "云原生实战营",
-    prefix: "/cloudnative/",
+    text: "实战营课程",
     icon: "cloudnative",
     children: [
-      /*
-      { 
-        text: "加入实战营", 
-          icon: "zuozhe", 
-          children: [
-            { text: "购买", icon: "golang", link: "go" },
-          ]
-      },
-      */
-      { 
-        text: "实战营动态", 
-        prefix: "dynamics/",
-        children:[
-          { text: "实战营课程动态", icon: "rizhi",link: "changelog" },
+      {
+        text: "Go 语言基础课",
+        children: [
+          { text: "Go 设计模式 61 讲", icon: "designpattern", link: "/cloudai/catalog/design-pattern.md" },
         ],
       },
       {
-        text: "云原生实战营介绍",
-        prefix: "intro/",
+        text: "Go 项目开发实战课",
         children: [
-          { text: "知识星球创建原因", icon: "wenhao", link: "why" },
-          { text: "云原生实战营介绍", icon: "circle-info", link: "intro" },
-          { text: "云原生实战营目标", icon: "mubiao", link: "senior" },
+          { text: "Go 项目开发方法论课", icon: "methodology", link: "/cloudai/catalog/methodology.md" },
+          { text: "Go 项目开发中级实战课", icon: "middle", link: "/cloudai/catalog/intermediate.md" },
+          { text: "Go 项目开发专家级实战课", icon: "expert", link: "/cloudai/catalog/expert.md" },
         ],
       },
       {
-        text: "实战营课程目录",
-        prefix: "catalog/",
+        text: "Kubernetes 编程实战课",
         children: [
-          { text: "Go 项目开发高阶实战课", icon: "go", link: "go" },
-          { text: "Go 项目开发方法课", icon: "go", link: "high-quality-go.md" },
-          { text: "Kubernetes 源码剖析课", icon: "k8sdevel", link: "kubernetes" },
-          { text: "Kubernetes 开发实战课", icon: "kubernetes", link: "k8s-devel" },
-          { text: "职业发展课", icon: "zhiyefazhan", link: "career" },
+          { text: "Kubernetes 集群部署课", icon: "bushu1", link: "/cloudai/catalog/kubernetes-installation.md" },
+          { text: "Kubernetes 源码剖析课", icon: "kubernetes", link: "/cloudai/catalog/kubernetes-source.md" },
+          { text: "Kubernetes 开发实战课", icon: "k8sdevel", link: "/cloudai/catalog/kubernetes-dev.md" },
         ],
       },
       {
-        text: "实战营成长进阶",
-        prefix: "advanced/",
+        text: "AI 工程开发实战课",
         children: [
-          { text: "如何进阶云原生高级开发", icon: "jinjie", link: "advanced" },
-          { text: "如何学习实战营课程", icon: "shuben", link: "how" },
+          { text: "LLMOPS 开发实战课", icon: "llmops", link: "/cloudai/catalog/llmops.md" },
+          { text: "Kubernetes 调度器开发实战课", icon: "scheduler", link: "/cloudai/catalog/kubernetes-scheduler.md" },
+          { text: "机器学习平台开发实战课", icon: "mlops", link: "/cloudai/catalog/mlops.md" },
+        ],
+      },
+      {
+        text: "程序员职业发展课",
+        children: [
+          { text: "程序员职业规划", icon: "zhiyefazhan", link: "/career/career.md" },
+          { text: "程序员面试指南", icon: "mianshi", link: "/career/interview.md" },
+        ],
+      },
+      {
+        text: "实战营成长进阶指南",
+        children: [
+          { text: "如何进阶云原生高级开发", icon: "jinjie", link: "/cloudnative/advanced/advanced.md" },
+          { text: "如何学习实战营课程", icon: "shuben", link: "/cloudnative/advanced/how.md" },
         ],
       },
     ],
   },
   {
-    text: "OneX 云原生实战平台",
+    text: "实战营项目",
+    icon: "cloudnative",
+    children: [
+      {
+        text: "Go 项目",
+        children: [
+          { text: "极速入门实战项目 newbie", icon: "chuji", link: "https://github.com/onexstack/newbie" },
+          { text: "初中级实战项目 miniblog", icon: "middle", link: "https://github.com/onexstack/miniblog" },
+          { text: "中级实战项目 iam", icon: "middle", link: "https://github.com/marmotedu/iam" },
+          { text: "专家级实战项目 onex", icon: "expert", link: "https://github.com/onexstack/onex" },
+        ],
+      },
+      {
+        text: "云原生项目",
+        children: [
+          { text: "企业级 API 网关", icon: "apigateway", link: "cloudai/project/apigateway.md" },
+          { text: "云原生实战平台 onex", icon: "onex", link: "https://github.com/onexstack/onex" },
+        ],
+      },
+      {
+        text: "AI 项目",
+        children: [
+          { text: "LLMOPS 平台 easyai", icon: "llmops", link: "/cloudai/project/easyai.md" },
+          { text: "机器学习平台 easyml", icon: "mlops", link: "/cloudai/project/easyml.md" },
+          { text: "智能体平台 easyagent", icon: "agent", link: "/cloudai/project/easyagent.md" },
+        ],
+      },
+      {
+        text: "工具项目",
+        children: [
+          { text: "Go 项目开发脚手架 osbuilder", icon: "gongju", link: "https://github.com/onexstack/osbuilder" },
+        ],
+      }
+    ]
+  },
+  {
+    text: "OneX 平台",
     icon: "onex",
     prefix: "/onex/",
     children: [
@@ -97,6 +132,7 @@ export const zhNavbar = navbar([
       },
     ]
   },
+  /*
   {
     text: "OneX 编程规范",
     icon: "guifan",
@@ -113,6 +149,7 @@ export const zhNavbar = navbar([
       //{ text: "资源分享", icon: "luxian", link: "link" },
     ],
   },
+  */
   /*
   { 
     text: "购买加入", 
@@ -239,6 +276,7 @@ export const zhNavbar = navbar([
     ],
   },
   */
+  { text: "实战营动态", icon: "rizhi", link: "/dynamics/changelog"},
   {
     text: "作者介绍",
     icon: "zuozhe",

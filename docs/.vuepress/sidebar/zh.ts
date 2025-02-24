@@ -49,8 +49,86 @@ export const zhSidebar = sidebar({
       ],
     },
   ],
-  "/cloudnative/": "structure",
+  "/cloudai/catalog/": [
+    {
+      text: '更新日志',
+      icon: 'rizhi',
+      link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md",
+    },
+    {
+      text: 'Go 语言基础课',
+      icon: 'go',
+      collapsible: false,
+      children: [ 'design-pattern' ],
+    },
+    {
+      text: 'Go 项目开发实战课',
+      icon: 'xiangmu',
+      collapsible: false,
+      children: [ 'methodology', 'intermediate', 'expert'],
+    },
+    {
+      text: 'Kubernetes 编程实战课',
+      icon: 'kubernetes',
+      collapsible: false,
+      children: [ 
+        'kubernetes-installation', 
+        'kubernetes-source',
+        'kubernetes-dev',
+      ],
+    },
+    {
+      text: 'AI 工程开发实战课',
+      icon: 'AI',
+      collapsible: false,
+      children: [ 
+        'llmops',
+        'kubernetes-scheduler',
+        'mlops',
+      ],
+    },
+  ],
   "/learn/": "structure",
   "/handbook/": "structure",
   "/posts/": "structure",
+  "/cloudai/project/": [
+    {
+      text: 'Go 项目',
+      icon: 'go',
+      collapsible: false,
+      children: [ 
+        { text: "极速入门实战项目", icon: "jisu", link: "https://github.com/onexstack/newbie"},
+        { text: "初中级实战项目", icon: "middle", link: "https://github.com/onexstack/miniblog"},
+        { text: "中级实战项目", icon: "middle", link: "https://github.com/marmotedu/iam"},
+        { text: "专家级实战项目", icon: "expert", link: "https://github.com/onexstack/onex"},
+      ],
+    },
+    {
+      text: '云原生项目',
+      icon: 'kubernetes',
+      collapsible: false,
+      children: [ 
+        'apigateway', 
+        { text: "云原生实战平台", icon: "onex", link: "https://github.com/onexstack/onex"},
+      ],
+    },
+    {
+      text: 'AI 项目',
+      icon: 'AI',
+      collapsible: false,
+      children: [ 
+        'easyai',
+        'easyml',
+        'easyagent',
+      ],
+    },
+    {
+      text: '工具项目',
+      icon: 'gongju',
+      collapsible: false,
+      children: [ 
+        { text: "Go 项目开发脚手架", icon: "", link: "https://github.com/onexstack/osbuilder"},
+      ],
+    },
+  ],
 });
