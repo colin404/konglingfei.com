@@ -22,7 +22,7 @@ features:
   details: <span class="list-item">字节跳动、腾讯、联想、Red Hat超 10 年 Go、云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书，5 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
 - title: 11 套高质量体系课
   icon: boshimao
-  details: <span class="list-item">拥有 11 套高质量 Go、云原生、AI 体系课</span><span class="list-item">超 500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
+  details: <span class="list-item">拥有 11 套高质量Go、云原生、AI体系课</span><span class="list-item">超 500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
 - title: 超高质量实战项目
   icon: xiangmu
   details: <span class="list-item">种类全：包括Go、云原生、AI 三类项目</span><span class="list-item">内容全：20 万行源码，囊括 Go 企业应用开发中绝大部分功能点</span><span class="list-item">质量高：项目代码规范、质量高、功能全、易扩展</span><span class="list-item">开发模式全：命令式+声明式编程范式等</span><span class="list-item">架构先进：简洁架构、Kubernetes 架构</span><span class="list-item">持续更新：项目功能、架构等持续更新</span>
