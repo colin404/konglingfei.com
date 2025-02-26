@@ -41,7 +41,7 @@ export const zhNavbar = navbar([
       {
         text: "程序员职业发展课",
         children: [
-          { text: "程序员职业规划", icon: "zhiyefazhan", link: "/career/career.md" },
+          { text: "程序员职业发展课", icon: "zhiyefazhan", link: "/career/career.md" },
           { text: "程序员面试指南", icon: "mianshi", link: "/career/interview.md" },
         ],
       },
