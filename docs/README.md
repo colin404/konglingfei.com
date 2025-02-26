@@ -8,7 +8,7 @@ heroImage: /cloudnative-blue.svg
 tagline: <font color="red" size="4.5"><strong>一个助力 Go 开发者在 AI 时代建立技术竞争力的知识星球！</strong></font><br/><br/><font color="gray" size="4" face="KaiTi">建立技术竞争力，入职大厂、升职加薪！</font>
 actions:
   - text: 👉 加入星球
-    link: https://t.zsxq.com/19UzGVCs9
+    link: https://t.zsxq.com/BDCy2
     type: primary
   - text: 实战营介绍
     link: /cloudai/intro/intro
@@ -22,7 +22,7 @@ features:
   details: <span class="list-item">字节跳动、腾讯、联想、Red Hat超 10 年 Go、云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书，5 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
 - title: 11 套高质量体系课
   icon: boshimao
-  details: <span class="list-item">拥有 11 套高质量 Go、云原生、AI体系课</span><span class="list-item">500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
+  details: <span class="list-item">拥有 11 套高质量 Go、云原生、AI 体系课</span><span class="list-item">超 500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
 - title: 超高质量实战项目
   icon: xiangmu
   details: <span class="list-item">种类全：包括Go、云原生、AI 三类项目</span><span class="list-item">内容全：20 万行源码，囊括 Go 企业应用开发中绝大部分功能点</span><span class="list-item">质量高：项目代码规范、质量高、功能全、易扩展</span><span class="list-item">开发模式全：命令式+声明式编程范式等</span><span class="list-item">架构先进：简洁架构、Kubernetes 架构</span><span class="list-item">持续更新：项目功能、架构等持续更新</span>
@@ -32,24 +32,33 @@ features:
 footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 粤ICP备2024181276号</a >'
 ---
 
-## :gift: 学完星球课程后，你能收获什么？
-- **掌握 AI 工程开发能力：** 深入讲解 AI 调度器，助你进入 AI 领域，从事相关岗位；
-- **掌握云原生技能：** 深入讲解 Kubernetes 源码、二次开发助你进入云原生领域，从事相关岗位；
-- **提高技术天花板：** 实战营可以全面提高你的技术能力，包括 Go及云原生开发能力、架构设计等；
-- **进阶高级开发工程师：** 零基础进阶 Go、云原生及AI高级开发，提高职场竞争力，拓宽职业宽度；
-- **提高简历竞争力：** Go + 云原生实战项目可以充实简历经历，提高简历竞争力；
-- **提供开发脚手架：** 高质量 Go 应用开发脚手架，减小开发难度，提高开发效率；
-- **海量资料免费看：** 海量优质 Go、云原生面试资料、学习资料分享；
-- **课程答疑：** 免费课程辅导，让你顺畅高效的学习 Go、云原生开发技术；
-- **求职指导：** 免费求职指导、简历修改知道，让你少走弯路，找到心仪工作。
+## :gift: 加入星球能收获什么？
+- **技术提升：**
+  - 深入讲解 Kubernetes 调度器、LLMOPS、MLOPS 平台等开发技术，助你进入 AI 领域
+  - 深入讲解 Kubernetes 源码、Kubernetes 开发技术，助你进入云原生领域
+  - 全面提高你的技术能力，包括 Go、云原生、AI Infra 领域中的架构设计、开发能力等
+- **职业进阶：**
+  - 进阶为 Go、云原生、AI 高级/专家开发工程师，提高职场竞争力，拓宽职业宽度
+- **效率提升：**
+  - 实战营中的项目可直接生产使用，降低你的开发难度，提高你的开发效率
+  - 实战营提供跟课程/项目相匹配的项目开发脚手架，最大化提高你的开发效率
+- **进入名企**
+  - 加入名企培训班：实战营中的开发者有机会加入名企冲刺班，老师和猎头一对一全程指导，助你顺利找到工作，入职名企
+  - 提高简历竞争力：Go、云原生、AI Infra 项目可以充实你的简历，提高简历竞争力
+  - 课程答疑：课程辅导，让你顺畅高效的学习 Go、云原生、AI Infra 开发技术
+  - 求职指导：面试指导、简历修改指导，让你少走弯路，轻松找到心仪工作
 
 ## :couple: 星球课程适宜人群
-- 想切入 AI 领域的 Go 或云原生开发开发者。
-- 想切入云原生领域的 Go 开发者；
-- 想进阶为 Go + 云原生高级/专家开发的开发者、学生；
-- 想系统学习、并通过实战掌握云原生或 AI 开发能力的开发者；
-- 想魔改优秀开源项目，完成开发任务的开发者；
-- 想了解大厂 Go 项目开发方式、最佳实践的开发者；
+- **想切入 AI Infra 领域的开发者：**
+  实战营中的 Kubernetes 调度器开发实战课、LLMOPS 开发实战课、机器学习平台开发实战课可以让你轻松切入 AI Infra 领域
+- **想切入云原生领域的 Go 开发者：**
+  实战营中的 Kubernetes 源码剖析课、Kubernetes 开发实战课可以让你轻松切入云原生领域
+- **想进阶为 Go、云原生、AI Infra 高级/专家开发的开发者：**
+  实战营中 Go、云原生、AI Infra 三大类体系课，共 11 套课程可以助你从初级进阶为高级，乃至专家级开发工程师
+- **想魔改开源项目，完成开发任务、提高开发效率的开发者：**
+  实战营中包含了大量企业级 Go 项目，这些项目代码规范、质量高、易扩展，可以帮助你轻松、高效的完成开发任务
+- **想了解大厂 Go 项目开发方式、最佳实践的开发者：**
+  作者有近 10 年腾讯、字节跳动开发经验，深知大厂的开发方式和工作方式，可以让你掌握最一线的大厂经验
 
 ## :star: 推荐阅读 
 

@@ -6,19 +6,64 @@
 <li>数学专业毕业的普通农村孩子，喜欢学习、热爱分享；</li>
 <li>字节跳动云原生开发专家，前腾讯云原生技术专家、联想云高级研发工程师、Red Hat 软件工程师；</li>
 <li>中国移动通信联合会专家级讲师，腾讯学院特约讲师，2023 年机械工业出版社新锐作者；</li>
-<li>出版作品：
+<li>出版图书：
 <ul>
-<li>图书：《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》唯一作者；《Kubernetes调度器权威指南》(写作中)作者；</li>
-<li>极客时间专栏：Go 语言项目开发实战、Kubernetes 源码剖析课</li>
-<li>掘金小册：从零开发企业级 Go 应用、基于 Go 语言构建企业级的 RESTful API 服务</li>
+<li><strong>图书：</strong>《企业级 Go 项目开发实战》、《从零开发企业级 Go 应用》唯一作者；《Kubernetes调度器权威指南》(写作中)作者；</li>
+<li><strong>极客时间专栏：</strong> Go 语言项目开发实战、Kubernetes 源码剖析课</li>
+<li><strong>掘金小册：</strong> 从零开发企业级 Go 应用、基于 Go 语言构建企业级的 RESTful API 服务</li>
 </ul>
 </li>
 <li>12 年云计算相关开发经验，超 9 年的 Go 项目开发和管理经验；</li>
-<li>在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务等技术栈有深入的理解。</li>
+<li>在云计算领域有非常丰富的实践经验，对 Docker/Kubernetes、Serverless、微服务、LLMOPS等技术栈有深入的理解。</li>
 </ul>
 <h2 id="我的项目开发经验" tabindex="-1"><a class="header-anchor" href="#我的项目开发经验"><span>我的项目开发经验</span></a></h2>
-<p>在云计算行业从业 11 年，我参与开发过很多知名的产品和项目，例如：RHEL、Xen、腾讯云容器服务 TKE、腾讯云云函数 SCF、腾讯游戏 API 网关、腾讯游戏微服务框架、字节跳动上云容器云平台 TCE 等，其中绝大部分项目都是用 Go 语言构建的。在开发这些项目的时候，也担任过各种核心角色，例如：核心研发、技术负责人。而且这些项目都源自一线大厂，世界知名公司。这些研发经验，使我具有非常丰富的一线企业、一线开发经验，也使我的课程能够跟真正的企业实战接轨，里面的知识、技能、实现方式和思想，都是工作中真正需要的。当然，我也更知道企业需要什么样的技术人才，并位置针对性的输出技术知识。</p>
-<p>工作期间也多次获得过各种奖项，例如：Red Hat 的 Bug 之星、腾讯最佳创新奖、在腾讯多次拿 4 星、5 星等荣誉奖项。</p>
+<p>在云计算行业从业 11 年，我参与开发过很多知名的产品和项目，例如：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">技术栈</th>
+<th style="text-align:center">项目</th>
+<th style="text-align:center">所在公司</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">操作系统</td>
+<td style="text-align:center">RHEL</td>
+<td style="text-align:center">Red Hat</td>
+</tr>
+<tr>
+<td style="text-align:center">虚拟化</td>
+<td style="text-align:center">Xen、KVM</td>
+<td style="text-align:center">腾讯云、Red Hat、联想云</td>
+</tr>
+<tr>
+<td style="text-align:center">容器</td>
+<td style="text-align:center">腾讯云容器服务 TKE、字节跳动上云容器云平台 TCE</td>
+<td style="text-align:center">腾讯云、字节跳动</td>
+</tr>
+<tr>
+<td style="text-align:center">Serverless</td>
+<td style="text-align:center">腾讯云云函数 SCF</td>
+<td style="text-align:center">腾讯云</td>
+</tr>
+<tr>
+<td style="text-align:center">微服务</td>
+<td style="text-align:center">腾讯游戏 API 网关、腾讯游戏微服务框架</td>
+<td style="text-align:center">腾讯游戏</td>
+</tr>
+<tr>
+<td style="text-align:center">AI Infra</td>
+<td style="text-align:center">字节跳动 LLMOPS 平台</td>
+<td style="text-align:center">字节跳动</td>
+</tr>
+</tbody>
+</table>
+<p>上述项目绝大部分是用 Go 语言构建的。在开发这些项目的时候，也担任过各种核心角色，例如：核心研发、技术负责人。<br>
+<br><br>
+上述研发经验，使我具有非常丰富的一线企业、一线开发经验，也使我的课程能够跟真正的企业实战接轨，里面的知识、技能、实现方式和思想，都是工作中真正需要的。当然，我也更知道企业需要什么样的技术人才，并位置针对性的输出技术知识。<br>
+<br><br>
+工作期间也多次获得过各种奖项，例如：Red Hat 的 Bug 之星、腾讯最佳创新奖、在腾讯多次拿 4 星、5 星等荣誉奖项。</p>
 <h2 id="我的职场经验" tabindex="-1"><a class="header-anchor" href="#我的职场经验"><span>我的职场经验</span></a></h2>
 <p>在我的职业生涯中，我从事过测试、开发、产品及架构师，具有非常丰富的一线企业开发经验。从 2016 年晋升为高级工程师之后，其他所有职位均在高级及以上。其中，测试、开发根据个人职业规划切换过多次，切换过程中，也没有拿过低绩效。后面，我会分享，我是如何成功切换岗位的，例如：从测试转型为开发，以及转型背后的思考。相信，这些来自于自己亲身实践的经验、方法更值得去参考、学习。</p>
 <h2 id="我的课程写作经验" tabindex="-1"><a class="header-anchor" href="#我的课程写作经验"><span>我的课程写作经验</span></a></h2>
@@ -47,7 +92,7 @@
 <li>腾讯内部学习平台近 2 万阅读量的 Go 实战课程：《Go API 开发实战》；</li>
 <li>GitHub 3500+ Star 开源项目作者：<a href="https://github.com/marmotedu/iam" target="_blank" rel="noopener noreferrer">iam<ExternalLinkIcon/></a>；</li>
 <li>一个非常优秀的 Go + 云原生实战项目：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">onex<ExternalLinkIcon/></a>。</li>
-<li>一个非常值得加入的云原生 AI 训练营：<a href="https://t.zsxq.com/17mjPoYGc" target="_blank" rel="noopener noreferrer">云原生AI实战营<ExternalLinkIcon/></a>。</li>
+<li>一个非常值得加入的云原生 AI 训练营：<a href="https://t.zsxq.com/BDCy2" target="_blank" rel="noopener noreferrer">云原生AI实战营<ExternalLinkIcon/></a>。</li>
 <li>更多实战项目见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg" target="_blank" rel="noopener noreferrer">云原生 AI 实战营项目介绍<ExternalLinkIcon/></a></li>
 <li>更多课程见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i" target="_blank" rel="noopener noreferrer">云原生 AI 实战营课程介绍<ExternalLinkIcon/></a></li>
 </ul>

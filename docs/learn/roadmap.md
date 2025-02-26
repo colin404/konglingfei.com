@@ -79,6 +79,6 @@ tag:
 
 - 阶段 1：涉及的资料可以扫码关注我的公众号，回复【资料】，获取下载链接；
 <img src="/images/contact/微信公众号-8cm.jpg" alt="fenxiang" style="width:200px; height:auto;">
-- 阶段 2：你可以加入 [孔令飞的云原生实战营](https://t.zsxq.com/17mjPoYGc) 知识星球获得；
+- 阶段 2：你可以加入 [孔令飞的云原生实战营](https://t.zsxq.com/BDCy2) 知识星球获得；
 - 阶段 3：都是开源项目直接 GitHub 克隆源码学习；
 - 阶段 4：你就是资料。
