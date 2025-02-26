@@ -34,10 +34,17 @@ const list = [{
 }, {
     name: '下资料',
     icon: '/assets/icon/xiazai.png',
-    topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span> 获取海量编程学习资源「无任何套路」</span>',
+    topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span> 获取Go、云原生、AI编程学习资源「无任何套路」</span>',
+    img: '/assets/qrcode/令飞编程微信公众号.png',
+    bottomText: '',
+}, {
+    name: '公众号',
+    icon: '/assets/icon/gongzhonghao.png',
+    topText: '欢迎扫码关注我的公众号',
     img: '/assets/qrcode/令飞编程微信公众号.png',
     bottomText: '',
 }]
+
 </script>
 
 <style scoped>
