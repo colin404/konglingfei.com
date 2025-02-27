@@ -70,8 +70,8 @@ date: 2024-02-01
 - GitHub 3500+ Star 开源项目作者：[iam](https://github.com/marmotedu/iam)；
 - 一个非常优秀的 Go + 云原生实战项目：[onex](https://github.com/superproj/onex)。
 - 一个非常值得加入的云原生 AI 训练营：[云原生AI实战营](https://t.zsxq.com/BDCy2)。
-- 更多实战项目见：[云原生 AI 实战营项目介绍](https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg)
-- 更多课程见：[云原生 AI 实战营课程介绍](https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i)
+- 更多实战项目见：[云原生 AI 实战营项目介绍](https://www.yuque.com/konglingfei-vzag4/cloud/dbrzx4qa39fwse0u)
+- 更多课程见：[云原生 AI 实战营课程介绍](https://www.yuque.com/konglingfei-vzag4/cloud/wevnr7iv1cg7gvi6)
 
 ## 我为什么可以帮助你成长？
 

@@ -42,13 +42,13 @@ date: 2025-02-23
 
 ![](/images/云原生AI实战营核心内容.jpg)
 
-+ **高质量的实战课程（课程详细介绍见：** [**云原生 AI 实战营课程介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i)）：
++ **高质量的实战课程（课程详细介绍见：** [**云原生 AI 实战营课程介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/wevnr7iv1cg7gvi6)）：
     - **Go 项目开发实战课：** 包括 [Go 项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)、 <font style="color:#117CEE;">2 小时 Go 项目开发极速入门课</font>、[Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG)、[Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)，通过这些课程的学习，可以使开发者成为 Go 项目开发的高手，乃至具备专家级开发能力；
     - **Kubernetes 开发实战课：** 包括 [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)、[Kuberentes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)、[Kubernetes 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv) 等云原生课程。通过这些课程的学习，不仅可以大幅提升开发者的开发能力，还可以使开发者掌握云原生领域中的核心技术能力及开发能力，并从事云原生相关的工作岗位；
     - **AI 开发实战课：** 包括了 [LLMOPS开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#mR1F)、[Kuberentes 调度器开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ITin)、[机器学习平台开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#4xCu)。通过这些课程的学习，开发者可以从事 AI 相关的工作岗位，并且开发能力会再次得到大幅提升；
     - **职业发展课：** 包括 <font style="color:#117CEE;">程序员职业发展课、程序员面试指南 </font>等课程，通过这些课程的学习，结合其他课程的学习，可以使开发者能够更轻松的通过面试，进入头部企业，升职加薪。
     - **其他辅助课程**：[Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)、[常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku) 等。通过这些课程的学习可以进一步丰富开发知识，提高开发能力。
-+ **高质量的实战项目（项目详细介绍见：** [**云原生 AI 实战营项目介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg)）：
++ **高质量的实战项目（项目详细介绍见：** [**云原生 AI 实战营项目介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/dbrzx4qa39fwse0u)）：
     - **工具类项目：** 项目开发脚手架（[osbuilder](https://github.com/onexstack/osbuilder)）等；
     - **Go 语言实战项目：** 包括了 <font style="color:#601BDE;">初级实战项目</font>（[niewbie](https://github.com/onexstack/newbie)）、<font style="color:#601BDE;">中级实战项目</font>（[miniblog](https://github.com/onexstack/miniblog)）、<font style="color:#601BDE;">专家级实战项目</font>（[onex](https://github.com/onexstack/onex)）等；
     - **云原生实战项目：**<font style="color:#601BDE;">企业级 API 网关</font>（[tykbrother](https://github.com/onexstack/tykbrother)）、<font style="color:#601BDE;">云原生实战平台</font>（[onex](https://github.com/onexstack/onex)）等；
