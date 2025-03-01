@@ -14,31 +14,31 @@
 
 <script setup lang="jsx">
 const list = [{
-    name: '手机看',
+    name: '用手机看',
     icon: '/assets/icon/mobile.png',
     topText: '微信扫一扫',
     img: '/assets/qrcode/konglingfei.com.png',
     bottomText: '可以手机看或分享至朋友圈',
 }, {
-    name: '星球',
+    name: '加入星球',
     icon: '/assets/icon/xingqiu.png',
     topText: '一个助力 Go 开发者在 AI 时代建立技术竞争力的知识星球！',
     img: '/assets/qrcode/知识星球日常售卖活码.png',
     bottomText: '',
 }, {
-    name: '交流群',
+    name: '加交流群',
     icon: '/assets/icon/weixin.png',
     topText: '扫码自动进群',
     img: '/assets/qrcode/定刷群二维码.png',
     bottomText: 'PS：添加时请备注 <b>入群</b>',
 }, {
-    name: '下资料',
+    name: '下载资料',
     icon: '/assets/icon/xiazai.png',
     topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span> 获取Go、云原生、AI编程学习资源「无任何套路」</span>',
     img: '/assets/qrcode/令飞编程微信公众号.png',
     bottomText: '',
 }, {
-    name: '公众号',
+    name: '关公众号',
     icon: '/assets/icon/gongzhonghao.png',
     topText: '欢迎扫码关注我的公众号',
     img: '/assets/qrcode/令飞编程微信公众号.png',

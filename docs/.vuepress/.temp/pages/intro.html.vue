@@ -93,8 +93,8 @@
 <li>GitHub 3500+ Star 开源项目作者：<a href="https://github.com/marmotedu/iam" target="_blank" rel="noopener noreferrer">iam<ExternalLinkIcon/></a>；</li>
 <li>一个非常优秀的 Go + 云原生实战项目：<a href="https://github.com/superproj/onex" target="_blank" rel="noopener noreferrer">onex<ExternalLinkIcon/></a>。</li>
 <li>一个非常值得加入的云原生 AI 训练营：<a href="https://t.zsxq.com/BDCy2" target="_blank" rel="noopener noreferrer">云原生AI实战营<ExternalLinkIcon/></a>。</li>
-<li>更多实战项目见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/opbxkag8uk98s9cg" target="_blank" rel="noopener noreferrer">云原生 AI 实战营项目介绍<ExternalLinkIcon/></a></li>
-<li>更多课程见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/kn3ch99yaztq024i" target="_blank" rel="noopener noreferrer">云原生 AI 实战营课程介绍<ExternalLinkIcon/></a></li>
+<li>更多实战项目见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/dbrzx4qa39fwse0u" target="_blank" rel="noopener noreferrer">云原生 AI 实战营项目介绍<ExternalLinkIcon/></a></li>
+<li>更多课程见：<a href="https://www.yuque.com/konglingfei-vzag4/cloud/wevnr7iv1cg7gvi6" target="_blank" rel="noopener noreferrer">云原生 AI 实战营课程介绍<ExternalLinkIcon/></a></li>
 </ul>
 <h2 id="我为什么可以帮助你成长" tabindex="-1"><a class="header-anchor" href="#我为什么可以帮助你成长"><span>我为什么可以帮助你成长？</span></a></h2>
 <figure><img src="/images/我为什么可以帮助你成长-水印.png" alt="我为什么可以帮助你成长" tabindex="0" loading="lazy"><figcaption>我为什么可以帮助你成长</figcaption></figure>
