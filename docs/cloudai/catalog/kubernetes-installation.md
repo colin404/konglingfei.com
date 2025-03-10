@@ -3,7 +3,7 @@ date: 2024-01-30
 title: Kubernetes 集群部署课
 icon: bushu1
 star: true
-order: 5
+order: 6
 author: 孔令飞
 ---
 

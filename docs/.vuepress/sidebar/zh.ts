@@ -65,7 +65,7 @@ export const zhSidebar = sidebar({
       text: 'Go 项目开发实战课',
       icon: 'xiangmu',
       collapsible: false,
-      children: [ 'methodology', 'intermediate', 'expert'],
+      children: [ 'methodology', 'newbie', 'intermediate', 'expert'],
     },
     {
       text: 'Kubernetes 编程实战课',
