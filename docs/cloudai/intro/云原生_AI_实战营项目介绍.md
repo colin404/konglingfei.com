@@ -121,7 +121,7 @@ Tyk Brother 功能列表如下：
 
 ![](/images/API网关架构.png)
 
-###  2.云原生实战平台：[OneX](https://github.com/onexstack/onex)
+###  2. 云原生实战平台：[OneX](https://github.com/onexstack/onex)
 
 OneX 介绍如上。OneX 云原生实战平台，包含了 Kubernetes 编程中的所有技术实现，例如：Operator 开发、kube-apiserver style 的 APIServer 开发、CRD、client-go 实战、controller 开发及运维等等。
 
