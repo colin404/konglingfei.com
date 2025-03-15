@@ -50,7 +50,7 @@ date: 2025-02-23
     - **其他辅助课程**：[Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)、[常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku) 等。通过这些课程的学习可以进一步丰富开发知识，提高开发能力。
 + **高质量的实战项目（项目详细介绍见：** [**云原生 AI 实战营项目介绍**](https://www.yuque.com/konglingfei-vzag4/cloud/dbrzx4qa39fwse0u)）：
     - **工具类项目：** 项目开发脚手架（[osbuilder](https://github.com/onexstack/osbuilder)）等；
-    - **Go 语言实战项目：** 包括了 <font style="color:#601BDE;">初级实战项目</font>（[niewbie](https://github.com/onexstack/newbie)）、<font style="color:#601BDE;">中级实战项目</font>（[miniblog](https://github.com/onexstack/miniblog)）、<font style="color:#601BDE;">专家级实战项目</font>（[onex](https://github.com/onexstack/onex)）等；
+    - **Go 语言实战项目：** 包括了 <font style="color:#601BDE;">初级实战项目</font>（[niewbie](https://github.com/onexstack/fastgo)）、<font style="color:#601BDE;">中级实战项目</font>（[miniblog](https://github.com/onexstack/miniblog)）、<font style="color:#601BDE;">专家级实战项目</font>（[onex](https://github.com/onexstack/onex)）等；
     - **云原生实战项目：**<font style="color:#601BDE;">企业级 API 网关</font>（[tykbrother](https://github.com/onexstack/tykbrother)）、<font style="color:#601BDE;">云原生实战平台</font>（[onex](https://github.com/onexstack/onex)）等；
     - **AI 实战项目：** 包括<font style="color:#601BDE;">企业级 LLMOPS 平台</font>（[EasyAI](https://github.com/onexstack/easyai)）、<font style="color:#601BDE;">企业级 MLOPS 平台</font>（[EasyML](https://github.com/onexstack/easyml)）、<font style="color:#601BDE;">企业级智能体平台</font>（[EasyAgent](https://github.com/onexstack/easyagent)）等实战项目。
 + **老师答疑及辅导：** 技术栈中的课程与实战项目具备一定的技术深度，学习过程中难免会遇到问题或挑战。针对这些问题，学员可以随时在课程专属的知识星球中提问，并及时获得老师的专业解答，帮助快速解决难题，提升学习效率，轻松应对技术难点。
