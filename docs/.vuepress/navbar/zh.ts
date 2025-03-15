@@ -18,7 +18,7 @@ export const zhNavbar = navbar([
         text: "Go 项目开发实战课",
         children: [
           { text: "Go 项目开发方法论课", icon: "methodology", link: "/cloudai/catalog/methodology.md" },
-          { text: "Go 项目开发极速入门课", icon: "newbie", link: "/cloudai/catalog/newbie.md" },
+          { text: "Go 项目开发极速入门课", icon: "newbie", link: "/cloudai/catalog/fastgo.md" },
           { text: "Go 项目开发中级实战课", icon: "middle", link: "/cloudai/catalog/intermediate.md" },
           { text: "Go 项目开发专家级实战课", icon: "expert", link: "/cloudai/catalog/expert.md" },
         ],

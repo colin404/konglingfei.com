@@ -8,33 +8,11 @@ date: 2025-02-24
 
 ## Go 语言实战项目
 
-### 【限星球用户】Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
-
-osbuilder 项目作为 OneX 技术栈的项目开发脚手架，可以自动生成符合 OneX 技术栈开发规范、软件架构、开发风格的高质量 Go 项目。
-
-osbuilder 支持生成多种应用、多种框架的代码，osbuilder 支持以下核心参数：
-
-+ `-t, --type`：支持生成 Web 服务器、异步任务处理服务、命令行工具；
-+ `--web-framework`：Web 服务器支持 gin、grpc、grpc-gateway、kitex、hertz、kratos、go-zero 等 Web 框架；
-+ `--storage-type`：底层存储支持 Memory、MariaDB、SQLite、PostgreSQL、Etcd、MongoDB、Redis 等；
-+ `--deployment-mode`：支持 Systemd、Docker、Kubernetes 等部署模式。
-
-通过不同的可选项， osbuilder 工具会自动生成对应的高质量源码。在自动生成 Web 服务项目类型后，osbuilder 工具还支持给项目添加新的 REST 资源实现代码。
-
-通过使用 osbuilder 工具自动生成项目源码，可以极大的提高项目开发的效率，并保持项目开发风格的高度一致性，从而降低项目后期的阅读和维护成本。
-
-miniblog 项目，就是用 osbuilder 工具自动生成的：[https://github.com/onexstack/miniblog](https://github.com/onexstack/miniblog)。
-
-osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
-
-该工具目前作为《云原生 AI 实战营》知识星球的专有工具，可供星球内的星友免费使用、升级。工具后期也会不断迭代完善。
-
-
-###  极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
+### 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
 
 一个包含了 Go 项目开发中，基本功能的实战项目，旨在以最快速的方式，让读者了解到 Go 项目开发中的核心技术，及开发实习方式。整个项目源码一共 1600 多行，可以让你很快的了解 Go 项目开发的核心流程及功能。
 
-###  初中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
+### 初中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
 
 <font style="color:rgb(31, 35, 40);">miniblog（微博客） 是一个 Go 语言入门项目，用来完成用户注册、博客创建等业务功能。miniblog 入门但不简单：</font>
 
@@ -61,7 +39,7 @@ osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
 + <font style="color:rgb(31, 35, 40);">配套的视频课程：</font>[《从零开发企业级Go应用 - 视频课程》](https://konglingfei.com/)
 + **<font style="color:rgb(31, 35, 40);">学完 miniblog 的下一站</font>**<font style="color:rgb(31, 35, 40);">：miniblog 学完后，强烈建议学习更高阶的课程</font>[《孔令飞的云原生实战营体系课》](https://konglingfei.com/)<font style="color:rgb(31, 35, 40);">，实战营中的课程体系可以大幅提升你的技术能力和职场竞争力；</font>
 
-###  专家级实战项目：[OneX](https://github.com/onexstack/onex)
+### 「限星球用户」专家级实战项目：[OneX](https://github.com/onexstack/onex)
 <font style="color:rgb(31, 35, 40);">OneX 云原生实战平台是一个 Go 语言 + 云原生实战平台，也是一个企业级的云平台，整个项目遵循最佳实践的思路去构建。</font>
 
 <font style="color:rgb(31, 35, 40);"></font>
@@ -81,9 +59,30 @@ osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
 + **<font style="color:rgb(31, 35, 40);">项目规范：</font>**<font style="color:rgb(31, 35, 40);"> </font><font style="color:rgb(31, 35, 40);">规范先行。整个实战项目具有目录规范、代码规范、日志规范、错误码规范、文档规范、提交规范、版本规范等规范项；</font>
 + **<font style="color:rgb(31, 35, 40);">技术生态闭环：</font>**<font style="color:rgb(31, 35, 40);"> 整个项目用到了 Go 开发中的绝大部分功能点、技术栈和实现方式，完全可以通过一个实战项目闭环学习整个 Go 开发技术栈。</font>
 
+### 「限星球用户」Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
+
+osbuilder 项目作为 OneX 技术栈的项目开发脚手架，可以自动生成符合 OneX 技术栈开发规范、软件架构、开发风格的高质量 Go 项目。
+
+osbuilder 支持生成多种应用、多种框架的代码，osbuilder 支持以下核心参数：
+
++ `-t, --type`：支持生成 Web 服务器、异步任务处理服务、命令行工具；
++ `--web-framework`：Web 服务器支持 gin、grpc、grpc-gateway、kitex、hertz、kratos、go-zero 等 Web 框架；
++ `--storage-type`：底层存储支持 Memory、MariaDB、SQLite、PostgreSQL、Etcd、MongoDB、Redis 等；
++ `--deployment-mode`：支持 Systemd、Docker、Kubernetes 等部署模式。
+
+通过不同的可选项， osbuilder 工具会自动生成对应的高质量源码。在自动生成 Web 服务项目类型后，osbuilder 工具还支持给项目添加新的 REST 资源实现代码。
+
+通过使用 osbuilder 工具自动生成项目源码，可以极大的提高项目开发的效率，并保持项目开发风格的高度一致性，从而降低项目后期的阅读和维护成本。
+
+miniblog 项目，就是用 osbuilder 工具自动生成的：[https://github.com/onexstack/miniblog](https://github.com/onexstack/miniblog)。
+
+osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
+
+该工具目前作为《云原生 AI 实战营》知识星球的专有工具，可供星球内的星友免费使用、升级。工具后期也会不断迭代完善。
+
 ##  云原生实战项目
 
-###  企业级 API 网关：Tyk Brother
+### 「限星球用户」企业级 API 网关：Tyk Brother
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 
@@ -130,7 +129,7 @@ OneX 介绍如上。OneX 云原生实战平台，包含了 Kubernetes 编程中�
 
 AI 平台类实战项目，包含了 LLMOPS 平台、机器学习平台、智能体平台。通过这 3 类平台让你全面掌握 AI Infra 相关的开发技术。
 
-### 1. LLMOPS 平台：[EasyAI](https://github.com/onexstack/easyai)
+### 1.「限星球用户」LLMOPS 平台：[EasyAI](https://github.com/onexstack/easyai)
 
 > 提示：项目当前基本功能已经开发完成。
 
@@ -164,7 +163,7 @@ EasyAI 项目软件架构如下：
 
 EasyAI 平台初版已经开发完成，课程正在开发中。
 
-### 2. 机器学习平台
+### 2.「限星球用户」机器学习平台
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 
@@ -174,7 +173,7 @@ EasyML 平台架构如下：
 
 ![](/images/easyml架构提.svg)
 
-### 3. 智能体平台：EasyAgent
+### 3.「限星球用户」智能体平台：EasyAgent
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 

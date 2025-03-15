@@ -65,7 +65,7 @@ export const zhSidebar = sidebar({
       text: 'Go 项目开发实战课',
       icon: 'xiangmu',
       collapsible: false,
-      children: [ 'methodology', 'newbie', 'intermediate', 'expert'],
+      children: [ 'methodology', 'fastgo', 'intermediate', 'expert'],
     },
     {
       text: 'Kubernetes 编程实战课',
@@ -97,7 +97,7 @@ export const zhSidebar = sidebar({
       icon: 'go',
       collapsible: false,
       children: [ 
-        { text: "极速入门实战项目", icon: "jisu", link: "https://github.com/onexstack/newbie"},
+        { text: "极速入门实战项目", icon: "jisu", link: "https://github.com/onexstack/fastgo"},
         { text: "初中级实战项目", icon: "middle", link: "https://github.com/onexstack/miniblog"},
         { text: "中级实战项目", icon: "middle", link: "https://github.com/marmotedu/iam"},
         { text: "专家级实战项目", icon: "expert", link: "https://github.com/onexstack/onex"},
