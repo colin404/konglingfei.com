@@ -8,11 +8,11 @@ date: 2025-02-24
 
 ## Go 语言实战项目
 
-### 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
+### 1. 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
 
 一个包含了 Go 项目开发中，基本功能的实战项目，旨在以最快速的方式，让读者了解到 Go 项目开发中的核心技术，及开发实习方式。整个项目源码一共 1600 多行，可以让你很快的了解 Go 项目开发的核心流程及功能。
 
-### 初中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
+### 2. 初中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
 
 <font style="color:rgb(31, 35, 40);">miniblog（微博客） 是一个 Go 语言入门项目，用来完成用户注册、博客创建等业务功能。miniblog 入门但不简单：</font>
 
@@ -39,7 +39,7 @@ date: 2025-02-24
 + <font style="color:rgb(31, 35, 40);">配套的视频课程：</font>[《从零开发企业级Go应用 - 视频课程》](https://konglingfei.com/)
 + **<font style="color:rgb(31, 35, 40);">学完 miniblog 的下一站</font>**<font style="color:rgb(31, 35, 40);">：miniblog 学完后，强烈建议学习更高阶的课程</font>[《孔令飞的云原生实战营体系课》](https://konglingfei.com/)<font style="color:rgb(31, 35, 40);">，实战营中的课程体系可以大幅提升你的技术能力和职场竞争力；</font>
 
-### 「限星球用户」专家级实战项目：[OneX](https://github.com/onexstack/onex)
+### 3.「限星球用户」专家级实战项目：[OneX](https://github.com/onexstack/onex)
 <font style="color:rgb(31, 35, 40);">OneX 云原生实战平台是一个 Go 语言 + 云原生实战平台，也是一个企业级的云平台，整个项目遵循最佳实践的思路去构建。</font>
 
 <font style="color:rgb(31, 35, 40);"></font>
@@ -59,7 +59,7 @@ date: 2025-02-24
 + **<font style="color:rgb(31, 35, 40);">项目规范：</font>**<font style="color:rgb(31, 35, 40);"> </font><font style="color:rgb(31, 35, 40);">规范先行。整个实战项目具有目录规范、代码规范、日志规范、错误码规范、文档规范、提交规范、版本规范等规范项；</font>
 + **<font style="color:rgb(31, 35, 40);">技术生态闭环：</font>**<font style="color:rgb(31, 35, 40);"> 整个项目用到了 Go 开发中的绝大部分功能点、技术栈和实现方式，完全可以通过一个实战项目闭环学习整个 Go 开发技术栈。</font>
 
-### 「限星球用户」Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
+### 4.「限星球用户」Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
 
 osbuilder 项目作为 OneX 技术栈的项目开发脚手架，可以自动生成符合 OneX 技术栈开发规范、软件架构、开发风格的高质量 Go 项目。
 
@@ -82,7 +82,7 @@ osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
 
 ##  云原生实战项目
 
-### 「限星球用户」企业级 API 网关：Tyk Brother
+### 1.「限星球用户」企业级 API 网关：Tyk Brother
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 
@@ -121,7 +121,7 @@ Tyk Brother 功能列表如下：
 
 ![](/images/API网关架构.png)
 
-###  云原生实战平台：[OneX](https://github.com/onexstack/onex)
+###  2.云原生实战平台：[OneX](https://github.com/onexstack/onex)
 
 OneX 介绍如上。OneX 云原生实战平台，包含了 Kubernetes 编程中的所有技术实现，例如：Operator 开发、kube-apiserver style 的 APIServer 开发、CRD、client-go 实战、controller 开发及运维等等。
 
