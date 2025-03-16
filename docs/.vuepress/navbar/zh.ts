@@ -8,6 +8,7 @@ export const zhNavbar = navbar([
     text: "实战营课程",
     icon: "cloudnative",
     children: [
+      { text: "课程更新计划", icon: "jihua", link: "https://www.yuque.com/konglingfei-vzag4/cloud/zhgo3klxfgyy3ida" },
       {
         text: "Go 语言基础课",
         children: [
@@ -91,6 +92,8 @@ export const zhNavbar = navbar([
       }
     ]
   },
+  { text: "实战营动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
+  /*
   {
     text: "OneX 平台",
     icon: "onex",
@@ -132,6 +135,7 @@ export const zhNavbar = navbar([
       },
     ]
   },
+  */
   /*
   {
     text: "OneX 编程规范",
@@ -276,7 +280,6 @@ export const zhNavbar = navbar([
     ],
   },
   */
-  { text: "实战营动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
   {
     text: "作者介绍",
     icon: "zuozhe",
