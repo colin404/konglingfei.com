@@ -23,7 +23,7 @@ const list = [{
     name: '加入星球',
     icon: '/assets/icon/xingqiu.png',
     topText: '一个助力 Go 开发者在 AI 时代建立技术竞争力的知识星球！',
-    img: '/assets/qrcode/知识星球日常售卖活码.png',
+    img: '/assets/qrcode/星球无优惠加入码.png',
     bottomText: '',
 }, {
     name: '加交流群',

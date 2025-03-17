@@ -77,10 +77,8 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 - [如何学习实战营课程](/cloudnative/advanced/how.md)：介绍如何学习实战营课程，可以使自己尽快进阶为 Go、云原生高级开发工程师。
 - [云原生 AI 学习路线](/learn/roadmap.md)：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪；
 
-## :point_right: 欢迎关注
+## :point_right: 欢迎加入
 
-- 欢迎关注公众号我的公众号，干货不错过：
-  - 回复【资料】免费获取全套 Go、云原生、AI 学习资料；
-  - 回复【好友】加我微信，拉您进入技术交流群，免费 1V1 技术交流；
+欢迎加入我的云原生 AI 实战营：
 
-<img src="/images/contact/令飞编程.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
+<img src="/images/contact/无优惠码-公众号.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">

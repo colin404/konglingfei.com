@@ -60,16 +60,9 @@
 <li><RouteLink to="/cloudnative/advanced/how.html">如何学习实战营课程</RouteLink>：介绍如何学习实战营课程，可以使自己尽快进阶为 Go、云原生高级开发工程师。</li>
 <li><RouteLink to="/learn/roadmap.html">云原生 AI 学习路线</RouteLink>：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪；</li>
 </ul>
-<h2 id="欢迎关注" tabindex="-1"><a class="header-anchor" href="#欢迎关注"><span>👉 欢迎关注</span></a></h2>
-<ul>
-<li>欢迎关注公众号我的公众号，干货不错过：
-<ul>
-<li>回复【资料】免费获取全套 Go、云原生、AI 学习资料；</li>
-<li>回复【好友】加我微信，拉您进入技术交流群，免费 1V1 技术交流；</li>
-</ul>
-</li>
-</ul>
-<img src="/images/contact/令飞编程.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
+<h2 id="欢迎加入" tabindex="-1"><a class="header-anchor" href="#欢迎加入"><span>👉 欢迎加入</span></a></h2>
+<p>欢迎加入我的云原生 AI 实战营：</p>
+<img src="/images/contact/无优惠码-公众号.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
 </div></template>
 
 
