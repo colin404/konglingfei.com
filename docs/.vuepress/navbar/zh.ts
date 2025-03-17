@@ -2,8 +2,8 @@ import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
   //"/demo/",
-  //{ text: "加入星球", icon: "xingqiu", link: "https://t.zsxq.com/BDCy2"},
-  //{ text: "🔥加入星球", icon: "xingqiu", link: "https://t.zsxq.com/BDCy2"},
+  //{ text: "加入星球", icon: "xingqiu", link: "https://t.zsxq.com/5T0qC"},
+  //{ text: "🔥加入星球", icon: "xingqiu", link: "https://t.zsxq.com/5T0qC"},
   {
     text: "实战营课程",
     icon: "cloudnative",
@@ -291,5 +291,5 @@ export const zhNavbar = navbar([
     ]
     */
   },
-  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/BDCy2"}
+  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/5T0qC"}
 ]);
