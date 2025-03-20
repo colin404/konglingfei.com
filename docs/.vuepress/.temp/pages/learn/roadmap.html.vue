@@ -69,7 +69,7 @@
 <ul>
 <li>阶段 1：涉及的资料可以扫码关注我的公众号，回复【资料】，获取下载链接；<br>
 <img src="/images/contact/微信公众号-8cm.jpg" alt="fenxiang" style="width:200px; height:auto;"></li>
-<li>阶段 2：你可以加入 <a href="https://t.zsxq.com/BDCy2" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a> 知识星球获得；</li>
+<li>阶段 2：你可以加入 <a href="https://t.zsxq.com/5T0qC" target="_blank" rel="noopener noreferrer">孔令飞的云原生实战营<ExternalLinkIcon/></a> 知识星球获得；</li>
 <li>阶段 3：都是开源项目直接 GitHub 克隆源码学习；</li>
 <li>阶段 4：你就是资料。</li>
 </ul>

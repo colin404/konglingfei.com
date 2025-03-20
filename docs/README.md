@@ -5,7 +5,7 @@ icon: home
 title: 主页
 heroText: 云原生 AI 实战星球
 heroImage: /cloudnative-blue.svg
-tagline: <font color="red" size="4.5"><strong>一个助力 Go 开发者在 AI 时代建立技术竞争力的知识星球！</strong></font><br/><br/><font color="gray" size="4" face="KaiTi">建立技术竞争力，入职大厂、升职加薪！</font>
+tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><br/><font color="gray" size="4" face="KaiTi">加入「云原生AI实战营」，解锁年薪百万的专家级技术体系！</font>
 actions:
   - text: 👉 加入星球
     link: https://t.zsxq.com/5T0qC
