@@ -61,6 +61,9 @@
 <li><RouteLink to="/learn/roadmap.html">云原生 AI 学习路线</RouteLink>：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪；</li>
 </ul>
 <h2 id="欢迎加入" tabindex="-1"><a class="header-anchor" href="#欢迎加入"><span>👉 欢迎加入</span></a></h2>
+<ul>
+<li>我的 B 站：<a href="https://space.bilibili.com/3546695644220305" target="_blank" rel="noopener noreferrer">令飞编程<ExternalLinkIcon/></a></li>
+</ul>
 <p>欢迎加入我的云原生 AI 实战营：</p>
 <img src="/images/contact/无优惠码-公众号.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
 </div></template>

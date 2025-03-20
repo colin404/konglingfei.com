@@ -79,6 +79,8 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 
 ## :point_right: 欢迎加入
 
+- 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
+
 欢迎加入我的云原生 AI 实战营：
 
 <img src="/images/contact/无优惠码-公众号.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
