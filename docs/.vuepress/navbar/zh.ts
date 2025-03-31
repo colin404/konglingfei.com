@@ -92,7 +92,7 @@ export const zhNavbar = navbar([
       }
     ]
   },
-  { text: "实战营动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
+  { text: "课程更新动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
   /*
   {
     text: "OneX 平台",
