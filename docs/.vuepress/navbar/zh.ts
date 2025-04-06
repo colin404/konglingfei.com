@@ -92,7 +92,7 @@ export const zhNavbar = navbar([
       }
     ]
   },
-  { text: "课程更新动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
+  { text: "实战营更新动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
   /*
   {
     text: "OneX 平台",
@@ -242,26 +242,21 @@ export const zhNavbar = navbar([
   */
   //{ text: "面试", icon: "mianshi", link: "/posts" },
   {
-    text: "编程分享",
-    icon: "jishufenxiang",
+    text: "微信文章",
+    icon: "weixin", 
+    link: "https://www.yuque.com/konglingfei-vzag4/cloud/qk30iiv6zuc1kiga",
+  },
+  //{
+    //text: "学习资源",
+    //icon: "xuexiziyuan",
     //prefix: "learn/",
-    children: [
-      { text: "技术分享", icon: "fenxiang", link: "/posts/" },
-      { text: "微信文章", icon: "weixin", link: "/wechat/README.md" },
+    //children: [
+      //{ text: "Go 学习路线", icon: "go", link: "https://roadmap.sh/golang"},
+      //{ text: "云原生学习路线", icon: "luxian", link: "roadmap" },
+      //{ text: "学习资源推荐", icon: "tuijian", link: "books" },
       //{ text: "资源分享", icon: "luxian", link: "link" },
-    ],
-  },
-  {
-    text: "学习资源",
-    icon: "xuexiziyuan",
-    prefix: "learn/",
-    children: [
-      { text: "Go 学习路线", icon: "go", link: "https://roadmap.sh/golang"},
-      { text: "云原生学习路线", icon: "luxian", link: "roadmap" },
-      { text: "学习资源推荐", icon: "tuijian", link: "books" },
-      //{ text: "资源分享", icon: "luxian", link: "link" },
-    ],
-  },
+    //],
+  //},
   //{ text: "婚恋交友", icon: "fenxiang", link: "/posts" },
   /*
   {
@@ -291,5 +286,10 @@ export const zhNavbar = navbar([
     ]
     */
   },
-  { text: "🔥加入星球", icon: "", link: "https://t.zsxq.com/5T0qC"}
+  { text: "🔥加入星球",
+    children: [
+      { text: 'Go 进阶实战营', icon: 'go', link: 'https://t.zsxq.com/8UUKi' },
+      { text: '云原生 AI 实战营', icon: 'cloudai', link: 'https://t.zsxq.com/5T0qC' },
+    ],
+  },
 ]);

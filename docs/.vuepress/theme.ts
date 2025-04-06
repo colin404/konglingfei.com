@@ -27,7 +27,7 @@ export default hopeTheme({
   // Iconfont 精选图标 和 阿里妈妈的互斥
   // iconAssets: "iconfont",
   //iconAssets: "fontawesome-with-brands",
-  iconAssets: "//at.alicdn.com/t/c/font_4425847_b4r2y620wvn.css",
+  iconAssets: "//at.alicdn.com/t/c/font_4425847_f21csnn5lns.css",
   breadcrumbIcon: false, // 是否在路径导航显示图标
   // 纯净模式，会禁用一些花哨的动画以及一些色彩
   pure: false, 
@@ -136,7 +136,7 @@ export default hopeTheme({
   // enable it to preview all changes in time
   // hotReload: true,
 
-  navTitle: "云原生 AI 实战星球",
+  navTitle: "令飞编程",
   // 默认值: { start: ["Brand"], center: ["Links"], end: ["Language", "Repo", "Outlook", "Search"] }
   navbarLayout:{ 
     start: ["Brand"], 

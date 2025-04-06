@@ -3,26 +3,26 @@ date: 2024-01-30
 home: true
 icon: home
 title: 主页
-heroText: 云原生 AI 实战星球
+heroText: 令飞编程实战营
 heroImage: /cloudnative-blue.svg
-tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><br/><font color="gray" size="4" face="KaiTi">加入「云原生AI实战营」，解锁年薪百万的专家级技术体系！</font>
+tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
 actions:
   - text: 👉 加入星球
-    link: https://t.zsxq.com/5T0qC
+    link: /lingfeicode/join/join
     type: primary
   - text: 实战营介绍
-    link: /cloudai/intro/intro
+    link: /lingfeicode/intro/intro
   - text: 实战营课程介绍
-    link: /cloudai/intro/云原生_AI_实战营课程介绍.md
+    link: /lingfeicode/intro/云原生_AI_实战营课程介绍.md
   - text: 实战营项目介绍
-    link: /cloudai/intro/云原生_AI_实战营项目介绍.md
+    link: /lingfeicode/intro/云原生_AI_实战营项目介绍.md
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
   details: <span class="list-item">字节跳动、腾讯、联想、Red Hat超 10 年 Go、云原生开发经验</span><span class="list-item">多个国内外知名产品设计和开发经验</span><span class="list-item">3 本书作者，5 套网课的技术课程写作经验</span><span class="list-item">中国移动通信联合会专家级讲师</span><span class="list-item">2023 年机械工业出版社新锐作者</span>
-- title: 11 套高质量体系课
+- title: 12+ 套高质量体系课
   icon: boshimao
-  details: <span class="list-item">拥有 11 套高质量Go、云原生、AI体系课</span><span class="list-item">超 500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
+  details: <span class="list-item">拥有12+套高质量Go、云原生、AI体系课</span><span class="list-item">超 500 节课，350 万字的充足课程量</span><span class="list-item">每日一题（算法、Go、云原生面试题等）</span><span class="list-item">大量实战案例和源码</span><span class="list-item">不定期的直播分享</span><span class="list-item">体系课持续不断更新、优化</span><span class="list-item">星球内海量学习资料分享</span>
 - title: 超高质量实战项目
   icon: xiangmu
   details: <span class="list-item">种类全：包括Go、云原生、AI 三类项目</span><span class="list-item">内容全：20 万行源码，囊括 Go 企业应用开发中绝大部分功能点</span><span class="list-item">质量高：项目代码规范、质量高、功能全、易扩展</span><span class="list-item">开发模式全：命令式+声明式编程范式等</span><span class="list-item">架构先进：简洁架构、Kubernetes 架构</span><span class="list-item">持续更新：项目功能、架构等持续更新</span>
@@ -63,24 +63,34 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 ## :star: 推荐阅读 
 
 - 实战营课程目录列表如下：
-  - [Go 设计模式 61 讲课](/cloudai/catalog/design-pattern.md)；
-  - [Go 项目开发方法论课](/cloudai/catalog/methodology.md)；
-  - [Go 项目开发中级实战课](/cloudai/catalog/intermediate.md)；
-  - [Go 项目开发专家级实战课](/cloudai/catalog/expert.md)；
-  - [Kubernetes 集群部署课](/cloudai/catalog/kubernetes-installation.md)；
-  - [Kubernetes 源码剖析课](/cloudai/catalog/kubernetes-source.md)；
-  - [Kubernetes 开发实战课](/cloudai/catalog/kubernetes-dev.md)；
-  - [LLMOPS 开发实战课](/cloudai/catalog/llmops.md)；
-  - [Kubernetes 调度器开发实战课](/cloudai/catalog/kubernetes-scheduler.md)；
-  - [机器学习平台开发实战课](/cloudai/catalog/mlops.md)；
-  - [职业发展课目录](/cloudnative/catalog/career.md)；
++ **「Go 进阶训练营」+「云原生 AI 实战营」**
+  - Go 语言基础课
+    - [Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)
+    - [常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku)（Go语言版）
+  - Go 项目开发实战课
+    - [Go项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)
+    - [Go项目开发极速入门课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#Pob3)
+    - [Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG)
+    - [Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)
++ **「云原生 AI 实战营」**
+  - Kubernetes 编程实战课
+    - [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)
+    - [Kubernetes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)
+    - [Kubernetes 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv)
+  - AI 开发实战课
+    - [LLMOPS 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#mR1F)
+    - [Kubernetes 调度器开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ITin)
+    - [MLOPS 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#4xCu)
 - [如何学习实战营课程](/cloudnative/advanced/how.md)：介绍如何学习实战营课程，可以使自己尽快进阶为 Go、云原生高级开发工程师。
 - [云原生 AI 学习路线](/learn/roadmap.md)：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪；
 
 ## :point_right: 欢迎加入
 
 - 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
+- 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/KEnHofWkxBSO2d_25tf8RA)
 
-欢迎加入我的云原生 AI 实战营：
+欢迎加入令飞编程实战营
 
-<img src="/images/contact/无优惠码-公众号.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
+> 建议加入高阶星球「云原生AI实战营」，更快实现职业进阶
+
+<img src="/images/contact/令飞编程知识星球.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">

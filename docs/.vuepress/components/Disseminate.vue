@@ -14,21 +14,19 @@
 
 <script setup lang="jsx">
 const list = [{
-    name: '用手机看',
-    icon: '/assets/icon/mobile.png',
-    topText: '微信扫一扫',
-    img: '/assets/qrcode/konglingfei.com.png',
-    bottomText: '可以手机看或分享至朋友圈',
+    name: 'Go进阶星球',
+    icon: '/assets/icon/goadvanced.png',
+    img: '/assets/qrcode/goadvanced.png',
+    bottomText: '',
 }, {
-    name: '加入星球',
-    icon: '/assets/icon/xingqiu.png',
-    topText: '一个助力 Go 开发者在 AI 时代建立技术竞争力的知识星球！',
-    img: '/assets/qrcode/星球无优惠加入码.png',
+    name: '云原生AI星球',
+    icon: '/assets/icon/cloudai.png',
+    img: '/assets/qrcode/cloudai.png',
     bottomText: '',
 }, {
     name: '加交流群',
     icon: '/assets/icon/weixin.png',
-    topText: '扫码自动进群',
+    topText: '加好友拉进群',
     img: '/assets/qrcode/定刷群二维码.png',
     bottomText: 'PS：添加时请备注 <b>入群</b>',
 }, {
