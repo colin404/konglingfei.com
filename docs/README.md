@@ -5,12 +5,7 @@ icon: home
 title: 主页
 heroText: 令飞编程实战营
 heroImage: /cloudnative-blue.svg
-tagline: |
-  <div style="width: 700px; margin: 0 auto;">  
-    <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/>
-    <font color="black" size="4" face="KaiTi">加入「Go进阶实战营」，助你从零进阶为 Go 高级开发工程师</font><br/>
-    <font color="black" size="4" face="KaiTi">加入「云原生AI实战营」，进阶 Go、云原生、 AI Infra 专家工程师，解锁百万年薪！</font><br/>
-  </div>
+tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go>进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
 actions:
   - text: 👉 加入星球
     link: /lingfeicode/join/join
