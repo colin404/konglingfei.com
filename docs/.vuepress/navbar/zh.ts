@@ -21,6 +21,7 @@ export const zhNavbar = navbar([
           { text: "Go 项目开发方法论课", icon: "methodology", link: "/cloudai/catalog/methodology.md" },
           { text: "Go 项目开发极速入门课", icon: "newbie", link: "/cloudai/catalog/fastgo.md" },
           { text: "Go 项目开发中级实战课", icon: "middle", link: "/cloudai/catalog/intermediate.md" },
+          { text: "Go 项目开发高级实战课", icon: "advanced", link: "/cloudai/catalog/advanced.md" },
           { text: "Go 项目开发专家级实战课", icon: "expert", link: "/cloudai/catalog/expert.md" },
         ],
       },
@@ -64,8 +65,8 @@ export const zhNavbar = navbar([
         text: "Go 项目",
         children: [
           { text: "极速入门实战项目 fastgo", icon: "chuji", link: "https://github.com/onexstack/fastgo" },
-          { text: "初中级实战项目 miniblog", icon: "middle", link: "https://github.com/onexstack/miniblog" },
-          { text: "中级实战项目 iam", icon: "middle", link: "https://github.com/marmotedu/iam" },
+          { text: "中级实战项目 miniblog", icon: "middle", link: "https://github.com/onexstack/miniblog" },
+          { text: "高级级实战项目 iam", icon: "advanced", link: "https://github.com/marmotedu/iam" },
           { text: "专家级实战项目 onex", icon: "expert", link: "https://github.com/onexstack/onex" },
         ],
       },

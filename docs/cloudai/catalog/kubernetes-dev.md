@@ -3,7 +3,7 @@ date: 2024-01-30
 title: Kubernetes 开发实战课
 icon: k8sdevel
 star: true
-order: 8
+order: 9
 author: 孔令飞
 ---
 

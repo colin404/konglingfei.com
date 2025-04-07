@@ -3,7 +3,7 @@ date: 2024-01-30
 title: Go 项目开发方法论课
 icon: methodology
 star: true
-order: 3
+order: 2
 author: 孔令飞
 ---
 

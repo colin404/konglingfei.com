@@ -5,7 +5,7 @@ export const zhSidebar = sidebar({
     {
       text: '更新日志',
       icon: 'rizhi',
-      link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md",
+      link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3",
     },
     {
       text: '项目介绍',
@@ -53,7 +53,7 @@ export const zhSidebar = sidebar({
     {
       text: '更新日志',
       icon: 'rizhi',
-      link: "https://github.com/superproj/onex/blob/master/CHANGELOG.md",
+      link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3",
     },
     {
       text: 'Go 语言基础课',
@@ -65,7 +65,7 @@ export const zhSidebar = sidebar({
       text: 'Go 项目开发实战课',
       icon: 'xiangmu',
       collapsible: false,
-      children: [ 'methodology', 'fastgo', 'intermediate', 'expert'],
+      children: [ 'methodology', 'fastgo', 'intermediate', 'advanced', 'expert'],
     },
     {
       text: 'Kubernetes 编程实战课',
@@ -98,8 +98,8 @@ export const zhSidebar = sidebar({
       collapsible: false,
       children: [ 
         { text: "极速入门实战项目", icon: "jisu", link: "https://github.com/onexstack/fastgo"},
-        { text: "初中级实战项目", icon: "middle", link: "https://github.com/onexstack/miniblog"},
-        { text: "中级实战项目", icon: "middle", link: "https://github.com/marmotedu/iam"},
+        { text: "中级实战项目", icon: "middle", link: "https://github.com/onexstack/miniblog"},
+        { text: "高级实战项目", icon: "advanced", link: "https://github.com/marmotedu/iam"},
         { text: "专家级实战项目", icon: "expert", link: "https://github.com/onexstack/onex"},
       ],
     },

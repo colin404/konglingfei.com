@@ -4,12 +4,12 @@ date: 2025-02-24
 
 + **「Go 进阶训练营」+「云原生 AI 实战营」**
   - 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
-  - 初中级实战项目：[miniblog](https://github.com/onexstack/miniblog
-  - 专家级实战项目：[OneX](https://github.com/onexstack/onex)
+  - 中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
+  - 高级实战项目：[iam](https://github.com/marmotedu/iam)
   - Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
 + **「云原生 AI 实战营」**
-  - 企业级 API 网关：Tyk Brothe
-  - 云原生实战平台：[OneX](https://github.com/onexstack/onex)
+  - 企业级 API 网关：Tyk Brother
+  - 云原生实战平台（专家级 Go 实战项目）：[OneX](https://github.com/onexstack/onex)
     - 分布式限流项目 onex-ratelimit
     - 工作流：onex-workflow
     - 云原生可观测平台：onex-eye
@@ -25,11 +25,11 @@ date: 2025-02-24
 
 ## Go 语言实战项目
 
-### 1. 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
+### 极速入门实战项目：[fastgo](https://github.com/onexstack/fastgo)
 
 一个包含了 Go 项目开发中，基本功能的实战项目，旨在以最快速的方式，让读者了解到 Go 项目开发中的核心技术，及开发实习方式。整个项目源码一共 1600 多行，可以让你很快的了解 Go 项目开发的核心流程及功能。
 
-### 2. 初中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
+### 中级实战项目：[miniblog](https://github.com/onexstack/miniblog)
 
 <font style="color:rgb(31, 35, 40);">miniblog（微博客） 是一个 Go 语言入门项目，用来完成用户注册、博客创建等业务功能。miniblog 入门但不简单：</font>
 
@@ -56,7 +56,18 @@ date: 2025-02-24
 + <font style="color:rgb(31, 35, 40);">配套的视频课程：</font>[《从零开发企业级Go应用 - 视频课程》](https://konglingfei.com/)
 + **<font style="color:rgb(31, 35, 40);">学完 miniblog 的下一站</font>**<font style="color:rgb(31, 35, 40);">：miniblog 学完后，强烈建议学习更高阶的课程</font>[《孔令飞的云原生实战营体系课》](https://konglingfei.com/)<font style="color:rgb(31, 35, 40);">，实战营中的课程体系可以大幅提升你的技术能力和职场竞争力；</font>
 
-### 3.「限星球用户」专家级实战项目：[OneX](https://github.com/onexstack/onex)
+### 高级实战项目：[iam](https://github.com/marmotedu/iam)
+
+高级实战项目是我的极客时间专栏「[Go 语言项目开发实战](https://time.geekbang.org/column/intro/100079601)」中实战项目 [iam](https://github.com/marmotedu/iam) 的升级版本。
+
+该项目实现了一个认证授权系统。项目架构如下：
+
+<img src="/images/IAM架构.png" alt="fenxiang" style="display: block;width:700px;height:auto;margin-left: 0;margin-right:auto;">
+
+IAM 采用前后端分离的软件架构，基于Go语言开发，包含多个组件，共同组成一个认证与授权系统。组件说明见：[IAM 架构 & 能力说明](https://github.com/marmotedu/iam/blob/master/docs/guide/zh-CN/installation/installation-architecture.md)
+
+### 专家级实战项目：[OneX](https://github.com/onexstack/onex)
+
 <font style="color:rgb(31, 35, 40);">OneX 云原生实战平台是一个 Go 语言 + 云原生实战平台，也是一个企业级的云平台，整个项目遵循最佳实践的思路去构建。</font>
 
 <font style="color:rgb(31, 35, 40);"></font>
@@ -76,7 +87,7 @@ date: 2025-02-24
 + **<font style="color:rgb(31, 35, 40);">项目规范：</font>**<font style="color:rgb(31, 35, 40);"> </font><font style="color:rgb(31, 35, 40);">规范先行。整个实战项目具有目录规范、代码规范、日志规范、错误码规范、文档规范、提交规范、版本规范等规范项；</font>
 + **<font style="color:rgb(31, 35, 40);">技术生态闭环：</font>**<font style="color:rgb(31, 35, 40);"> 整个项目用到了 Go 开发中的绝大部分功能点、技术栈和实现方式，完全可以通过一个实战项目闭环学习整个 Go 开发技术栈。</font>
 
-### 4.「限星球用户」Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
+### 「限星球用户」Go 项目开发脚手架项目：[osbuilder](https://github.com/onexstack/osbuilder)
 
 osbuilder 项目作为 OneX 技术栈的项目开发脚手架，可以自动生成符合 OneX 技术栈开发规范、软件架构、开发风格的高质量 Go 项目。
 
@@ -99,7 +110,7 @@ osbuilder 工具还支持 AI 编程能力，该能力正在开发完善中。
 
 ##  云原生实战项目
 
-### 1.「限星球用户」企业级 API 网关：Tyk Brother
+### 「限星球用户」企业级 API 网关：Tyk Brother
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 
@@ -136,9 +147,9 @@ Tyk Brother 功能列表如下：
 
 网关架构如下：
 
-![](/images/API网关架构.png)
+<img src="/images/API网关架构.png" alt="fenxiang" style="display: block;width:700px;height:auto;margin-left: 0;margin-right:auto;">
 
-###  2. 云原生实战平台：[OneX](https://github.com/onexstack/onex)
+### 云原生实战平台：[OneX](https://github.com/onexstack/onex)
 
 OneX 介绍如上。OneX 云原生实战平台，包含了 Kubernetes 编程中的所有技术实现，例如：Operator 开发、kube-apiserver style 的 APIServer 开发、CRD、client-go 实战、controller 开发及运维等等。
 
@@ -146,7 +157,7 @@ OneX 介绍如上。OneX 云原生实战平台，包含了 Kubernetes 编程中�
 
 AI 平台类实战项目，包含了 LLMOPS 平台、机器学习平台、智能体平台。通过这 3 类平台让你全面掌握 AI Infra 相关的开发技术。
 
-### 1.「限星球用户」LLMOPS 平台：[EasyAI](https://github.com/onexstack/easyai)
+### 「限星球用户」LLMOPS 平台：[EasyAI](https://github.com/onexstack/easyai)
 
 > 提示：项目当前基本功能已经开发完成。
 
@@ -154,7 +165,7 @@ EasyAI 项目是一个面向云原生环境的 LLM 连接器，致力于通过�
 
 EasyAI 实现了一个功能完备、扩展能力强、代码质量高、易维护的云原生 AI 平台，具有以下 LLMOPS 功能：
 
-![](/images/easyai功能图.jpg)
+<img src="/images/easyai功能图.jpg" alt="fenxiang" style="display: block;width:700px;height:auto;margin-left: 0;margin-right:auto;">
 
 核心功能包括以下 2 部分：
 
@@ -167,7 +178,7 @@ EasyAI 平台中使用到的技术栈包括了 Go 项目开发技术栈、云原
 
 EasyAI 项目软件架构如下：
 
-![](/images/easyai架构提.png)
+<img src="/images/easyai架构提.png" alt="fenxiang" style="display: block;width:1000px;height:auto;margin-left: 0;margin-right:auto;">
 
 这里要注意， EasyAI 平台使用的开发技术是 Go 项目开发实战课、Kubernetes 编程实战课中介绍的技术，并加入了 AI 领域的技术。所以，想更好的掌握 EasyAI 项目的开发，最好预先学习上述 2 类体系课。
 
@@ -180,7 +191,7 @@ EasyAI 项目软件架构如下：
 
 EasyAI 平台初版已经开发完成，课程正在开发中。
 
-### 2.「限星球用户」机器学习平台
+### 「限星球用户」机器学习平台
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 
@@ -190,7 +201,7 @@ EasyML 平台架构如下：
 
 ![](/images/easyml架构提.svg)
 
-### 3.「限星球用户」智能体平台：EasyAgent
+### 「限星球用户」智能体平台：EasyAgent
 
 > 提示：项目正在开发中，GitHub 暂未开源。
 

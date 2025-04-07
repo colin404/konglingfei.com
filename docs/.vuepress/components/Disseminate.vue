@@ -14,7 +14,7 @@
 
 <script setup lang="jsx">
 const list = [{
-    name: 'Go进阶星球',
+    name: 'Go 进阶星球 ',
     icon: '/assets/icon/goadvanced.png',
     img: '/assets/qrcode/goadvanced.png',
     bottomText: '',
@@ -32,7 +32,7 @@ const list = [{
 }, {
     name: '下载资料',
     icon: '/assets/icon/xiazai.png',
-    topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span> 获取Go、云原生、AI编程学习资源「无任何套路」</span>',
+    topText: '<span style="font-size:0.8rem;font-weight:bold;">扫码公众号，回复 <span style="color:red;">资料</span></span>',
     img: '/assets/qrcode/令飞编程微信公众号.png',
     bottomText: '',
 }, {

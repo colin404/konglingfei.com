@@ -5,7 +5,13 @@ icon: home
 title: 主页
 heroText: 令飞编程实战营
 heroImage: /cloudnative-blue.svg
-tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
+tagline: |
+  <div style="width: 700px; margin: 0 auto;">  
+    <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/>
+    <font color="black" size="4" face="KaiTi">加入「Go进阶实战营」，助你从零进阶为 Go 高级开发工程师</font><br/>
+    <font color="black" size="4" face="KaiTi">加入「云原生AI实战营」，进阶 Go、云原生、 AI Infra 专家工程师，解锁百万年薪！</font><br/>
+    <font color="gray" size="4" face="KaiTi">提示：「云原生AI实战营」包含令飞编程实战营所有内容，建议优先加入！</font>  
+  </div>
 actions:
   - text: 👉 加入星球
     link: /lingfeicode/join/join
@@ -49,6 +55,8 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
   - 求职指导：面试指导、简历修改指导，让你少走弯路，轻松找到心仪工作
 
 ## :couple: 星球课程适宜人群
+- **学完 Go 基础语法，想学习 Go 项目开发的开发者：**
+  实战营中的一系列高质量 Go 体系课，加上配套的实战项目，可以使你彻底掌握如何开发一个高质量的 Go 项目
 - **想切入 AI Infra 领域的开发者：**
   实战营中的 Kubernetes 调度器开发实战课、LLMOPS 开发实战课、机器学习平台开发实战课可以让你轻松切入 AI Infra 领域
 - **想切入云原生领域的 Go 开发者：**
@@ -67,12 +75,14 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
   - Go 语言基础课
     - [Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)
     - [常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku)（Go语言版）
-  - Go 项目开发实战课
-    - [Go项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)
-    - [Go项目开发极速入门课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#Pob3)
+  - Go 项目开发进阶实战课
+    - [Go 项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)
+    - [Go 项目开发极速入门课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#Pob3)
     - [Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG)
-    - [Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)
+    - [Go 项目开发高级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0#tCdy)
 + **「云原生 AI 实战营」**
+  - Go 项目开发终阶实战课
+    - [Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)
   - Kubernetes 编程实战课
     - [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)
     - [Kubernetes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)

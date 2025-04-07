@@ -3,7 +3,7 @@ date: 2024-01-30
 title: LLMOPS 开发实战课
 icon: llmops
 star: true
-order: 9
+order: 10
 author: 孔令飞
 ---
 

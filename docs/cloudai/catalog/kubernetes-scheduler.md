@@ -3,7 +3,7 @@ date: 2024-01-30
 title: Kubernetes 调度器开发实战课
 icon: kubernetes
 star: true
-order: 10
+order: 11
 author: 孔令飞
 ---
 
