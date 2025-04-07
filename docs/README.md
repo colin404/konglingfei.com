@@ -10,7 +10,6 @@ tagline: |
     <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/>
     <font color="black" size="4" face="KaiTi">加入「Go进阶实战营」，助你从零进阶为 Go 高级开发工程师</font><br/>
     <font color="black" size="4" face="KaiTi">加入「云原生AI实战营」，进阶 Go、云原生、 AI Infra 专家工程师，解锁百万年薪！</font><br/>
-    <font color="gray" size="4" face="KaiTi">提示：「云原生AI实战营」包含令飞编程实战营所有内容，建议优先加入！</font>  
   </div>
 actions:
   - text: 👉 加入星球
@@ -37,6 +36,12 @@ features:
   details: <span class="list-item">活跃的技术学习社群，打卡、互助</span><span class="list-item">持续不断的、高质量云原生技术分享，及时解答学习过程中的疑问</span>
 footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 粤ICP备2024181276号</a >'
 ---
+
+## :bookmark_tabs: 令飞编程实战营介绍
+
+令飞编程实战营包含了 2 个知识星球：「Go进阶实战营」、「云原生AI实战营」。后者是前者的进阶实战营，包含前者的所有课程，面向想提高技术天花板的 Go 开发者。
+
+后者偏向于架构，并且包括 Go 专家、云原生、AI Infra 相关体系课，内容更深、更广。如果你想全面提高自己的开发能力，并且想切入云原生、AI Infra 开发岗位可以加入「云原生AI实战营」。
 
 ## :gift: 加入星球能收获什么？
 - **技术提升：**
