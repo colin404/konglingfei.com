@@ -44,6 +44,7 @@ export const zhNavbar = navbar([
       {
         text: "程序员职业发展课",
         children: [
+          { text: "云原生AI高薪就业课：大厂级项目实战到大厂面试通关", icon: "diamond", link: "/career/career.md" },
           { text: "程序员职业发展课", icon: "zhiyefazhan", link: "/career/career.md" },
           { text: "程序员面试指南", icon: "mianshi", link: "/career/interview.md" },
         ],
