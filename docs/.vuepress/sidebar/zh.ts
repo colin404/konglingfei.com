@@ -87,6 +87,14 @@ export const zhSidebar = sidebar({
         'mlops',
       ],
     },
+    {
+      text: '程序员职业发展课',
+      icon: 'zhiyefazhan',
+      collapsible: false,
+      children: [ 
+        'cloudai-career',
+      ],
+    },
   ],
   "/learn/": "structure",
   "/handbook/": "structure",
