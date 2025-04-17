@@ -11,39 +11,39 @@ export const zhNavbar = navbar([
       {
         text: "Go 语言基础课",
         children: [
-          { text: "Go 设计模式 61 讲", icon: "designpattern", link: "/cloudai/catalog/design-pattern.md" },
+          { text: "Go 设计模式 61 讲", icon: "designpattern", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#BXkG" },
         ],
       },
       {
         text: "Go 项目开发实战课",
         children: [
-          { text: "Go 项目开发方法论课", icon: "methodology", link: "/cloudai/catalog/methodology.md" },
-          { text: "Go 项目开发极速入门课", icon: "newbie", link: "/cloudai/catalog/fastgo.md" },
-          { text: "Go 项目开发中级实战课", icon: "middle", link: "/cloudai/catalog/intermediate.md" },
-          { text: "Go 项目开发高级实战课", icon: "advanced", link: "/cloudai/catalog/advanced.md" },
-          { text: "Go 项目开发专家级实战课", icon: "expert", link: "/cloudai/catalog/expert.md" },
+          { text: "Go 项目开发方法论课", icon: "methodology", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#bkwx" },
+          { text: "Go 项目开发极速入门课", icon: "newbie", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#Pob3" },
+          { text: "Go 项目开发中级实战课", icon: "middle", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#7tYG" },
+          { text: "Go 项目开发高级实战课", icon: "advanced", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#tCdy" },
+          { text: "Go 项目开发专家级实战课", icon: "expert", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#nWfi" },
         ],
       },
       {
         text: "Kubernetes 编程实战课",
         children: [
-          { text: "Kubernetes 集群部署课", icon: "bushu1", link: "/cloudai/catalog/kubernetes-installation.md" },
-          { text: "Kubernetes 源码剖析课", icon: "kubernetes", link: "/cloudai/catalog/kubernetes-source.md" },
-          { text: "Kubernetes 开发实战课", icon: "k8sdevel", link: "/cloudai/catalog/kubernetes-dev.md" },
+          { text: "Kubernetes 集群部署课", icon: "bushu1", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ODFg" },
+          { text: "Kubernetes 源码剖析课", icon: "kubernetes", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#TEhx" },
+          { text: "Kubernetes 开发实战课", icon: "k8sdevel", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#GYrv" },
         ],
       },
       {
         text: "AI 工程开发实战课",
         children: [
-          { text: "LLMOPS 开发实战课", icon: "llmops", link: "/cloudai/catalog/llmops.md" },
-          { text: "Kubernetes 调度器开发实战课", icon: "scheduler", link: "/cloudai/catalog/kubernetes-scheduler.md" },
-          { text: "机器学习平台开发实战课", icon: "mlops", link: "/cloudai/catalog/mlops.md" },
+          { text: "LLMOPS 开发实战课", icon: "llmops", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#mR1F" },
+          { text: "Kubernetes 调度器开发实战课", icon: "scheduler", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ITin" },
+          { text: "机器学习平台开发实战课", icon: "mlops", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#4xCu" },
         ],
       },
       {
         text: "程序员职业发展课",
         children: [
-          { text: "云原生AI高薪就业课", icon: "diamond", link: "/cloudai/catalog/cloudai-career.md" },
+          { text: "云原生AI高薪就业课", icon: "diamond", link: "https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#fXtV" },
           //{ text: "程序员职业发展课", icon: "zhiyefazhan", link: "/career/career.md" },
           //{ text: "程序员面试指南", icon: "mianshi", link: "/career/interview.md" },
         ],
