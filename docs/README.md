@@ -11,11 +11,11 @@ actions:
     link: /lingfeicode/join/join
     type: primary
   - text: 实战营介绍
-    link: /lingfeicode/intro/intro
+    link: https://www.yuque.com/onex/zsxq/ll4utdlazsukwx9s
   - text: 实战营课程介绍
-    link: /lingfeicode/intro/云原生_AI_实战营课程介绍.md
+    link: https://www.yuque.com/onex/zsxq/wevnr7iv1cg7gvi6
   - text: 实战营项目介绍
-    link: /lingfeicode/intro/云原生_AI_实战营项目介绍.md
+    link: https://www.yuque.com/onex/zsxq/dbrzx4qa39fwse0u
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
@@ -73,31 +73,29 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 - 实战营课程目录列表如下：
 + **「Go 进阶训练营」+「云原生 AI 实战营」**
   - Go 语言基础课
-    - [Go 设计模式 61 讲](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#BXkG)
-    - [常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku)（Go语言版）
+    - [Go 设计模式 61 讲](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#BXkG)
+    - [常见面试算法集锦](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#5Sku)
   - Go 项目开发进阶实战课
-    - [Go 项目开发方法论课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#bkwx)
-    - [Go 项目开发极速入门课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#Pob3)
-    - [Go 项目开发中级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#7tYG)
-    - [Go 项目开发高级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0#tCdy)
+    - [Go 项目开发方法论课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#bkwx)
+    - [Go 项目开发极速入门课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#Pob3)
+    - [Go 项目开发中级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#7tYG)
+    - [Go 项目开发高级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#tCdy)
 + **「云原生 AI 实战营」**
   - Go 项目开发终阶实战课
-    - [Go 项目开发专家级实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#nWfi)
+    - [Go 项目开发专家级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#nWfi)
   - Kubernetes 编程实战课
-    - [Kubernetes 集群部署课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ODFg)
-    - [Kubernetes 源码剖析课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#TEhx)
-    - [Kubernetes 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#GYrv)
+    - [Kubernetes 集群部署课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ODFg)
+    - [Kubernetes 源码剖析课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#TEhx)
+    - [Kubernetes 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#GYrv)
   - AI 开发实战课
-    - [LLMOPS 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#mR1F)
-    - [Kubernetes 调度器开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#ITin)
-    - [MLOPS 开发实战课](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#4xCu)
-- [如何学习实战营课程](/cloudnative/advanced/how.md)：介绍如何学习实战营课程，可以使自己尽快进阶为 Go、云原生高级开发工程师。
-- [云原生 AI 学习路线](/learn/roadmap.md)：介绍具体如何从 0 进阶为 Go + 云原生高级开发工程师，并以此升职加薪；
+    - [LLMOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#mR1F)
+    - [Kubernetes 调度器开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ITin)
+    - [MLOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#4xCu)
 
 ## :point_right: 欢迎加入
 
 - 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
-- 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/KEnHofWkxBSO2d_25tf8RA)
+- 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/DR_9gcZuMqdZU-AFr9VVXw)
 
 欢迎加入令飞编程实战营
 

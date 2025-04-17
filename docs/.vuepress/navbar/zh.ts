@@ -8,7 +8,6 @@ export const zhNavbar = navbar([
     text: "实战营课程",
     icon: "cloudnative",
     children: [
-      { text: "课程更新计划", icon: "jihua", link: "https://www.yuque.com/konglingfei-vzag4/cloud/zhgo3klxfgyy3ida" },
       {
         text: "Go 语言基础课",
         children: [
@@ -44,7 +43,7 @@ export const zhNavbar = navbar([
       {
         text: "程序员职业发展课",
         children: [
-          { text: "云原生AI高薪就业课：大厂级项目实战到大厂面试通关", icon: "diamond", link: "/cloudai/catalog/cloudai-career.md" },
+          { text: "云原生AI高薪就业课", icon: "diamond", link: "/cloudai/catalog/cloudai-career.md" },
           //{ text: "程序员职业发展课", icon: "zhiyefazhan", link: "/career/career.md" },
           //{ text: "程序员面试指南", icon: "mianshi", link: "/career/interview.md" },
         ],
@@ -94,7 +93,7 @@ export const zhNavbar = navbar([
       }
     ]
   },
-  { text: "实战营更新动态", icon: "rizhi", link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3"},
+  { text: "实战营更新动态", icon: "rizhi", link: "https://www.yuque.com/onex/zsxq/kllub8qaclnuu8i3"},
   /*
   {
     text: "OneX 平台",
@@ -246,7 +245,7 @@ export const zhNavbar = navbar([
   {
     text: "微信文章",
     icon: "weixin", 
-    link: "https://www.yuque.com/konglingfei-vzag4/cloud/qk30iiv6zuc1kiga",
+    link: "https://www.yuque.com/onex/zsxq/gh4xaymb63xnn4ek",
   },
   //{
     //text: "学习资源",

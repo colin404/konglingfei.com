@@ -3,11 +3,6 @@ import { sidebar } from "vuepress-theme-hope";
 export const zhSidebar = sidebar({
   "/onex/": [
     {
-      text: '更新日志',
-      icon: 'rizhi',
-      link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3",
-    },
-    {
       text: '项目介绍',
       icon: 'jieshao',
       prefix: 'intro/',
@@ -50,11 +45,6 @@ export const zhSidebar = sidebar({
     },
   ],
   "/cloudai/catalog/": [
-    {
-      text: '更新日志',
-      icon: 'rizhi',
-      link: "https://www.yuque.com/konglingfei-vzag4/cloud/kllub8qaclnuu8i3",
-    },
     {
       text: 'Go 语言基础课',
       icon: 'go',
