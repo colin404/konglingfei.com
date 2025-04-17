@@ -8,7 +8,7 @@ heroImage: /cloudnative-blue.svg
 tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go>进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
 actions:
   - text: 👉 加入星球
-    link: /lingfeicode/join/join
+    link: https://www.yuque.com/onex/zsxq/iokg8tzmk97tn1hy
     type: primary
   - text: 实战营介绍
     link: https://www.yuque.com/onex/zsxq/ll4utdlazsukwx9s
