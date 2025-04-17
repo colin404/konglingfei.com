@@ -42,7 +42,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "令飞编程实战星球",
+      title: "云原生AI实战星球",
       description: "分享 Go、云原生和 AI 相关的技术栈",
     },
     /*

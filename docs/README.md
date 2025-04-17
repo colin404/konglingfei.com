@@ -3,7 +3,7 @@ date: 2024-01-30
 home: true
 icon: home
 title: 主页
-heroText: 令飞编程实战营
+heroText: 云原生AI实战营
 heroImage: /cloudnative-blue.svg
 tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go>进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
 actions:
@@ -32,9 +32,9 @@ features:
 footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">备案号: 粤ICP备2024181276号</a >'
 ---
 
-## :bookmark_tabs: 令飞编程实战营介绍
+## :bookmark_tabs: 云原生AI实战营介绍
 
-令飞编程实战营包含了 2 个知识星球：「Go进阶实战营」、「云原生AI实战营」。后者是前者的进阶实战营，包含前者的所有课程，面向想提高技术天花板的 Go 开发者。
+云原生AI实战营包含了 2 个知识星球：「Go进阶实战营」、「云原生AI实战营」。后者是前者的进阶实战营，包含前者的所有课程，面向想提高技术天花板的 Go 开发者。
 
 后者偏向于架构，并且包括 Go 专家、云原生、AI Infra 相关体系课，内容更深、更广。如果你想全面提高自己的开发能力，并且想切入云原生、AI Infra 开发岗位可以加入「云原生AI实战营」。
 
@@ -97,7 +97,7 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 - 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
 - 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/DR_9gcZuMqdZU-AFr9VVXw)
 
-欢迎加入令飞编程实战营
+欢迎加入云原生AI实战营
 
 > 建议加入高阶星球「云原生AI实战营」，更快实现职业进阶
 
