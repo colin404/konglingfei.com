@@ -93,7 +93,7 @@ export const zhNavbar = navbar([
       }
     ]
   },
-  { text: "实战营更新动态", icon: "rizhi", link: "https://www.yuque.com/onex/zsxq/kllub8qaclnuu8i3"},
+  { text: "实战营更新动态", icon: "rizhi", link: "https://feizaonet.feishu.cn/wiki/ZlXnwV3hGijYHlkUpEgcOSurnbf"},
   /*
   {
     text: "OneX 平台",
@@ -245,7 +245,7 @@ export const zhNavbar = navbar([
   {
     text: "微信文章",
     icon: "weixin", 
-    link: "https://www.yuque.com/onex/zsxq/gh4xaymb63xnn4ek",
+    link: "https://feizaonet.feishu.cn/wiki/GkS4wk0i0iNQIqkqYCIcXG6Pnnb",
   },
   //{
     //text: "学习资源",
@@ -279,7 +279,7 @@ export const zhNavbar = navbar([
   {
     text: "作者介绍",
     icon: "zuozhe",
-    link: "/intro",
+    link: "https://feizaonet.feishu.cn/wiki/Y6iFwekZKibF3dkNyzuc2BKjn0f",
     /*
     children: [
       { text: "作者介绍", icon: "circle-info", link: "/intro" },
@@ -287,10 +287,8 @@ export const zhNavbar = navbar([
     ]
     */
   },
-  { text: "🔥加入星球",
-    children: [
-      { text: 'Go 进阶实战营', icon: 'go', link: 'https://t.zsxq.com/8UUKi' },
-      { text: '云原生 AI 实战营', icon: 'cloudai', link: 'https://t.zsxq.com/5T0qC' },
-    ],
+  { text: "加入星球",
+    icon: 'cloudai', 
+    link: 'https://t.zsxq.com/5T0qC',
   },
 ]);

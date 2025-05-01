@@ -33,16 +33,16 @@ export default hopeTheme({
   pure: false, 
   print: false, // 是否在桌面模式下显示打印按钮
 
-  logo: "/cloudnative-blue.svg",
+  logo: "/cloudai.svg",
 
-  repo: "https://github.com/superproj/onex",
+  repo: "https://github.com/onexstack/onex",
   // 项目仓库标签
   repoLabel: "GitHub仓库",
   repoDisplay: true,
   // 面包屑导航
   breadcrumb: true,
   // 文档源文件的仓库 URL
-  docsRepo:"https://github.com/superproj/konglingfei.com",
+  docsRepo:"https://github.com/onexstack/konglingfei.com",
   // 文档源文件的仓库分支
   docsBranch: "master",
   // lastUpdated，在职状态，暂时不开启

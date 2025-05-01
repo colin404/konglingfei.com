@@ -14,11 +14,6 @@
 
 <script setup lang="jsx">
 const list = [{
-    name: 'Go 进阶星球 ',
-    icon: '/assets/icon/goadvanced.png',
-    img: '/assets/qrcode/goadvanced.png',
-    bottomText: '',
-}, {
     name: '云原生AI星球',
     icon: '/assets/icon/cloudai.png',
     img: '/assets/qrcode/cloudai.png',

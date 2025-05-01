@@ -4,18 +4,18 @@ home: true
 icon: home
 title: 主页
 heroText: 云原生AI实战营
-heroImage: /cloudnative-blue.svg
-tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">加入「Go>进阶实战营」，助你从零进阶为 Go 开发专家<br/>加入「云原生AI实战营」，学习高阶云原生 AI 技术，解锁百万年薪！</font>
+heroImage: /cloudai.svg
+tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">学高阶云原生AI技术，解锁年薪百万的专家级体系课，入大厂拿高薪！</font>
 actions:
   - text: 👉 加入星球
-    link: https://www.yuque.com/onex/zsxq/iokg8tzmk97tn1hy
+    link: https://feizaonet.feishu.cn/wiki/PQhHwfcPGiwjODkDMnVcz2kBnhh
     type: primary
   - text: 实战营介绍
-    link: https://www.yuque.com/onex/zsxq/ll4utdlazsukwx9s
+    link: https://feizaonet.feishu.cn/wiki/G8qYwXGVnikjGWkBVn9cTzOxnGc
   - text: 实战营课程介绍
-    link: https://www.yuque.com/onex/zsxq/wevnr7iv1cg7gvi6
+    link: https://feizaonet.feishu.cn/wiki/MxWJwzKDpiiBG7kcGypccnNVn1F
   - text: 实战营项目介绍
-    link: https://www.yuque.com/onex/zsxq/dbrzx4qa39fwse0u
+    link: https://feizaonet.feishu.cn/wiki/NVkkwsBnSi7p8LkP3sBcIUiynqe
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
@@ -34,11 +34,13 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 
 ## :bookmark_tabs: 云原生AI实战营介绍
 
-云原生AI实战营包含了 2 个知识星球：「Go进阶实战营」、「云原生AI实战营」。后者是前者的进阶实战营，包含前者的所有课程，面向想提高技术天花板的 Go 开发者。
-
-后者偏向于架构，并且包括 Go 专家、云原生、AI Infra 相关体系课，内容更深、更广。如果你想全面提高自己的开发能力，并且想切入云原生、AI Infra 开发岗位可以加入「云原生AI实战营」。
+- 云原生 AI 实战营是一个技术训练营。训练营中包含了至少 10 套高质量体系课及 20+ 实战项目；
+- 体系课及实战项目组成了一个功能完备的技术体系。技术体系中包括了当前及未来火热的技术：Go、云原生和 AI Infra；
+- 整个技术体系层层进阶，从初级到专家、从单点技能到宏观架构，让你在 AI 浪潮中打造不可替代的技术竞争力！
+- 更详细的介绍见 [云原生AI实战营介绍](https://feizaonet.feishu.cn/wiki/G8qYwXGVnikjGWkBVn9cTzOxnGc)。
 
 ## :gift: 加入星球能收获什么？
+
 - **技术提升：**
   - 深入讲解 Kubernetes 调度器、LLMOPS、MLOPS 平台等开发技术，助你进入 AI 领域
   - 深入讲解 Kubernetes 源码、Kubernetes 开发技术，助你进入云原生领域
@@ -55,6 +57,7 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
   - 求职指导：面试指导、简历修改指导，让你少走弯路，轻松找到心仪工作
 
 ## :couple: 星球课程适宜人群
+
 - **学完 Go 基础语法，想学习 Go 项目开发的开发者：**
   实战营中的一系列高质量 Go 体系课，加上配套的实战项目，可以使你彻底掌握如何开发一个高质量的 Go 项目
 - **想切入 AI Infra 领域的开发者：**
@@ -70,35 +73,14 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 
 ## :star: 推荐阅读 
 
-- 实战营课程目录列表如下：
-+ **「Go 进阶训练营」+「云原生 AI 实战营」**
-  - Go 语言基础课
-    - [Go 设计模式 61 讲](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#BXkG)
-    - [常见面试算法集锦](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#5Sku)
-  - Go 项目开发进阶实战课
-    - [Go 项目开发方法论课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#bkwx)
-    - [Go 项目开发极速入门课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#Pob3)
-    - [Go 项目开发中级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#7tYG)
-    - [Go 项目开发高级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#tCdy)
-+ **「云原生 AI 实战营」**
-  - Go 项目开发终阶实战课
-    - [Go 项目开发专家级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#nWfi)
-  - Kubernetes 编程实战课
-    - [Kubernetes 集群部署课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ODFg)
-    - [Kubernetes 源码剖析课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#TEhx)
-    - [Kubernetes 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#GYrv)
-  - AI 开发实战课
-    - [LLMOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#mR1F)
-    - [Kubernetes 调度器开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ITin)
-    - [MLOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#4xCu)
+- [如何加入云原生AI实战营？](https://feizaonet.feishu.cn/wiki/PQhHwfcPGiwjODkDMnVcz2kBnhh)
+- 云原生 AI 实战营：
+  - [云原生 AI 实战营介绍](https://feizaonet.feishu.cn/wiki/G8qYwXGVnikjGWkBVn9cTzOxnGc)
+  - [云原生 AI 实战营课程目录](https://feizaonet.feishu.cn/wiki/LjZowHxY5iY1KNk0VAkcGY4tngh)
+  - [云原生 AI 实战营课程介绍](https://feizaonet.feishu.cn/wiki/MxWJwzKDpiiBG7kcGypccnNVn1F)
+  - [云原生 AI 实战营项目介绍](https://feizaonet.feishu.cn/wiki/NVkkwsBnSi7p8LkP3sBcIUiynqe)
 
 ## :point_right: 欢迎加入
 
 - 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
 - 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/DR_9gcZuMqdZU-AFr9VVXw)
-
-欢迎加入云原生AI实战营
-
-> 建议加入高阶星球「云原生AI实战营」，更快实现职业进阶
-
-<img src="/images/contact/令飞编程知识星球.png" alt="fenxiang" style="display: block;width:500px;height:auto;margin-left: 0;margin-right:auto;">
