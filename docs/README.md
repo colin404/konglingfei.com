@@ -8,14 +8,14 @@ heroImage: /cloudai.svg
 tagline: <font color="red" size="4.5"><strong>Go 开发者破局星球：在 AI 浪潮中打造不可替代的技术竞争力！</strong></font><br/><font color="gray" size="4" face="KaiTi">学高阶云原生AI技术，解锁年薪百万的专家级体系课，入大厂拿高薪！</font>
 actions:
   - text: 👉 加入星球
-    link: https://feizaonet.feishu.cn/wiki/PQhHwfcPGiwjODkDMnVcz2kBnhh
+    link: https://www.yuque.com/onex/zsxq/asqq8sfnh5i3kuyz
     type: primary
   - text: 实战营介绍
-    link: https://feizaonet.feishu.cn/wiki/G8qYwXGVnikjGWkBVn9cTzOxnGc
+    link: https://www.yuque.com/onex/zsxq/ll4utdlazsukwx9s
   - text: 实战营课程介绍
-    link: https://feizaonet.feishu.cn/wiki/MxWJwzKDpiiBG7kcGypccnNVn1F
+    link: https://www.yuque.com/onex/zsxq/wevnr7iv1cg7gvi6
   - text: 实战营项目介绍
-    link: https://feizaonet.feishu.cn/wiki/NVkkwsBnSi7p8LkP3sBcIUiynqe
+    link: https://www.yuque.com/onex/zsxq/dbrzx4qa39fwse0u
 features:
 - title: 一线大厂云原生开发专家
   icon: zuozhe
@@ -36,10 +36,9 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 
 - 云原生 AI 实战营是一个技术训练营。训练营中包含了至少 10 套高质量体系课及 20+ 实战项目。训练营聚焦 Go、云原生和 AI Infra 开发技术；
 - 整个技术体系层层进阶，从初级到专家、从单点技能到宏观架构，让你在 AI 浪潮中打造不可替代的技术竞争力，如大厂拿高薪！
-- 云原生 AI 实战营支持以下 2 种学习模式：
-  - 知识星球：体系课均在「云原生 AI 实战营」知识星球更新，星球的课程体系课会持续不断地更新、追加新的课程内容。星球还包含算法、八股文、打卡、分享、直播、答疑等内容，是一个高质量学习圈子。**星球购买入口：**[云原生AI实战营知识星球](https://t.zsxq.com/5T0qC)
-  - 单卖体系课：单独售卖的课程是买断制，课程更新完后，可能不会再追加新的加餐课程。**单体系课购买入口：**[云原生AI单卖体系课介绍](https://feizaonet.feishu.cn/wiki/LmpjwxmmGi5a69k1qWwcliYtnNf)。
-- 更详细的介绍见 [云原生AI实战营介绍](https://feizaonet.feishu.cn/wiki/G8qYwXGVnikjGWkBVn9cTzOxnGc)。
+- 体系课均在「云原生 AI 实战营」知识星球更新，星球的课程体系课会持续不断地更新、追加新的课程内容。星球还包含算法、八股文、打卡、分享、直播、答疑等内容，是一个高质量学习圈子。**星球购买入口：**[云原生AI实战营知识星球](https://t.zsxq.com/5T0qC)
+- 更详细的介绍见 [云原生AI实战营介绍](https://www.yuque.com/onex/zsxq/ll4utdlazsukwx9s)。
+- **提示：** Go 项目开发专家级实战课、AI 相关课程今年有时间更新、看情况更新！
 
 ## :gift: 加入星球能收获什么？
 
@@ -86,3 +85,4 @@ footer: '<a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">
 
 - 我的 B 站：[令飞编程](https://space.bilibili.com/3546695644220305)
 - 我的公众号：[令飞编程](https://mp.weixin.qq.com/s/DR_9gcZuMqdZU-AFr9VVXw)
+- [11](./intro.md)
