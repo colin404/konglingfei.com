@@ -8,6 +8,7 @@ export const zhNavbar = navbar([
     text: "实战营课程",
     icon: "cloudnative",
     children: [
+      { text: "实战营课程体系总览", icon: "cloudai", link: "/cloudai/catalog/cloudai" },
       {
         text: "Go 语言基础课",
         children: [

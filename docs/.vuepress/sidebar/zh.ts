@@ -46,6 +46,11 @@ export const zhSidebar = sidebar({
   ],
   "/cloudai/catalog/": [
     {
+      text: '实战营课程体系总览',
+      icon: 'cloudai',
+      collapsible: false,
+    },
+    {
       text: 'Go 语言基础课',
       icon: 'go',
       collapsible: false,
