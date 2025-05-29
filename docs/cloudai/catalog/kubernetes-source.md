@@ -13,45 +13,64 @@ author: 孔令飞
 
 |序号|标题|
 |:----:|:----|
-|开篇词|Kubernetes源码剖析课导读|
-|01|云原生（1）：究竟什么是云原生？|
-|02|云原生（2）：云原生中有哪些核心技术栈？|
-|03|云原生（3）：为什么要学习云原生技术及开发？|
-|04|云原生（4）：如何学习云原生技术？|
-|05|云原生（5）：云原生开发实战课介绍及如何学习？|
-|06|项目部署（1）：Kubernetes 集群部署方法有哪些，如何选择？|
-|07|项目部署（2）：如何配置和创建一个 Kind 集群？|
-|08|项目部署（3）：在 Kubernetes 集群中部署 Web 服务|
-|09|如何高效的阅读源码？|
-|10|Kubernetes 源码阅读方法及进阶指南|
-|11|一文了解 Kubernetes|
-|12|Kubernetes 代码仓库介绍|
-|13|一文读懂Kubernetes源码构建、测试和本地调试的方法|
-|14|通过 local-up-cluster.sh 脚本来看如何搭建 Kubernetes 集群|
-|15|巨人之肩：一窥云原生巨头Kubernetes的 Go 依赖管理之道|
-|16|巨人之肩：Kubernetes 的工作流是如何设计的？|
-|17|通过 Kubernetes 应用构建模型，来看如何构建应用|
-|18|Kubernetes 是如何设计 REST 资源的？|
-|19|API定义（上）：Kubernetes 是如何定义资源对象的？|
-|20|API定义（下）：Kubernetes 如何根据资源对象构建请求路径？|
-|21|Kuberntes 是如何安装资源路由的？|
-|22|Kubernetes HTTP 请求处理流程详解|
-|23|kube-apiserver 核心代码讲解|
-|24|Kubernetes是如何进行请求参数校验的？|
-|25|Kubernetes是如何设置默认值的？|
-|26|API 版本管理（上）：Kubernetes API的版本兼容性机制|
-|27|API 版本管理（下）：Kubernetes 版本转换原理|
-|28|通过 API 接口的定义流程学习 Kubernetes API Server 副本|
-|29|通过 API 接口的定义流程学习 Kubernetes API Server|
-|30|扩展能力（上）：Kubernetes 提供了哪些扩展机制？|
-|31|扩展能力（下）：Kubernetes 提供了哪些扩展机制？ 副本|
-|32|组件配置（上）：Kubernetes 组件配置详解|
-|33|组件配置（下）：Kubernetes 组件配置开发实战|
-|34|Feature Gates（上）：Kubernetes 中的 Feature Gates 设计|
-|35|Feature Gates（下）：Kubernetes 中的 Feature Gates 开发实战|
-|36|Leader Election（上）：Leader Election 开发实战|
-|37|Leader Election（下）：Leader Election 实战及源码剖析|
-|38|kube-scheduler源码剖析|
-|39|client-go 源码剖析：client-go 架构介绍|
-|40|client-go 源码剖析：client-go 核心源码解读|
-|结束语|如何在Kubernetes之路上走的更远？|
+|01|Go 设计模式课及设计模式介绍|
+|02|设计原则：SOLID 原则|
+|03|设计原则：KISS、DRY、LOD 原则|
+|04|创建型模式：简单工厂模式（Simple Factory）|
+|05|创建型模式：工厂方法模式（Factory Method）|
+|06|创建型模式：抽象工厂模式（Abstract Factory）|
+|07|创建型模式：建造者模式（Builder）|
+|08|创建型模式：原型模式（Prototype）|
+|09|创建型模式：单例模式（Singleton）|
+|10|创建型模式：New 模式（New）|
+|11|创建型模式：函数选项模式（Functional Options）|
+|12|创建型模式：对象池模式（Object Pool）|
+|13|行为型模式：中介者模式（Mediator）|
+|14|行为型模式：观察者模式（Observer）|
+|15|行为型模式：命令模式（Command）|
+|16|行为型模式：迭代器模式（Iterator）|
+|17|行为型模式：模板方法模式（Template Method）|
+|18|行为型模式：策略模式（Strategy）|
+|19|行为型模式：状态模式（State）|
+|20|行为型模式：备忘录模式（Memento）|
+|21|行为型模式：解释器模式（Interpreter）|
+|22|行为型模式：责任链模式（Chain of Responsibility）|
+|23|行为型模式：访问者模式（Visitor）|
+|24|行为型模式：注册表模式（Registry）|
+|25|行为型模式：上下文模式（Context）|
+|26|结构型模式：外观模式（Facade）|
+|27|结构型模式：适配器模式（Adapter）|
+|28|结构型模式：代理模式（Proxy）|
+|29|结构型模式：组合模式（Composite）|
+|30|结构型模式：享元模式（Flyweight）|
+|31|结构型模式：装饰器模式（Decorator）|
+|32|结构型模式：桥接模式（Bridge）|
+|33|同步模式：条件变量模式（Condition Variable）|
+|34|同步模式：互斥锁模式（Lock/Mutex）|
+|35|同步模式：监视器模式（Monitor）|
+|36|同步模式：读写锁模式（Read-Write Lock）|
+|37|同步模式：信号量模式（Semaphore）|
+|38|并发模式：屏障模式（N-Barrier）|
+|39|并发模式：有界并行性模式（Bounded Parallelism）|
+|40|并发模式：广播模式（Broadcast）|
+|41|并发模式：协程模式（Coroutines）|
+|42|并发模式：生成器模式（Generator）|
+|43|并发模式：反应器模式（Reactor）|
+|44|并发模式：并行模式（Parallelism）|
+|45|并发模式：生产者消费者模式（Producer Consumer）|
+|46|并发模式：批处理模式（Batch Processing）|
+|47|消息传递模式：扇入模式（Fan-In）|
+|48|息传递模式：扇出模式（Fan-Out）|
+|49|消息传递模式：未来与承诺模式（Futures & Promises）|
+|50|消息传递模式：发布订阅模式（Publish/Subscribe）|
+|51|消息传递模式：推模式与拉模式（Push & Pull）|
+|52|稳定性模式：隔离模式（Bulkheads）|
+|53|稳定性模式：断路器模式（Circuit-Breaker）|
+|54|稳定性模式：截止期限模式（Deadline）|
+|55|稳定性模式：快速失败模式（Fail-Fast）|
+|56|稳定性模式：握手模式（Handshaking）|
+|57|稳定性模式：稳态模式（Steady-State）|
+|58|稳定性模式：限流模式（Rate Limiting）|
+|59|稳定性模式：重试模式（Retrier）|
+|60|分析模式：计时函数模式（Timing Functions）|
+|61|反模式：串联故障模式（Cascading Failures）|
