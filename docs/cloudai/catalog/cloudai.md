@@ -11,8 +11,6 @@ author: 孔令飞
 
 ## 课程目录导航
 
-**大家可按顺序学习进阶，学完并掌握之后，可以让你在现在及未来的 AI 时代保持强有力的职业竞争力！**
-
 + **「Go 课程」：**
     - Go 语言基础课
         * [Go 设计模式 61 讲](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#BXkG)
