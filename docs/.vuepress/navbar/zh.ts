@@ -62,6 +62,7 @@ export const zhNavbar = navbar([
     text: "实战营项目",
     icon: "cloudnative",
     children: [
+      { text: "实战营项目总览", icon: "cloudai", link: "/cloudai/project/cloudai" },
       {
         text: "Go 项目",
         children: [
