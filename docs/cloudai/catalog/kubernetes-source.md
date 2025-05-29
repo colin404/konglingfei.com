@@ -13,64 +13,68 @@ author: 孔令飞
 
 |序号|标题|
 |:----:|:----|
-|01|Go 设计模式课及设计模式介绍|
-|02|设计原则：SOLID 原则|
-|03|设计原则：KISS、DRY、LOD 原则|
-|04|创建型模式：简单工厂模式（Simple Factory）|
-|05|创建型模式：工厂方法模式（Factory Method）|
-|06|创建型模式：抽象工厂模式（Abstract Factory）|
-|07|创建型模式：建造者模式（Builder）|
-|08|创建型模式：原型模式（Prototype）|
-|09|创建型模式：单例模式（Singleton）|
-|10|创建型模式：New 模式（New）|
-|11|创建型模式：函数选项模式（Functional Options）|
-|12|创建型模式：对象池模式（Object Pool）|
-|13|行为型模式：中介者模式（Mediator）|
-|14|行为型模式：观察者模式（Observer）|
-|15|行为型模式：命令模式（Command）|
-|16|行为型模式：迭代器模式（Iterator）|
-|17|行为型模式：模板方法模式（Template Method）|
-|18|行为型模式：策略模式（Strategy）|
-|19|行为型模式：状态模式（State）|
-|20|行为型模式：备忘录模式（Memento）|
-|21|行为型模式：解释器模式（Interpreter）|
-|22|行为型模式：责任链模式（Chain of Responsibility）|
-|23|行为型模式：访问者模式（Visitor）|
-|24|行为型模式：注册表模式（Registry）|
-|25|行为型模式：上下文模式（Context）|
-|26|结构型模式：外观模式（Facade）|
-|27|结构型模式：适配器模式（Adapter）|
-|28|结构型模式：代理模式（Proxy）|
-|29|结构型模式：组合模式（Composite）|
-|30|结构型模式：享元模式（Flyweight）|
-|31|结构型模式：装饰器模式（Decorator）|
-|32|结构型模式：桥接模式（Bridge）|
-|33|同步模式：条件变量模式（Condition Variable）|
-|34|同步模式：互斥锁模式（Lock/Mutex）|
-|35|同步模式：监视器模式（Monitor）|
-|36|同步模式：读写锁模式（Read-Write Lock）|
-|37|同步模式：信号量模式（Semaphore）|
-|38|并发模式：屏障模式（N-Barrier）|
-|39|并发模式：有界并行性模式（Bounded Parallelism）|
-|40|并发模式：广播模式（Broadcast）|
-|41|并发模式：协程模式（Coroutines）|
-|42|并发模式：生成器模式（Generator）|
-|43|并发模式：反应器模式（Reactor）|
-|44|并发模式：并行模式（Parallelism）|
-|45|并发模式：生产者消费者模式（Producer Consumer）|
-|46|并发模式：批处理模式（Batch Processing）|
-|47|消息传递模式：扇入模式（Fan-In）|
-|48|息传递模式：扇出模式（Fan-Out）|
-|49|消息传递模式：未来与承诺模式（Futures & Promises）|
-|50|消息传递模式：发布订阅模式（Publish/Subscribe）|
-|51|消息传递模式：推模式与拉模式（Push & Pull）|
-|52|稳定性模式：隔离模式（Bulkheads）|
-|53|稳定性模式：断路器模式（Circuit-Breaker）|
-|54|稳定性模式：截止期限模式（Deadline）|
-|55|稳定性模式：快速失败模式（Fail-Fast）|
-|56|稳定性模式：握手模式（Handshaking）|
-|57|稳定性模式：稳态模式（Steady-State）|
-|58|稳定性模式：限流模式（Rate Limiting）|
-|59|稳定性模式：重试模式（Retrier）|
-|60|分析模式：计时函数模式（Timing Functions）|
-|61|反模式：串联故障模式（Cascading Failures）|
+|01|开篇词 | Kubernetes 源码剖析课导读|
+|02|耳熟能详的云计算是什么？|
+|03|究竟什么是云原生？|
+|04|云原生中有哪些核心技术栈？|
+|05|为什么要学习云原生技术及开发？|
+|06|如何学习云原生技术？|
+|07|云原生开发实战课介绍及如何学习？|
+|08|如何高效的阅读开源项目源码？|
+|09|如何高效阅读 Kubernetes源码？|
+|10|如何给Kubernetes社区贡献源码？|
+|11|Kuberentes架构及核心组件介绍|
+|12|Kuberentes 有哪些核心概念核心资源和？|
+|13|通过 Pod 创建流程来了解 Kubernetes|
+|14|Kubernetes 代码仓库介绍|
+|15|Kubernetes 集群部署方法有哪些，如何选择？|
+|16|如何配置和创建一个 Kind 集群？|
+|17|如何在 Kubernetes 集群中部署 Web 服务？|
+|18|一文读懂 Kubernetes 源码构建、测试和本地调试的方法|
+|19|Kuberentes 是如何管理 Go 依赖包的？|
+|20|通过 Kubernetes 应用构建模型，来看如何构建应用？|
+|21|剖析 Kubernetes应用构建模型|
+|22|Kubernetes 是如何设计 REST 资源的？|
+|23|Kubernetes 是如何定义标准化资源对象的？|
+|24|Kubernetes资源对象实现源码剖析|
+|25|Kubernetes是如何设置HTTP接口路径的？|
+|26|Kubernetes中资源核心概念精讲|
+|27|Kubernetes支持哪些RESTful API 接口？|
+|28|如何使用go-restful开发一个Web服务器？|
+|29|Kubernetes路由构建源码剖析|
+|30|Kubernetes HTTP 请求处理流程详解|
+|31|Kubernetes HTTP 请求逻辑核心功能点详解|
+|32|Kubernetes是如何进行请求参数校验的？|
+|33|Kubernetes是如何设置默认值的？|
+|34|Kubernetes 默认值设置函数是如何生成的？|
+|35|Kubernetes API的版本兼容性机制详解|
+|36|Kubernetes 中如何向稳定版本添加不稳定的功能？|
+|37|Kubernetes 版本转换原理源码剖析|
+|38|kube-apiserver（上）：kube-apiserver 核心代码讲解|
+|39|kube-apiserver（下）：kube-apiserver 核心代码讲解|
+|40|kube-controller-manager 应用配置与构建|
+|41|kube-controller-manager 控制器插件源码剖析：Job Controller|
+|42|kube-scheduler 功能及源码概览|
+|43|kube-scheduler 应用配置与构建|
+|44|kube-shceduler 调度原理|
+|45|kube-scheduler调度器实例创建|
+|46|kube-scheduler 调度器插件初始化|
+|47|kube-scheduler 调度队列管理|
+|48|Kubernetes Pod 调度流程|
+|49|Kubernetes 调度器插件源码剖析|
+|50|Kubernetes 调度器生态介绍|
+|51|扩展能力：Kubernetes 提供了哪些扩展机制？|
+|52|扩展能力：横向层、客户端层、API层扩展机制详解|
+|53|扩展能力：控制面层、基础设施层扩展机制详解|
+|54|组件配置：Kubernetes 组件配置详解|
+|55|组件配置：Kubernetes 组件配置开发实战|
+|56|Feature Gates（上）：Kubernetes 中的 Feature Gates 设计|
+|57|Feature Gates（下）：Kubernetes 中的 Feature Gates 开发实战|
+|58|Leader Election：Kubernetes Leader Election 原理解析|
+|59|Leader Election：在 Kubernetes 中使用 Leader Election 的场景|
+|60|Leader Election：基于 Lease 的 Leader Election 源码剖析|
+|61|通过 API 接口的定义流程学习 Kubernetes API Server|
+|62|动手实现一个 Kubernetes 控制器|
+|63|动手实现一个 Kuberentes 调度器插件|
+|64|Leader Election 开发实战|
+|65|结束语 | 如何在Kubernetes之路上走得更远？|
