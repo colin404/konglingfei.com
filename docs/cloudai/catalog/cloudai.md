@@ -13,7 +13,7 @@ author: 孔令飞
 
 **大家可按顺序学习进阶，学完并掌握之后，可以让你在现在及未来的 AI 时代保持强有力的职业竞争力！**
 
-+ **「Go 进阶训练营」+「云原生 AI 实战营」：**
++ **「Go 课程」：**
     - Go 语言基础课
         * [Go 设计模式 61 讲](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#BXkG)
         * [常见面试算法集锦](https://www.yuque.com/konglingfei-vzag4/cloud/gwgk5rhl5coycax0?singleDoc#5Sku)（Go语言版）
@@ -22,23 +22,20 @@ author: 孔令飞
         * [Go 项目开发极速入门课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#Pob3)（可跳过）
         * [Go 项目开发中级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#7tYG)
         * [Go 项目开发高级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#tCdy)
-+ **「云原生 AI 实战营」专有课程：**
-    - Go 项目开发终阶实战课
         * [Go 项目开发专家级实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#nWfi)
-    - Kubernetes 编程实战课
-        * [Kubernetes 集群部署课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ODFg)
-        * [Kubernetes 源码剖析课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#TEhx) 
-        * [Kubernetes 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#GYrv)
-    - AI 工程开发实战课
-        * [LLMOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#mR1F)
-        * [Kubernetes 调度器开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ITin)
-        * [MLOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#4xCu)
++ **「云原生课程（Kubernetes）」：**
+    - [Kubernetes 集群部署课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ODFg)
+    - [Kubernetes 源码剖析课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#TEhx) 
+    - [Kubernetes 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#GYrv)
++ **「AI 课程」：**
+    - [LLMOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#mR1F)
+    - [Kubernetes 调度器开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#ITin)
+    - [MLOPS 开发实战课](https://www.yuque.com/onex/zsxq/gwgk5rhl5coycax0#4xCu)
 
 > 提示：
 >
 > + AI 课程，内容量大，今年上线不了，预期明年上线；
 > + AI 课程，需要大家先把 Go、Go 项目开发、Kuberentes 编程实战 3 类课程基础打好。
->
 
 ## Go 语言基础课
 Go 语言基础课程包括以下 2 门课程：
