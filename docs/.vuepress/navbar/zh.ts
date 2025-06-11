@@ -96,7 +96,6 @@ export const zhNavbar = navbar([
     ]
   },
   { text: "实战营更新动态", icon: "rizhi", link: "https://feizaonet.feishu.cn/wiki/ZlXnwV3hGijYHlkUpEgcOSurnbf"},
-  /*
   {
     text: "OneX 平台",
     icon: "onex",
@@ -138,7 +137,6 @@ export const zhNavbar = navbar([
       },
     ]
   },
-  */
   /*
   {
     text: "OneX 编程规范",
