@@ -121,7 +121,7 @@ Tyk Brother 功能列表如下：
 
 网关架构如下：
 
-![](https://cdn.nlark.com/yuque/0/2025/png/43447143/1740195018533-d1952a66-4460-4c83-8294-201d13f8a2cc.png)
+![API网关架构](/images/API网关架构.png)
 
 #### 「限星球用户」云原生实战平台：OneX
 
@@ -137,7 +137,7 @@ EasyAI 项目是一个面向云原生环境的 LLM 连接器，致力于通过�
 
 EasyAI 实现了一个功能完备、扩展能力强、代码质量高、易维护的云原生 AI 平台，具有以下 LLMOPS 功能：
 
-![画板](https://cdn.nlark.com/yuque/0/2024/jpeg/43447143/1730455385169-56840406-1898-479d-a021-b2643035d76a.jpeg)
+![LLMOPS平台功能](/images/LLMOPS平台功能.jpeg)
 
 核心功能包括以下 2 部分：
 
@@ -150,12 +150,10 @@ EasyAI 平台中使用到的技术栈包括了 Go 项目开发技术栈、云原
 
 EasyAI 项目软件架构如下：
 
-## ![](https://cdn.nlark.com/yuque/0/2025/png/43447143/1736055722873-4af98d0c-1d54-421c-b3d9-c613e7dade88.png?x-oss-process=image%2Fformat%2Cwebp%2Fresize%2Cw_1312%2Climit_0)
+![EasyAI后端架构](/images/EasyAI后端架构.png)
 
 
 这里要注意， EasyAI 平台使用的开发技术是 Go 项目开发实战课、Kubernetes 编程实战课中介绍的技术，并加入了 AI 领域的技术。所以，想更好的掌握 EasyAI 项目的开发，最好预先学习上述 2 类体系课。
-
-
 
 > **提示：**
 >
@@ -169,9 +167,10 @@ EasyML 平台及课程目前正在开发中。EasyML 主要用来进行通用的
 
 EasyML 平台架构如下：
 
-![](https://cdn.nlark.com/yuque/0/2025/svg/43447143/1740143115445-4a6fb492-10b5-4e56-a732-aeaa8f5db6f0.svg)
+![EasyML后端架构](/images/EasyML后端架构.svg)
 
 #### 3、「限星球用户」智能体平台：EasyAgent
+
 EasyAgent 是一个智能体平台，主要用来发布 Agent。EasyML 平台训练后的 LLM，通过 EasyAI 平台的再组装（工作流、插件等），成为一个功能更加强大的智能体，该智能体会在 EasyAgent 平台发布并使用。
 
 也可以理解为 EasyAgent 是一个 Agent 市场，里面包含了各种开发、优化后的智能体。
